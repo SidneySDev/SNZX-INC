@@ -1,0 +1,34 @@
+{
+  "manifest_version": 2,
+  "name": "Zabbix to ServiceNow",
+  "version": "1.0",
+  "description": "Extensão para abrir chamados no ServiceNow a partir do Zabbix.",
+  "permissions": [
+    "contextMenus",
+    "tabs",
+    "storage",
+    "https://equatorialenergia.service-now.com/*",
+    "http://10.48.0.106/zabbix/*"
+  ],
+  "background": {
+    "scripts": ["background.js"]
+  },
+  "browser_action": {
+    "default_icon": {
+      "17": "./icons/size17.png",
+      "48": "./icons/icon_48.png",
+      "96": "./icons/icon_96.png"
+    },
+    "default_title": "Abrir Chamado no ServiceNow"
+  },
+  "icons": {
+    "17": "./icons/size17.png",
+    "48": "./icons/icon_48.png",
+    "96": "./icons/icon_96.png"
+  },
+  "applications": {
+    "gecko": {
+      "id": "{74a48527-5f8a-4bf8-8aa8-96c9bb31f7b4}"
+    }
+  }
+}
