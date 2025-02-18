@@ -1,6 +1,19 @@
 // Variável temporária para armazenar o texto selecionado
 let selectedText = '';
 
+
+
+console.log("Zabbix to ServiceNow Extension - Versão 1.1 carregada com sucesso.");
+
+function centralDoDesenvolvedor() {
+  console.log("Central do Desenvolvedor:");
+  console.log("Descrição da Extensão: Extensão para abrir chamados no ServiceNow a partir do Zabbix.");
+  console.log("Notas da Versão 1.1: Melhorias no código, novas validações e integração com ServiceNow.");
+}
+
+// Executando o log da central do desenvolvedor
+centralDoDesenvolvedor();
+
 // Função para abrir o ServiceNow com os dados selecionados
 function openServiceNow() {
   const serviceNowUrl = 'https://equatorialenergia.service-now.com/incident.do?sys_id=-1&sysparm_query=active=true&sysparm_stack=incident_list.do?sysparm_query=active=true';

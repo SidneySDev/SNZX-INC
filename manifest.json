@@ -1,14 +1,16 @@
 {
   "manifest_version": 2,
   "name": "Zabbix to ServiceNow",
-  "version": "1.0",
+  "version": "1.1",  
   "description": "Extensão para abrir chamados no ServiceNow a partir do Zabbix.",
   "permissions": [
     "contextMenus",
     "tabs",
     "storage",
     "https://*.service-now.com/*",
-    "http://*/zabbix/*"
+    "http://*/zabbix/*",
+    "https://*/zabbix/*",
+    "https://*.whatsapp.com/*"
   ],
   "background": {
     "scripts": ["background.js"]
@@ -19,7 +21,7 @@
       "48": "./icons/icon_48.png",
       "96": "./icons/icon_96.png"
     },
-    "default_title": "SNZX"
+    "default_title": "Abrir Chamado no ServiceNow"
   },
   "icons": {
     "17": "./icons/size17.png",
@@ -28,7 +30,18 @@
   },
   "applications": {
     "gecko": {
-      "id": "{ce20fd3b-e13f-407c-a4b8-f10ef63f320d}"
+      "id": "{74a48527-5f8a-4bf8-8aa8-96c9bb31f7b4}"
     }
+  },
+  "homepage_url": "https://github.com/SidneySDev/Zabbix-to-ServiceNow", 
+  "update_url": "https://clients2.google.com/service/update2/crx",
+  "version_name": "1.1",  
+  "developer": {
+    "name": "Sidney S. Dev",  
+    "url": "https://github.com/SidneySDev"  
+  },
+  "central_de_desenvolvedor": {
+    "descricao": "Essa é uma extensão que permite abrir chamados no ServiceNow diretamente a partir do Zabbix, facilitando a integração entre as plataformas.",
+    "notas_da_versao": "Versão 1.1: Atualizações no código de integração com o ServiceNow e melhorias no controle de exceções."
   }
 }
