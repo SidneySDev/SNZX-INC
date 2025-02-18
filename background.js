@@ -1,8 +1,15 @@
-let selectedText = ''; // Variável temporária para armazenar o texto selecionado
+// Variável temporária para armazenar o texto selecionado
+let selectedText = '';
 
 // Função para abrir o ServiceNow com os dados selecionados
 function openServiceNow() {
   const serviceNowUrl = 'https://equatorialenergia.service-now.com/incident.do?sys_id=-1&sysparm_query=active=true&sysparm_stack=incident_list.do?sysparm_query=active=true';
+
+  // Valida o texto selecionado
+  if (!selectedText || selectedText.trim() === '') {
+    alert('Por favor, selecione um texto válido.');
+    return;
+  }
 
   // Abre uma nova aba com a URL do ServiceNow
   browser.tabs.create({ url: serviceNowUrl }).then((tab) => {
@@ -22,6 +29,21 @@ function openServiceNow() {
     // Adiciona o listener para monitorar o carregamento da página
     browser.tabs.onUpdated.addListener(listener);
   });
+}
+
+// Função para consultar um chamado no ServiceNow
+function consultarChamadoServiceNow(incidentNumber) {
+  // Valida o número do incidente
+  if (!incidentNumber || incidentNumber.trim() === '') {
+    alert('Por favor, selecione um número de incidente válido.');
+    return;
+  }
+
+  // Monta a URL de busca no ServiceNow
+  const serviceNowUrl = `https://equatorialenergia.service-now.com/incident.do?sysparm_query=number=${incidentNumber}`;
+
+  // Abre uma nova aba com a URL de busca
+  browser.tabs.create({ url: serviceNowUrl });
 }
 
 // Função para preencher os campos no ServiceNow
@@ -61,20 +83,28 @@ function fillFields(selectedText) {
   }, 500); // Verifica a cada 500ms
 }
 
-// Adiciona a opção no menu de contexto
+// Adiciona as opções no menu de contexto
 browser.contextMenus.create({
   id: 'openServiceNow',
   title: 'Abrir Chamado no ServiceNow',
   contexts: ['selection'] // Disponível apenas quando texto é selecionado
 });
 
-// Listener para a opção do menu de contexto
-browser.contextMenus.onClicked.addListener((info, tab) => {
-  if (info.menuItemId === 'openServiceNow') {
-    // Armazena o texto selecionado na variável temporária
-    selectedText = info.selectionText;
+browser.contextMenus.create({
+  id: 'consultarChamadoServiceNow',
+  title: 'Consultar Chamado no ServiceNow',
+  contexts: ['selection'] // Disponível apenas quando texto é selecionado
+});
 
-    // Abre o ServiceNow diretamente
+// Listener para as opções do menu de contexto
+browser.contextMenus.onClicked.addListener((info, tab) => {
+  // Armazena o texto selecionado na variável temporária
+  selectedText = info.selectionText;
+
+  // Executa a função correspondente ao botão clicado
+  if (info.menuItemId === 'openServiceNow') {
     openServiceNow();
+  } else if (info.menuItemId === 'consultarChamadoServiceNow') {
+    consultarChamadoServiceNow(selectedText);
   }
 });
