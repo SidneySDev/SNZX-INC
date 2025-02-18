@@ -1,6 +1,9 @@
+
+
+
 {
   "manifest_version": 2,
-  "name": "Zabbix to ServiceNow",
+  "name": "SNZ-X",
   "version": "1.1",  
   "description": "Extensão para abrir chamados no ServiceNow a partir do Zabbix.",
   "permissions": [
@@ -42,6 +45,9 @@
   },
   "central_de_desenvolvedor": {
     "descricao": "Essa é uma extensão que permite abrir chamados no ServiceNow diretamente a partir do Zabbix, facilitando a integração entre as plataformas.",
-    "notas_da_versao": "Versão 1.1: Atualizações no código de integração com o ServiceNow e melhorias no controle de exceções."
+    "notas_da_versao": "Versão 1.1: Atualizações no código de integração com o ServiceNow e melhorias no controle de exceções.",
+    "version": { "license": "MPL-2.0" },
+    "requires_payment": false
+  
   }
 }
