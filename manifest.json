@@ -7,8 +7,8 @@
     "contextMenus",
     "tabs",
     "storage",
-    "https://equatorialenergia.service-now.com/*",
-    "http://10.48.0.106/zabbix/*"
+    "https://*.service-now.com/*",
+    "http://*/zabbix/*"
   ],
   "background": {
     "scripts": ["background.js"]
@@ -19,7 +19,7 @@
       "48": "./icons/icon_48.png",
       "96": "./icons/icon_96.png"
     },
-    "default_title": "Abrir Chamado no ServiceNow"
+    "default_title": "SNZX"
   },
   "icons": {
     "17": "./icons/size17.png",
