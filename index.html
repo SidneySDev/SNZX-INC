@@ -1,93 +1,50 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>SNZ-X - Extensão para Zabbix e ServiceNow</title>
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      line-height: 1.6;
-      margin: 0;
-      padding: 0;
-      background-color: #f4f4f4;
-      color: #333;
-    }
-    header {
-      background: #333;
-      color: #fff;
-      padding: 20px 0;
-      text-align: center;
-    }
-    header img {
-      width: 150px; /* Ajuste conforme necessário */
-      display: block;
-      margin: 0 auto;
-    }
-    .container {
-      width: 80%;
-      margin: 20px auto;
-      background: #fff;
-      padding: 20px;
-      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    }
-    h2 {
-      color: #333;
-      border-bottom: 2px solid #333;
-      padding-bottom: 10px;
-    }
-    ul {
-      list-style-type: square;
-      padding-left: 20px;
-    }
-    a {
-      color: #007BFF;
-      text-decoration: none;
-    }
-    a:hover {
-      text-decoration: underline;
-    }
-    footer {
-      text-align: center;
-      margin-top: 20px;
-      padding: 10px 0;
-      background: #333;
-      color: #fff;
-    }
-  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Instalar Extensão</title>
+    <img src="https://raw.githubusercontent.com/SidneySDev/SNZX-INC/main/logo.png" alt="Logo SNZX-INC">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin-top: 50px;
+        }
+        .logo {
+            width: 150px; /* Ajuste o tamanho conforme necessário */
+            height: auto;
+            margin-bottom: 20px;
+        }
+        a {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 10px 20px;
+            background-color: #0078d7;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+        a:hover {
+            background-color: #005bb5;
+        }
+    </style>
 </head>
 <body>
-  <header>
-    <img src="https://raw.githubusercontent.com/SidneySDev/SNZX-INC/main/logo.png" alt="Logo SNZX-INC">
-    <h1>SNZ-X</h1>
-    <p>Extensão para integração entre Zabbix e ServiceNow</p>
-  </header>
 
-  <div class="container">
-    <section id="recursos">
-      <h2>Recursos</h2>
-      <ul>
-        <li>Abertura automática de chamados no ServiceNow a partir do Zabbix.</li>
-        <li>Consulta de chamados no ServiceNow diretamente do Zabbix.</li>
-        <li>Preenchimento automático de campos no ServiceNow.</li>
-        <li>Suporte a múltiplas instâncias do Zabbix e ServiceNow.</li>
-      </ul>
-    </section>
+    <h1>Instalar Extensão do Firefox</h1>
+    <p>Clique no botão abaixo para instalar a extensão automaticamente.</p>
 
-    <section id="suporte">
-      <h2>Suporte</h2>
-      <p>Se você tiver dúvidas ou problemas, entre em contato conosco:</p>
-      <ul>
-        <li><strong>E-mail:</strong> <a href="mailto:sidney.sdev@gmail.com">suporte@seudominio.com</a></li>
-        <li><strong>Repositório:</strong> <a href="https://github.com/SidneySDev/SNZX-INC" target="_blank">GitHub</a></li>
-        <li><strong>Documentação:</strong> <a href="https://github.com/SidneySDev/SNZX-INC/blob/main/README.md" target="_blank">Leia o README</a></li>
-      </ul>
-    </section>
-  </div>
+    <!-- Link para instalação -->
+    <a href="https://github.com/SidneySDev/SNZX-INC/raw/main/SNZX_1.2.xpi">Instalar Extensão</a>
 
-  <footer>
-    <p>SNZ-X é licenciado sob a <a href="https://www.mozilla.org/en-US/MPL/2.0/" target="_blank">Mozilla Public License 2.0</a>.</p>
-    <p>&copy; 2025 Sidney Silva Martins. Todos os direitos reservados.</p>
-  </footer>
+    <script>
+        // Redirecionamento automático para instalação (opcional)
+        const link = document.querySelector('a');
+        link.addEventListener('click', function(event) {
+            event.preventDefault(); // Evita o comportamento padrão do link
+            window.location.href = 'chrome://mozapps/content/extensions/webstore.xul?location=https://github.com/SidneySDev/SNZX-INC/raw/main/SNZX_1.2.xpi';
+        });
+    </script>
 </body>
 </html>
