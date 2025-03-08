@@ -9,35 +9,71 @@
         /* Configuração geral da página */
         body {
             font-family: Arial, sans-serif;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: center;
-            height: 100vh;
-            background: white;
             margin: 0;
+            padding: 0;
+            background: white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        /* Container principal para dividir a tela em duas partes */
+        .container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+            height: 100%;
+        }
+
+        /* Lado esquerdo com logo */
+        .left-side {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 50%;
             padding: 20px;
         }
 
-        /* Estilo da logo (centralizada no topo) */
-        .logo-container img {
-            width: 400px;
-            height: auto;
-            margin-bottom: 20px;
+        /* Lado direito com campo de instruções */
+        .right-side {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 50%;
+            padding: 20px;
         }
 
-        /* Bloco de instruções com novo estilo Glassmorphism */
+        /* Estilo da logo */
+        .logo-container img {
+            width: 300px;
+            height: 300px;
+        }
+
+        /* Bloco de instruções com efeito de vidro isolado */
         .instructions {
-            background: rgba(183, 202, 254, 0.15);
-            box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
-            backdrop-filter: blur(18px);
-            -webkit-backdrop-filter: blur(18px);
-            border-radius: 10px;
             padding: 30px;
             width: 90%;
             max-width: 500px;
             text-align: center;
             border: 1px solid rgba(255, 255, 255, 0.2);
+            transition: transform 0.3s ease-in-out;
+            transform: translateY(-10px);  /* Efeito de super salto */
+        }
+
+        /* Efeito de super salto para o bloco de instruções */
+        .instructions:hover {
+            transform: translateY(-20px);  /* Aumenta o efeito de super salto */
+        }
+
+        /* Parâmetros de Glassmorphism isolados */
+        .glassmorphism {
+            background: rgba( 255, 255, 255, 0 );
+            box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+          backdrop-filter: blur( 20px );
+          -webkit-backdrop-filter: blur( 20px );
+          border-radius: 10px;
         }
 
         /* Estilos de texto */
@@ -75,37 +111,52 @@
 
         /* Responsividade */
         @media (max-width: 768px) {
-            .instructions {
-                max-width: 100%;
+            .container {
+                flex-direction: column;
+            }
+
+            .left-side, .right-side {
+                width: 100%;
+                padding: 10px;
             }
 
             .logo-container img {
-                width: 180px;
+                width: 400px;
+                height: 400px;
             }
         }
     </style>
 </head>
 <body>
 
-    <!-- Logo centralizada no topo -->
-    <div class="logo-container">
-        <img src="./icons/logo.jpg" alt="Logo SNZX-INC">
-    </div>
-
-    <!-- Instruções abaixo, centralizadas -->
-    <div class="instructions">
-        <h1>Instalar Extensão do Firefox</h1>
-        <h2>Instalação Manual</h2>
+    <!-- Container principal dividido em duas partes -->
+    <div class="container">
         
-        <p>1️⃣ Abra o Firefox.</p>
-        <p>2️⃣ Vá para o menu Extensões e Temas.</p>
-        <p>3️⃣ No canto superior direito, clique no ícone de engrenagem e selecione "Instalar complemento a partir do arquivo".</p>
-        <p>4️⃣ Navegue até o local onde o arquivo XPI foi baixado e selecione-o.</p>
-        <p>5️⃣ O Firefox solicitará confirmação para instalar a extensão. Clique em "Adicionar".</p>
-        <p>🔽 Clique no botão abaixo para baixar a extensão.</p>
+        <!-- Lado esquerdo com logo -->
+        <div class="left-side">
+            <div class="logo-container">
+                <img src="./icons/logo.jpg" alt="Logo SNZX-INC">
+            </div>
+        </div>
 
-        <!-- Link para instalação do XPI -->
-        <a href="https://github.com/SidneySDev/SNZX-INC/raw/main/SNZX_1.2.xpi" class="download-btn">Baixar Plugin SNZ-X V1.1</a>
+        <!-- Lado direito com campo de instruções -->
+        <div class="right-side">
+            <div class="instructions glassmorphism">
+                <h1>Instalar Extensão do Firefox</h1>
+                <h2>Instalação Manual</h2>
+                
+                <p>1️⃣ Abra o Firefox.</p>
+                <p>2️⃣ Vá para o menu Extensões e Temas.</p>
+                <p>3️⃣ No canto superior direito, clique no ícone de engrenagem e selecione "Instalar complemento a partir do arquivo".</p>
+                <p>4️⃣ Navegue até o local onde o arquivo XPI foi baixado e selecione-o.</p>
+                <p>5️⃣ O Firefox solicitará confirmação para instalar a extensão. Clique em "Adicionar".</p>
+                <p>🔽 Clique no botão abaixo para baixar a extensão.</p>
+
+                <!-- Link para instalação do XPI -->
+                <a href="https://github.com/SidneySDev/SNZX-INC/raw/main/SNZX_1.2.xpi" class="download-btn">Baixar Plugin SNZ-X V1.1</a>
+            </div>
+        </div>
+        
     </div>
 
 </body>
