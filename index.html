@@ -6,86 +6,103 @@
     <title>Instalar Extensão</title>
     
     <style>
-        /* Fundo com efeito Glassmorphism */
+        /* Configuração geral da página */
         body {
             font-family: Arial, sans-serif;
             display: flex;
-            justify-content: center;
+            flex-direction: column;
             align-items: center;
+            justify-content: center;
             height: 100vh;
-            background: linear-gradient(to right, rgba(0, 120, 215, 0.7), rgba(0, 90, 190, 0.7));
-            backdrop-filter: blur(10px);
+            background: white;
             margin: 0;
+            padding: 20px;
         }
 
-        /* Container central com efeito de vidro */
-        .container {
-            background: rgba(255, 255, 255, 0.2);
-            backdrop-filter: blur(15px);
-            border-radius: 15px;
-            padding: 30px;
-            width: 90%;
-            max-width: 500px;
-            text-align: center;
-            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
-            border: 1px solid rgba(255, 255, 255, 0.3);
-        }
-
-        /* Logo */
-        .logo {
-            width: 200px;
+        /* Estilo da logo (centralizada no topo) */
+        .logo-container img {
+            width: 250px;
             height: auto;
             margin-bottom: 20px;
         }
 
-        /* Títulos */
-        h1, h2 {
-            color: white;
+        /* Bloco de instruções com novo estilo Glassmorphism */
+        .instructions {
+            background: rgba(183, 202, 254, 0.15);
+            box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+            backdrop-filter: blur(18px);
+            -webkit-backdrop-filter: blur(18px);
+            border-radius: 10px;
+            padding: 30px;
+            width: 90%;
+            max-width: 500px;
+            text-align: center;
+            border: 1px solid rgba(255, 255, 255, 0.2);
         }
 
-        /* Parágrafos */
+        /* Estilos de texto */
+        h1, h2 {
+            color: #1e3a8a;
+            text-align: center;
+        }
+
         p {
-            color: white;
+            color: #333;
             font-size: 16px;
             line-height: 1.6;
         }
 
-        /* Botão de download */
+        /* Botão estilizado */
         .download-btn {
             display: inline-block;
             margin-top: 20px;
             padding: 12px 25px;
-            background: rgba(255, 255, 255, 0.3);
+            background: linear-gradient(135deg, #3b82f6, #1e40af);
             color: white;
             font-weight: bold;
             text-decoration: none;
             border-radius: 10px;
             transition: all 0.3s ease-in-out;
-            backdrop-filter: blur(5px);
-            border: 1px solid rgba(255, 255, 255, 0.5);
+            border: none;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
         }
 
         .download-btn:hover {
-            background: rgba(255, 255, 255, 0.5);
-            color: #0078d7;
+            background: linear-gradient(135deg, #1e40af, #3b82f6);
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+            transform: scale(1.05);
+        }
+
+        /* Responsividade */
+        @media (max-width: 768px) {
+            .instructions {
+                max-width: 100%;
+            }
+
+            .logo-container img {
+                width: 180px;
+            }
         }
     </style>
 </head>
 <body>
 
-    <div class="container">
-        <!-- Logo -->
-        <img src="./icons/logo.jpg" alt="Logo SNZX-INC" class="logo">
+    <!-- Logo centralizada no topo -->
+    <div class="logo-container">
+        <img src="./icons/logo.jpg" alt="Logo SNZX-INC">
+    </div>
 
+    <!-- Instruções abaixo, centralizadas -->
+    <div class="instructions">
         <h1>Instalar Extensão do Firefox</h1>
-        <h2>Instalação Manual no Firefox</h2>
+        <h2>Instalação Manual</h2>
         
-        <p>Abra o Firefox.</p>
-        <p>Vá para o menu Extensões e Temas.</p>
-        <p>No canto superior direito, clique no ícone de engrenagem e selecione "Instalar complemento a partir do arquivo".</p>
-        <p>Navegue até o local onde o arquivo XPI foi baixado e selecione-o.</p>
-        <p>O Firefox solicitará confirmação para instalar a extensão. Clique Adicionar.</p>
-        <p>Clique no botão abaixo para realizar o Download.</p>
+        <p>1️⃣ Abra o Firefox.</p>
+        <p>2️⃣ Vá para o menu Extensões e Temas.</p>
+        <p>3️⃣ No canto superior direito, clique no ícone de engrenagem e selecione "Instalar complemento a partir do arquivo".</p>
+        <p>4️⃣ Navegue até o local onde o arquivo XPI foi baixado e selecione-o.</p>
+        <p>5️⃣ O Firefox solicitará confirmação para instalar a extensão. Clique em "Adicionar".</p>
+        <p>🔽 Clique no botão abaixo para baixar a extensão.</p>
 
         <!-- Link para instalação do XPI -->
         <a href="https://github.com/SidneySDev/SNZX-INC/raw/main/SNZX_1.2.xpi" class="download-btn">Baixar Plugin SNZ-X V1.1</a>
