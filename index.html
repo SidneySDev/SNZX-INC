@@ -71,11 +71,11 @@
 
         /* Parâmetros de Glassmorphism isolados */
         .glassmorphism {
-            background: rgba( 255, 255, 255, 0 );
-            box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
-          backdrop-filter: blur( 20px );
-          -webkit-backdrop-filter: blur( 20px );
-          border-radius: 10px;
+            background: rgba(255, 255, 255, 0);
+            box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+            backdrop-filter: blur(20px);
+            -webkit-backdrop-filter: blur(20px);
+            border-radius: 10px;
         }
 
         /* Estilos de texto */
@@ -111,20 +111,38 @@
             transform: scale(1.05);
         }
 
-        /* Responsividade */
+        /* Responsividade para smartphones */
         @media (max-width: 768px) {
-            .container {
-                flex-direction: column;
-            }
-
-            .left-side, .right-side {
-                width: 100%;
-                padding: 10px;
-            }
-
+            /* Reduzir o tamanho da logo */
             .logo-container img {
-                width: 500px;
-                height: 500px;
+                width: 300px; /* Tamanho menor para smartphones */
+                height: 300px; /* Mantém a proporção */
+            }
+
+            /* Reduzir o tamanho do bloco de instruções */
+            .instructions {
+                padding: 20px; /* Menos padding */
+                width: 100%; /* Ocupa toda a largura disponível */
+                max-width: 90%; /* Limita a largura máxima */
+            }
+
+            /* Ajustar o tamanho do texto para melhor legibilidade */
+            h1 {
+                font-size: 1.5rem; /* Título menor */
+            }
+
+            h2 {
+                font-size: 1.2rem; /* Subtítulo menor */
+            }
+
+            p {
+                font-size: 0.9rem; /* Texto menor */
+            }
+
+            /* Ajustar o botão para dispositivos móveis */
+            .download-btn {
+                padding: 10px 20px; /* Botão menor */
+                font-size: 0.9rem; /* Fonte menor */
             }
         }
     </style>
