@@ -1,0 +1,304 @@
+{
+    "equipamentos": [
+      {
+        "hostname": "EQTMA-ES-TIMON-FIREWALL_INTERFACE-EMBRATEL",
+        "designador": "TSA E2/SLS 27E/DP*V/0002"
+      },
+      {
+        "hostname": "EQTMA-SD-SAO_LUIS-L2L_EQTPI-SWITCH-EMBRATEL",
+        "designador": "TSA E2/SLS 27E/DP*V/0002"
+      },
+      {
+        "hostname": "EQTMA-AG-AMARANTE-EBT",
+        "designador": "ATH/IP/00105"
+      },
+      {
+        "hostname": "EQTMA-AG-ARARI-EMBRATEL",
+        "designador": "AAR-IP-00101"
+      },
+      {
+        "hostname": "EQTMA-AG-BALSAS-EMBRATEL",
+        "designador": "BLA-IP-00041"
+      },
+      {
+        "hostname": "EQTMA-AG-BARRA_DO_CORDA-EMBRATEL",
+        "designador": "BDC/IP/00121"
+      },
+      {
+        "hostname": "EQTMA-AG-BOM_JARDIM-EBT",
+        "designador": "BOJ/IP/00103"
+      },
+      {
+        "hostname": "EQTMA-AG-ESTREITO-EMBRATEL",
+        "designador": "ETO/IP/00255"
+      },
+      {
+        "hostname": "EQTMA-AG-ITINGA_DO_MARANHAO-EBT",
+        "designador": "ITMH/IP/00138"
+      },
+      {
+        "hostname": "EQTMA-AG-SANTA_INES-EMBRATEL",
+        "designador": "SIS/IP/00229"
+      },
+      {
+        "hostname": "EQTMA-AG-SAO_DOMINGOS_DO_MARANHAO-EMBRATEL",
+        "designador": "SDH/IP/00103"
+      },
+      {
+        "hostname": "EQTMA-AG-SAO_MATEUS-EMBRATEL",
+        "designador": "SMH/IP/00105"
+      },
+      {
+        "hostname": "EQTMA-AG-VITORIA_DO_MEARIM-ROUTER-EMBRATEL",
+        "designador": "VMM/IP/00104"
+      },
+      {
+        "hostname": "EQTMA-PC-BARUERI-HUGHES_L2L-EMBRATEL",
+        "designador": "SLS 27E/BRE M01/DP*V/0002"
+      },
+      {
+        "hostname": "EQTMA-PC-PEDREIRAS-CGB-EBT",
+        "designador": "PDZ/IP/00141"
+      },
+      {
+        "hostname": "EQTMA-PC-SANTA_INES-CGB-EBT",
+        "designador": "SIS-IP-00223"
+      },
+      {
+        "hostname": "EQTMA-PC-SAO_PAULO_IBM-L2L-ROUTER-EMBRATEL",
+        "designador": "SLS 0X/HORTV4J/DP*V/0004"
+      },
+      {
+        "hostname": "EQTMA-SD-MPLS-IMPERATRIZ-RT-EMBRATEL",
+        "designador": "ITZ-IP-01119"
+      },
+      {
+        "hostname": "EQTMA-SD-SAO_LUIS-CONCENTRADOR-BCK-TIRIRICAL-MPLS-EMBRATEL",
+        "designador": "SLS-IP-06267"
+      },
+      {
+        "hostname": "EQTMA-SD-SAO_LUIS-INTERNET-EMBRATEL",
+        "designador": "SLS-IP-04603"
+      },
+      {
+        "hostname": "EQTMA-SD-SAO_LUIS-INTERNET-ROUTER-EMBRATEL_REMOTO",
+        "designador": "SLS-IP-04603"
+      },
+      {
+        "hostname": "EQTMA-SD-SAO_LUIS-L2L_CELPA-EMBRATEL",
+        "designador": "BLM 31I/SLS 27E/DP*V/0001"
+      },
+      {
+        "hostname": "EQTMA-SE-BACABAL-ROUTER-EMBRATEL",
+        "designador": "BBL/IP/00249"
+      },
+      {
+        "hostname": "EQTMA-SE-BALSAS-ROTEADOR-EMBRATEL",
+        "designador": "BLA-IP-00322"
+      },
+      {
+        "hostname": "EQTMA-SE-CAXIAS-ROUTER-EMBRATEL",
+        "designador": "CXS/IP/00274"
+      },
+      {
+        "hostname": "EQTMA-SE-PEDREIRAS-ROUTER-EMBRATEL",
+        "designador": "PDZ/IP/00138"
+      },
+      {
+        "hostname": "EQTMA-SE-PINHEIRO-ROUTER-EMBRATEL",
+        "designador": "PHE/IP/00199"
+      },
+      {
+        "hostname": "EQTMA-SE-ROSARIO-ROUTER-EMBRATEL",
+        "designador": "RSI/IP/00113"
+      },
+      {
+        "hostname": "EQTMA-SE-SANTA_INES-EBT",
+        "designador": "SIS/IP/00222"
+      },
+      {
+        "hostname": "EQTRS-SD-L2L_EQTMA-EMBRATEL",
+        "designador": "SLS0X/PAE1LW/DP*V/0004"
+      },
+      {
+        "hostname": "EQTPA-AG-VISEU-WAN-EMBRATEL",
+        "designador": "VSU/IP/00006"
+      },
+      {
+        "hostname": "EQTPA-CL-BELEM-DELTA_PUBLICIDADE-EBT",
+        "designador": "BLM-IP06348"
+      },
+      {
+        "hostname": "EQTPA-ES-EMBRATEL-MARABA-ROUTER",
+        "designador": "MBA/IP/00639"
+      },
+      {
+        "hostname": "EQTPA-HL-BRASILIA-ONS-EBT",
+        "designador": "BSA/IP/28218"
+      },
+      {
+        "hostname": "EQTPA-HL-FLORIANOPOLIS-PLENA-HOTLINE-EBT",
+        "designador": "FNS/IP/02800"
+      },
+      {
+        "hostname": "EQTPA-HL-RECIFE-ONS-HOTLINE-EBT",
+        "designador": "RCE/IP/20284"
+      },
+      {
+        "hostname": "EQTPA-SD-BELEM-EMBRATEL",
+        "designador": "BLM/IP/06662"
+      },
+      {
+        "hostname": "EQTPA-SD-BELEM-INTERNET-EBT",
+        "designador": "BLM/IP/06435"
+      },
+      {
+        "hostname": "EQTMA-SD-CONCENTRADOR_MPLS-EBT",
+        "designador": "SLS-IP-00498"
+      },
+      {
+        "hostname": "EQTPA-SD-L2L_EQTMA-EMBRATEL-INTERF_FIREWALL_PA",
+        "designador": "BLM31I-SLS27E-DP*V-0001"
+      },
+      {
+        "hostname": "EQTPA-AG-PARAGOMINAS-EMBRATEL",
+        "designador": "PGN/IP/00308"
+      },
+      {
+        "hostname": "EQTMA-AG-SANTA_RITA-ROUTER-EMBRATEL",
+        "designador": "STY/IP/00105"
+      },
+      {
+        "hostname": "EQTMA-PC-ACAILANDIA-DPL-EBT",
+        "designador": ""
+      },
+      {
+        "hostname": "EQTMA-SD-L2L_EQTRS-EMBRATEL_INT_FIREWALL",
+        "designador": "SLS 0X PAE 1LW DP*V 0002"
+      },
+      {
+        "hostname": "EQTPA-SD-BELEM-MPLS-HUGHES-EBT",
+        "designador": "BLM/IP/09685 BRE/IP/26325"
+      },
+      {
+        "hostname": "EQTPA-AG-IGARAPE-MIRI-ROUTER_EMBRATEL",
+        "designador": "IGM/IP/00107"
+      },
+      {
+        "hostname": "EQTPA-RG-MARABA-WAN_MPLS_EMBRATEL",
+        "designador": "MBA/IP/00639"
+      },
+      {
+        "hostname": "EQTMA-SE-CODO-ROUTER-EMBRATEL",
+        "designador": "CDO/IP/00188"
+      },
+      {
+        "hostname": "EQTMA-SE-PRESIDENTE_DUTRA-ROUTER-EBT",
+        "designador": "PDU/IP/00120"
+      },
+      {
+        "hostname": "EQTMA-SE-CHAPADINHA-ROUTER-EMBRATEL",
+        "designador": "CHI/IP/00134"
+      },
+      {
+        "hostname": "EQTMA-SE-VIANA-ROUTER-EMBRATEL",
+        "designador": "VNA/IP/00105"
+      },
+      {
+        "hostname": "EQTMA-SE-SITIO_NOVO-ROUTER-EMBRATEL",
+        "designador": "SYV/IP/00101"
+      },
+      {
+        "hostname": "EQTPA-AG-IGARAPE-MIRI-FORTIWIFI_WAN_EMBRATEL",
+        "designador": "IGM/IP/00107"
+      },
+      {
+        "hostname": "EQTAL-SD-L2L-EMBRATEL",
+        "designador": "MCO XW SLS 27E DP*V 0003"
+      },
+      {
+        "hostname": "EQTPA-SD-L2L_EQTMA-EMBRATEL-INTERF_FIREWALL_MA",
+        "designador": "BLM 31I-SLS 27E-DP*V-0001"
+      },
+      {
+        "hostname": "EQTMA-SE-COROATA-ROUTER-EBT",
+        "designador": "COR/IP/00104"
+      },
+      {
+        "hostname": "EQTPA-AG-IGARAPE-ACU-FORTIWIFI_WAN_EMBRATEL",
+        "designador": "IGC/IP/00104"
+      },
+      {
+        "hostname": "EQTPI-SE-PICOS-EMBRATEL",
+        "designador": "PCZ/IP/00212"
+      },
+      {
+        "hostname": "EQTPA-AG-IRITUIA-ROUTER-EBT",
+        "designador": "IYT/IP/00002"
+      },
+      {
+        "hostname": "EQTAP-SD-AMAPA-ROUTER-ONS-EMBRATEL-PRIMARIO",
+        "designador": ""
+      },
+      {
+        "hostname": "EQTAP-SD-AMAPA-ROUTER-ONS-EMBRATEL-SECUNDARIO",
+        "designador": ""
+      },
+      {
+        "hostname": "EQTAP-HL-BRASILIA-ONS-HOTLINE-EMBRATEL",
+        "designador": "MPA/IP/01378"
+      },
+      {
+        "hostname": "EQTAP-HL-RECIFE-ONS-HOTLINE-EMBRATEL",
+        "designador": "MPA/IP/01379"
+      },
+      {
+        "hostname": "EQTPI-AG-AMARANTE-MODEM-EMBRATEL",
+        "designador": "ANT/IP/00103"
+      },
+      {
+        "hostname": "EQTPI-SD-DCMS-CONCENTRADOR_PRINC_MPLS-EBT",
+        "designador": "TSA/IP/06872"
+      },
+      {
+        "hostname": "EQTMA-AG-LAGO_DA_PEDRA-ROUTER-EMBRATEL",
+        "designador": "LGP\\IP\\00103"
+      },
+      {
+        "hostname": "EQTPI-AG-LUZILANDIA-MODEM-CISCO-EMBRATEL",
+        "designador": "LZN/IP/00102"
+      },
+      {
+        "hostname": "EQTPI-AG-CAMPO_MAIOR-MODEM-CISCO-EMBRATEL",
+        "designador": "CRA/IP/00165"
+      },
+      {
+        "hostname": "EQTPI-AG-INHUMA-MODEM-CISCO-EMBRATEL",
+        "designador": "INU/IP/0001"
+      },
+      {
+        "hostname": "EQTRS-SD-HUMAITA-SWTICH-EBT-L2L",
+        "designador": "PAE 1LW PAE WOV DP*V 0002"
+      },
+      {
+        "hostname": "EQTMA-AG-ACAILANDIA-ROUTER-EMBRATEL",
+        "designador": "ACD/IP/00213"
+      },
+      {
+        "hostname": "EQTPI-SD-DCMS-CONCENTRADOR_MPLS-EBT",
+        "designador": "TSA/IP/06659"
+      },
+      {
+        "hostname": "EQTMA-AG-SANTA_RITA-LINK-EMBRATEL",
+        "designador": "STY/IP/00105"
+      },
+      {
+        "hostname": "EQTPI-PC-CNE-MODEM-EBT",
+        "designador": "TSA06870"
+      },
+      {
+        "hostname": "EQTPA-SD-BELEM-ETHERNET_EMBRATEL",
+        "designador": ""
+      }
+    ]
+  }
