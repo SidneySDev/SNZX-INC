@@ -3,192 +3,201 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Instalar Extensão SNZ</title>
+    <title>Instalar Extensão</title>
     
     <style>
         /* Configuração geral da página */
         body {
-            font-family: 'Segoe UI', Arial, sans-serif;
+            font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
-            background: #f8fafc;
+            background: white;
             display: flex;
             justify-content: center;
             align-items: center;
-            min-height: 100vh;
-            color: #1e293b;
+            height: 100vh;
         }
 
-        /* Container principal */
+        /* Container principal para dividir a tela em duas partes */
         .container {
             display: flex;
-            justify-content: space-between;
-            align-items: center;
-            width: 100%;
-            max-width: 1200px;
-            padding: 20px;
-            flex-wrap: wrap;
-        }
-
-        /* Lados esquerdo e direito */
-        .left-side, .right-side {
-            flex: 1;
-            min-width: 300px;
-            padding: 20px;
-            display: flex;
             justify-content: center;
             align-items: center;
+            width: 100%;
+            height: 100%;
+        }
+
+        /* Lado esquerdo com logo */
+        .left-side {
+            display: flex;
+            justify-content: right;
+            align-items: center;
+            width: 50%;
+            padding: 20px;
+        }
+
+        /* Lado direito com campo de instruções */
+        .right-side {
+            display: flex;
+            justify-content: left;
+            align-items: left;
+            width: 50%;
+            padding: 20px;
         }
 
         /* Estilo da logo */
         .logo-container img {
-            max-width: 100%;
-            height: auto;
-            max-height: 500px;
-            transition: transform 0.3s ease;
+            width: 600px;
+            height: 600px;
+            justify-content: right;
+            align-items: center;
         }
 
-        .logo-container img:hover {
-            transform: scale(1.03);
-        }
-
-        /* Bloco de instruções */
+        /* Bloco de instruções com efeito de vidro isolado */
         .instructions {
-            padding: 40px;
-            width: 100%;
+            padding: 30px;
+            width: 90%;
             max-width: 500px;
             text-align: center;
-            transition: all 0.3s ease;
+            border: 1px solid rgba(255, 255, 255, 0.2);
+            transition: transform 0.3s ease-in-out;
+            transform: translateY(-10px);  /* Efeito de super salto */
         }
 
-        /* Efeito Glassmorphism */
+        /* Efeito de super salto para o bloco de instruções */
+        .instructions:hover {
+            transform: translateY(-20px);  /* Aumenta o efeito de super salto */
+        }
+
+        /* Parâmetros de Glassmorphism isolados */
         .glassmorphism {
-            background: rgba(255, 255, 255, 0.85);
-            backdrop-filter: blur(12px);
-            -webkit-backdrop-filter: blur(12px);
-            border-radius: 16px;
-            box-shadow: 0 8px 32px rgba(31, 38, 135, 0.15);
-            border: 1px solid rgba(255, 255, 255, 0.18);
+            background: rgba(255, 255, 255, 0);
+            box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+            backdrop-filter: blur(20px);
+            -webkit-backdrop-filter: blur(20px);
+            border-radius: 10px;
         }
 
         /* Estilos de texto */
-        h1 {
+        h1, h2 {
             color: #1e3a8a;
-            font-size: 2rem;
-            margin-bottom: 10px;
-        }
-
-        h2 {
-            color: #334155;
-            font-size: 1.3rem;
-            margin-bottom: 25px;
-            font-weight: 500;
+            text-align: center;
         }
 
         p {
-            color: #475569;
-            font-size: 1rem;
+            color: #333;
+            font-size: 16px;
             line-height: 1.6;
-            margin: 12px 0;
         }
 
-        /* Container de botões */
-        .button-container {
-            display: flex;
-            justify-content: center;
-            gap: 20px;
-            margin-top: 30px;
-            flex-wrap: wrap;
-        }
-
-        /* Estilo base dos botões */
+        /* Botão estilizado */
         .download-btn {
-            display: inline-flex;
-            align-items: center;
-            justify-content: center;
-            padding: 14px 28px;
-            font-weight: 600;
+            display: inline-block;
+            margin-top: 20px;
+            padding: 12px 25px;
+            background: linear-gradient(135deg, #3b82f6, #1e40af);
+            color: white;
+            font-weight: bold;
             text-decoration: none;
-            border-radius: 12px;
-            transition: all 0.3s ease;
+            border-radius: 10px;
+            transition: all 0.3s ease-in-out;
             border: none;
-            cursor: pointer;
-            min-width: 200px;
-            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
         }
 
-        /* Botão azul */
-        .download-btn-blue {
-            background: linear-gradient(135deg, #3b82f6, #1d4ed8);
-            color: white;
+        .download-btn:hover {
+            background: linear-gradient(135deg, #1e40af, #3b82f6);
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+            transform: scale(1.05);
         }
 
-        .download-btn-blue:hover {
-            background: linear-gradient(135deg, #1d4ed8, #3b82f6);
-            box-shadow: 0 6px 12px rgba(29, 78, 216, 0.2);
-            transform: translateY(-2px);
-        }
 
-        /* Botão laranja */
+
+        /* Novo estilo para o botão laranja */
         .download-btn-orange {
-            background: linear-gradient(135deg, #f97316, #ea580c);
+            display: inline-block;
+            margin-top: 20px;
+            margin-left: 15px; /* Espaço entre os botões */
+            padding: 12px 25px;
+            background: linear-gradient(135deg, #f97316, #c2410c);
             color: white;
+            font-weight: bold;
+            text-decoration: none;
+            border-radius: 10px;
+            transition: all 0.3s ease-in-out;
+            border: none;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
         }
 
         .download-btn-orange:hover {
             background: linear-gradient(135deg, #ea580c, #f97316);
-            box-shadow: 0 6px 12px rgba(234, 88, 12, 0.2);
-            transform: translateY(-2px);
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+            transform: scale(1.05);
         }
 
-        /* Responsividade */
+        /* Container para os botões lado a lado */
+        .button-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 15px;
+            margin-top: 20px;
+        }
+
         @media (max-width: 768px) {
-            .container {
-                flex-direction: column;
-                padding: 10px;
-            }
-            
-            .left-side, .right-side {
-                padding: 10px;
-                width: 100%;
-            }
-            
-            .instructions {
-                padding: 25px;
-            }
-            
-            h1 {
-                font-size: 1.5rem;
-            }
-            
-            h2 {
-                font-size: 1.1rem;
-            }
-            
+            /* Ajustes para mobile */
             .button-container {
                 flex-direction: column;
-                gap: 12px;
+                gap: 10px;
             }
             
-            .download-btn {
-                width: 100%;
-                padding: 12px;
-            }
-            
-            .logo-container img {
-                max-height: 300px;
+            .download-btn-orange {
+                margin-left: 0;
+                margin-top: 10px;
+                padding: 10px 20px;
+                font-size: 0.9rem;
             }
         }
+        /* Responsividade para smartphones */
+        @media (max-width: 768px) {
+            /* Reduzir o tamanho da logo */
+            .logo-container img {
+                width: 300px; /* Tamanho menor para smartphones */
+                height: 300px; /* Mantém a proporção */
+            }
 
-        /* Melhorias de acessibilidade */
-        a:focus {
-            outline: 2px solid #3b82f6;
-            outline-offset: 2px;
+            /* Reduzir o tamanho do bloco de instruções */
+            .instructions {
+                padding: 20px; /* Menos padding */
+                width: 100%; /* Ocupa toda a largura disponível */
+                max-width: 90%; /* Limita a largura máxima */
+            }
+
+            /* Ajustar o tamanho do texto para melhor legibilidade */
+            h1 {
+                font-size: 1.5rem; /* Título menor */
+            }
+
+            h2 {
+                font-size: 1.2rem; /* Subtítulo menor */
+            }
+
+            p {
+                font-size: 0.9rem; /* Texto menor */
+            }
+
+            /* Ajustar o botão para dispositivos móveis */
+            .download-btn {
+                padding: 10px 20px; /* Botão menor */
+                font-size: 0.9rem; /* Fonte menor */
+            }
         }
     </style>
 </head>
 <body>
 
+    <!-- Container principal dividido em duas partes -->
     <div class="container">
         
         <!-- Lado esquerdo com logo -->
@@ -198,29 +207,23 @@
             </div>
         </div>
 
-        <!-- Lado direito com instruções -->
+        <!-- Lado direito com campo de instruções -->
         <div class="right-side">
             <div class="instructions glassmorphism">
-                <h1>Instalar Extensão SNZ</h1>
-                <h2>Instalação Manual para Firefox</h2>
+                <h1>Instalar Extensão do Firefox</h1>
+                <h2>Instalação Manual</h2>
                 
-                <p>1️⃣ Abra o Firefox</p>
-                <p>2️⃣ Acesse o menu Extensões e Temas</p>
-                <p>3️⃣ Clique no ícone ⚙️ e selecione "Instalar complemento"</p>
-                <p>4️⃣ Selecione o arquivo XPI baixado</p>
-                <p>5️⃣ Confirme a instalação clicando em "Adicionar"</p>
-                
-                <p>🔽 Selecione a versão desejada:</p>
+                <p>1️⃣ Abra o Firefox.</p>
+                <p>2️⃣ Vá para o menu Extensões e Temas.</p>
+                <p>3️⃣ No canto superior direito, clique no ícone de engrenagem e selecione "Instalar complemento a partir do arquivo".</p>
+                <p>4️⃣ Navegue até o local onde o arquivo XPI foi baixado e selecione-o.</p>
+                <p>5️⃣ O Firefox solicitará confirmação para instalar a extensão. Clique em "Adicionar".</p>
+                <p>🔽 Clique no botão abaixo para baixar a extensão.</p>
 
-                <div class="button-container">
-                    <a href="./snz_x1-1.3.1.xpi" class="download-btn download-btn-blue">
-                        Baixar SNZ-X v1.3.1
-                    </a>
-                    
-                    <a href="./SNZ_B-1.1.xpi" class="download-btn download-btn-orange">
-                        Baixar SNZ-B v1.1.0
-                    </a>
-                </div>
+                <!-- Link para instalação do XPI -->
+                <a href="./snz_x1-1.30101.xpi" class="download-btn">Baixar SNZ-X Version 1.30101</a>
+                <a href="./SNZ_B-1.1.xpi" class="download-btn-orange">Baixar SNZ-B Version 1.10000</a>
+                
             </div>
         </div>
         
@@ -228,3 +231,4 @@
 
 </body>
 </html>
+
