@@ -1,0 +1,13 @@
+{
+  "addons": {
+    "{aaf84e8f-c5a6-428e-98b8-273599e4575a}": {
+      "updates": [
+        {
+          "version": "1.250",
+          "update_link": "https://sidneysdev.github.io/SNZX-INC/SNZ_B-1.250.xpi",
+          "update_info_url": "https://sidneysdev.github.io/SNZX-INC/"
+        }
+      ]
+    }
+  }
+}
