@@ -6,7 +6,7 @@
           "version": "1.250",
           "update_link": "https://sidneysdev.github.io/SNZX-INC/SNZ_B-1.250.xpi",
           "update_info_url": "https://sidneysdev.github.io/SNZX-INC/",
-          "maintenance_mode": false,
+          "maintenance_mode": true,
           "maintenance_message": "A extensão está em manutenção. Volte em breve!",
           "maintenance_redirect": "https://sidneysdev.github.io/SNZX-INC/"
         }
