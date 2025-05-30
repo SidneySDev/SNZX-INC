@@ -4,7 +4,7 @@
       "hostname": "EQTPA-SE-OEIRASDOPARA-IDU-TELESPAZIO",
       "designador": "CLPA-0433-PA-H14"
     },
-{
+  {
       "hostname": "EQTPA-CL-SANTANA_ARAGUAIA-JBS-TELESPAZIO",
       "designador": "CLPA-0169-PA-H14"
     },
@@ -2904,5 +2904,349 @@
       "hostname": "EQTPA-CL-MOJU-SOCOCOAGROINDUSTRIAS-TELESPAZIO",
       "designador": "CLPA-0234-PA-H9"
     }
+    {
+    "hostname": "EQTAP-RP-FERREIRA_GOMES-IDU_TELESPAZIO",
+    "designador": "CEAP-0020-AP-H14"
+  },
+  {
+    "hostname": "EQTAP-RP-OIAPOQUE-IDU_TELESPAZIO",
+    "designador": "CEAP-0022-AP-H14"
+  },
+  {
+    "hostname": "EQTAP-RP-PEDRA_BRANCA-IDU_TELESPAZIO",
+    "designador": "CEAP-0021-AP-H14"
+  },
+  {
+    "hostname": "EQTAP-SE-FERREIRA_GOMES_CENTRAL-IDU-TELESPAZIO",
+    "designador": "CEAP-0006-AP-H14"
+  },
+  {
+    "hostname": "EQTAP-SE-INAJA-IDU-TELESPAZIO",
+    "designador": "EAP-0013-AP-H14"
+  },
+  {
+    "hostname": "EQTAP-SE-LARANJAL_DO_JARI-IDU-TELESPAZIO",
+    "designador": "CEAP-0014-AP-H14"
+  },
+  {
+    "hostname": "EQTAP-SE-MACAPA_2-IDU-TELESPAZIO",
+    "designador": "CEAP-0003-AP-H14"
+  },
+  {
+    "hostname": "EQTAP-SE-OIAPOQUE-IDU-TELESPAZIO",
+    "designador": "CEAP-0010-AP-H14"
+  },
+  {
+    "hostname": "EQTAP-SE-PORTO_GRANDE-IDU-TELESPAZIO",
+    "designador": "CEAP-0015-AP-H14"
+  },
+  {
+    "hostname": "EQTAP-SE-PORTUARIA-IDU-TELESPAZIO",
+    "designador": "CEAP-0001-AP-H14"
+  },
+  {
+    "hostname": "EQTAP-SE-RIO_PRETO-IDU-TELESPAZIO",
+    "designador": "CEAP-0016-AP-H14"
+  },
+  {
+    "hostname": "EQTAP-SE-SANTANA_COS-IDU-TELESPAZIO",
+    "designador": "CEAP-0002-AP-H14"
+  },
+  {
+    "hostname": "EQTAP-SE-SANTA_RITA-IDU-TELESPAZIO",
+    "designador": "CEAP-0005-AP-H14"
+  },
+  {
+    "hostname": "EQTAP-SE-SAO_JOSE-IDU-TELESPAZIO",
+    "designador": "CEAP-0019-AP-H14"
+  },
+  {
+    "hostname": "EQTAP-SE-SERRA_DO_NAVIO-TELESPAZIO",
+    "designador": "CEAP-0017-AP-H14"
+  },
+  {
+    "hostname": "EQTAP-SE-TARTARUGALZINHO-IDU-TELESPAZIO",
+    "designador": "CEAP-0007-AP-H14"
+  },
+  {
+    "hostname": "EQTGO-SE-ABADIANIA-IDU_KU-TELESPAZIO-ABA",
+    "designador": "CELG-0007-GO-H12"
+  },
+  {
+    "hostname": "EQTGO-SE-ABC-IDU_KU-TELESPAZIO-ABC",
+    "designador": "CELG-0012-GO-H12"
+  },
+  {
+    "hostname": "EQTGO-SE-ADELANDIA-IDU_KU-TELESPAZIO-ADE",
+    "designador": "CELG-0016-GO-H12"
+  },
+  {
+    "hostname": "EQTGO-SE-AGUA_LIMPA-IDU_KU-TELESPAZIO-AGL",
+    "designador": "CELG-0050-GO-H11"
+  },
+  {
+    "hostname": "EQTGO-SE-ALEXANIA-IDU_KU-TELESPAZIO-ALX",
+    "designador": "CELG-0017-GO-H11"
+  },
+  {
+    "hostname": "EQTGO-SE-ALMERINDOPOLIS-IDU_KU-TELESPAZIO-AMD",
+    "designador": "CELG-0558-GO-H11"
+  },
+  {
+    "hostname": "EQTGO-SE-ALOANDIA-IDU_KU-TELESPAZIO-ALO",
+    "designador": "CELG-0635-GO-H11"
+  },
+  {
+    "hostname": "EQTGO-SE-ALPHAVILLE-IDU_KU-TELESPAZIO-ALF",
+    "designador": "CELG-0719-GO-H9"
+  },
+  {
+    "hostname": "EQTGO-SE-ALTO_HORIZONTE-IDU_KU-TELESPAZIO-AHZ",
+    "designador": "CELG-0617-GO-H12"
+  },
+  {
+    "hostname": "EQTGO-SE-ALTO_PARAISO_DE_GOIAS-IDU_KU-TELESPAZIO-ALP",
+    "designador": "CELG-0720-GO-H9"
+  },
+  {
+    "hostname": "EQTGO-SE-ALVORADA_DO_NORTE-IDU_C-TELESPAZIO-AVN",
+    "designador": "CELG-0525-GO-H6"
+  },
+  {
+    "hostname": "EQTGO-SE-AMERICANO-IDU_KU-TELESPAZIO-AMR",
+    "designador": "CELG-0721-GO-H12"
+  },
+  {
+    "hostname": "EQTGO-SE-AMERICANO_DO_BRASIL-IDU_KU-TELESPAZIO-AMB",
+    "designador": "CELG-0722-GO-H12"
+  },
+  {
+    "hostname": "EQTGO-SE-AMORINOPOLIS-IDU_KU-TELESPAZIO-AMO",
+    "designador": "CELG-0723-GO-H12"
+  },
+  {
+    "hostname": "EQTGO-SE-ANICUNS-IDU_C-TELESPAZIO-ANI",
+    "designador": "CELG-0522-GO-H6"
+  },
+  {
+    "hostname": "EQTGO-SE-ANTONIO_DO_VITTO-IDU_KU-TELESPAZIO-ANV",
+    "designador": "CELG-0724-GO-H9"
+  },
+  {
+    "hostname": "EQTGO-SE-APARECIDA-IDU_KU-TELESPAZIO-APR",
+    "designador": "CELG-1301-GO-H12"
+  },
+  {
+    "hostname": "EQTGO-SE-APARECIDA_DO_RIO_DOCE-IDU_KU-TELESPAZIO-ARD",
+    "designador": "CELG-0725-GO-H12"
+  },
+  {
+    "hostname": "EQTGO-SE-APORE-IDU_KU-TELESPAZIO-APO",
+    "designador": "CELG-0726-GO-H9"
+  },
+  {
+    "hostname": "EQTGO-SE-ARACU-IDU_KU-TELESPAZIO-ACU",
+    "designador": "CELG-1308-GO-H14"
+  },
+  {
+    "hostname": "EQTGO-SE-ARAGARCAS-IDU_C-TELESPAZIO-ARA",
+    "designador": "CELG-0541-GO-H6"
+  },
+  {
+    "hostname": "EQTGO-SE-ARAGOIANIA-IDU_KU-TELESPAZIO-AGO",
+    "designador": "CELG-0727-GO-H11"
+  },
+  {
+    "hostname": "EQTGO-SE-ARAGUAPAZ-IDU_KU-TELESPAZIO-ARP",
+    "designador": "CELG-0728-GO-H9"
+  },
+  {
+    "hostname": "EQTGO-SE-ARARAS-IDU_KU-TELESPAZIO-ARR",
+    "designador": "CELG-0729-GO-H11"
+  },
+  {
+    "hostname": "EQTGO-SE-AREIAS-IDU_KU-TELESPAZIO-ARI",
+    "designador": "CELG-0730-GO-H12"
+  },
+  {
+    "hostname": "EQTGO-SE-ARENOPOLIS-IDU_KU-TELESPAZIO-ARE",
+    "designador": "CELG-0019-GO-H11"
+  },
+  {
+    "hostname": "EQTGO-SE-ARUANA_AT-IDU_C-TELESPAZIO-ARN",
+    "designador": "CELG-0526-GO-H6"
+  },
+  {
+    "hostname": "EQTGO-SE-ARUANA_MT-IDU_KU-TELESPAZIO-ARU",
+    "designador": "CELG-0526-GO-H6"
+  },
+  {
+    "hostname": "EQTGO-SE-ASA_BRANCA-IDU_KU-TELESPAZIO-ASB",
+    "designador": "CELG-0732-GO-H12"
+  },
+  {
+    "hostname": "EQTGO-SE-AURILANDIA-IDU_KU-TELESPAZIO-AUR",
+    "designador": "CELG-0733-GO-H12"
+  },
+  {
+    "hostname": "EQTGO-SE-AVELINOPOLIS-IDU_KU-TELESPAZIO-AVE",
+    "designador": "CELG-0734-GO-H12"
+  },
+  {
+    "hostname": "EQTGO-SE-BACURI-IDU_KU-TELESPAZIO-BCU",
+    "designador": "CELG-0735-GO-H12"
+  },
+  {
+    "hostname": "EQTGO-SE-BALIZA-IDU_KU-TELESPAZIO-BZA",
+    "designador": "CELG-1294-GO-H11"
+  },
+  {
+    "hostname": "EQTGO-SE-BARBOSELANDIA-IDU_KU-TELESPAZIO-BBS",
+    "designador": "CELG-0736-GO-H9"
+  },
+  {
+    "hostname": "EQTGO-SE-BARCELONA-IDU_KU-TELESPAZIO-BLN",
+    "designador": "CELG-0737-GO-H11"
+  },
+  {
+    "hostname": "EQTGO-SE-BARREIRO-IDU_KU-TELESPAZIO-BRR",
+    "designador": "CELG-0738-GO-H12"
+  },
+  {
+    "hostname": "EQTGO-SE-BOA_VISTA-IDU_KU-TELESPAZIO-BVT",
+    "designador": "CELG-0739-GO-H12"
+  },
+  {
+    "hostname": "EQTGO-SE-BOM_JARDIM-IDU_KU-TELESPAZIO-BJA",
+    "designador": "CELG-1310-GO-H14"
+  },
+  {
+    "hostname": "EQTGO-SE-BOM_JESUS-IDU_C-TELESPAZIO-BJE",
+    "designador": "CELG-0875-GO-H6"
+  },
+  {
+    "hostname": "EQTGO-SE-BONFINOPOLIS-IDU_KU-TELESPAZIO-BOF",
+    "designador": "CELG-0740-GO-H12"
+  },
+  {
+    "hostname": "EQTGO-SE-BONITO-IDU_KU-TELESPAZIO-BNT",
+    "designador": "CELG-0741-GO-H9"
+  },
+  {
+    "hostname": "EQTGO-SE-BONOPOLIS-IDU_KU-TELESPAZIO-BON",
+    "designador": "CELG-0021-GO-H11"
+  },
+  {
+    "hostname": "EQTGO-SE-BONSUCESSO-IDU_KU-TELESPAZIO-BOS",
+    "designador": "CELG-0742-GO-H12"
+  },
+  {
+    "hostname": "EQTGO-SE-BRASILIA_LESTE-IDU_KU-TELESPAZIO-BRE",
+    "designador": "CELG-1299-DF-H12"
+  },
+  {
+    "hostname": "EQTGO-SE-BRASIL_CENTRAL-IDU_KU-TELESPAZIO-BSC",
+    "designador": "CELG-0743-GO-H9"
+  },
+  {
+    "hostname": "EQTGO-SE-BRAZABRANTES-IDU_KU-TELESPAZIO-BRZ",
+    "designador": "CELG-0744-GO-H12"
+  },
+  {
+    "hostname": "EQTGO-SE-BRITANIA_AT-IDU_C-TELESPAZIO-BRI",
+    "designador": "CELG-0527-GO-H6"
+  },
+  {
+    "hostname": "EQTGO-SE-BRITANIA_MT-IDU_KU-TELESPAZIO-BRT",
+    "designador": "CELG-0014-GO-H12"
+  },
+  {
+    "hostname": "EQTGO-SE-BURITIZINHO-IDU_KU-TELESPAZIO-BTZ",
+    "designador": "CELG-0645-GO-H9"
+  },
+  {
+    "hostname": "EQTGO-SE-BURITI_ALEGRE-IDU_KU-TELESPAZIO-BUA",
+    "designador": "CELG-0745-GO-H12"
+  },
+  {
+    "hostname": "EQTGO-SE-BURITI_DE_GOIAS-IDU_KU-TELESPAZIO-BDG",
+    "designador": "CELG-0746-GO-H9"
+  },
+  {
+    "hostname": "EQTGO-SE-CABECEIRAS-IDU_KU-TELESPAZIO-CBE",
+    "designador": "CELG-0747-GO-H12"
+  },
+  {
+    "hostname": "EQTGO-SE-CACHOEIRA_NOVA-IDU_KU-TELESPAZIO-CCN",
+    "designador": "CELG-0022-GO-H12"
+  },
+  {
+    "hostname": "EQTGO-SE-CACHOEIRINHA-IDU_KU-TELESPAZIO-CNH",
+    "designador": "CELG-0748-GO-H9"
+  },
+  {
+    "hostname": "EQTGO-SE-CACU-IDU_KU-TELESPAZIO-CAC",
+    "designador": "CELG-0749-GO-H11"
+  },
+  {
+    "hostname": "EQTGO-SE-CAIAPONIA-IDU_C-TELESPAZIO-CAI",
+    "designador": "CELG-0543-GO-H6"
+  },
+  {
+    "hostname": "EQTGO-SE-CALCILANDIA-IDU_KU-TELESPAZIO-CLD",
+    "designador": "CELG-0750-GO-H9"
+  },
+  {
+    "hostname": "EQTGO-SE-CALDAZINHA-IDU_KU-TELESPAZIO-CDZ",
+    "designador": "CELG-0751-GO-H12"
+  },
+  {
+    "hostname": "EQTGO-SE-CAMPESTRE-IDU_KU-TELESPAZIO-CPE",
+    "designador": "CELG-0753-GO-H9"
+  },
+  {
+    "hostname": "EQTGO-SE-CAMPINORTE-IDU_KU-TELESPAZIO-CPN",
+    "designador": "CELG-2852-GO-H12"
+  },
+  {
+    "hostname": "EQTGO-SE-CAMPOS_BELOS-IDU_KU-TELESPAZIO-CAB",
+    "designador": "CELG-0024-GO-H11"
+  },
+  {
+    "hostname": "EQTGO-SE-CAMPOS_VERDES-IDU_KU-TELESPAZIO-CVE",
+    "designador": "CELG-0756-GO-H12"
+  },
+  {
+    "hostname": "EQTGO-SE-CAMPO_ALEGRE_DE_GOIAS-IDU_C-TELESPAZIO-CPG",
+    "designador": "CELG-0876-GO-H6"
+  },
+  {
+    "hostname": "EQTGO-SE-CAMPO_LIMPO_DE_GOIAS-IDU_KU-TELESPAZIO-CLG",
+    "designador": "CELG-0754-GO-H12"
+  },
+  {
+    "hostname": "EQTGO-SE-CAMPO_NOVO-IDU_KU-TELESPAZIO-CAN",
+    "designador": "CELG-0755-GO-H11"
+  },
+  {
+    "hostname": "EQTGO-SE-CANPACK-IDU_KU-TELESPAZIO-CPK",
+    "designador": "CELG-3134-GO-H14"
+  },
+  {
+    "hostname": "EQTGO-SE-CARAIBAS-IDU_KU-TELESPAZIO-CRA",
+    "designador": "CELG-0758-GO-H12"
+  },
+  {
+    "hostname": "EQTGO-SE-CASTELANDIA-IDU_KU-TELESPAZIO-CAE",
+    "designador": "CELG-0760-GO-H9"
+  },
+  {
+    "hostname": "EQTGO-SE-CATURAI-IDU_KU-TELESPAZIO-CTI",
+    "designador": "CELG-0761-GO-H9"
+  },
+  {
+    "hostname": "EQTGO-SE-CEBRASA__AMBEV-IDU_KU-TELESPAZIO-CBR",
+    "designador": "CELG-0762-GO-H9"
+  }
   ]
 }
