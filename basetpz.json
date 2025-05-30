@@ -4,6 +4,22 @@
       "hostname": "EQTPA-SE-OEIRASDOPARA-IDU-TELESPAZIO",
       "designador": "CLPA-0433-PA-H14"
     },
+   {
+      "hostname": "EQTGO-SE-FAZENDA_CANADA-IDU_C-TELESPAZIO-FCA",
+      "designador": "CELG-0550-GO-H6"
+    },
+    {
+      "hostname": "EQTMA-SE-GOVERNADOR_EUGENIO_BARROS-IDU-TELESPAZIO_BCK",
+      "designador": "CER-0201-MA-H12"
+    },
+   {
+      "hostname": "EQTGO-SE-MARZAGAO-IDU_KU-TELESPAZIO-MAZ",
+      "designador": "CELG-0571-GO-H12"
+    },
+   {
+      "hostname": "EQTGO-SE-RIO_CLARO-IDU_C-TELESPAZIO-RCL",
+      "designador": "CELG-0534-GO-H6"
+    },
     {
       "hostname": "EQTGO-SE-PALESTIDEGOIAS-IDUKU-TELESPAZIO-PGI",
       "designador": "CELG-0039-GO-H9"
