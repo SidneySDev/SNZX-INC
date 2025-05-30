@@ -453,7 +453,7 @@
       "designador": "CLPA-0049-PA-H6"
     },
     {
-      "hostname": "EEQTPA-CC-NOVOPROGRESSO-JLARMAZENS-TELESPAZIO",
+      "hostname": "EQTPA-CC-NOVOPROGRESSO-JLARMAZENS-TELESPAZIO",
       "designador": "CLPA-0161-PA-H14"
     },
     {
@@ -2130,7 +2130,7 @@
     },
     {
       "hostname": "EQTGO-SE-JUCELANDIA-IDUKU-TELESPAZIO-JUC",
-      "designador": "NÃO ENCONTRADO"
+      "designador": null
     },
     {
       "hostname": "EQTGO-SE-PIRENOPOLIS-IDUC-TELESPAZIO-PRP",
@@ -2903,7 +2903,7 @@
     {
       "hostname": "EQTPA-CL-MOJU-SOCOCOAGROINDUSTRIAS-TELESPAZIO",
       "designador": "CLPA-0234-PA-H9"
-    }
+    },
     {
     "hostname": "EQTAP-RP-FERREIRA_GOMES-IDU_TELESPAZIO",
     "designador": "CEAP-0020-AP-H14"
