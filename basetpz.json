@@ -3251,6 +3251,62 @@
   {
     "hostname": "EQTGO-SE-CEBRASA__AMBEV-IDU_KU-TELESPAZIO-CBR",
     "designador": "CELG-0762-GO-H9"
-  }
+  },
+{
+  "hostname": "EQTMA-SE-SAO_VICENTE_DE_FERRER-IDU-TELESPAZIO_BCK",
+  "designador": "CER-0264-MA-H14"
+},
+{
+  "hostname": "EQTPA-CC-ITAITUBA-RRX_TIMBER-TELESPAZIO",
+  "designador": "CLPA-0200-PA-H14"
+},
+{
+  "hostname": "EQTGO-SE-SILVANIA-IDU_KU-TELESPAZIO-SIL",
+  "designador": "CELG-0643-GO-H9"
+},
+{
+  "hostname": "EQTMA-SE-MATINHA-IDU-TELESPAZIO_BCK",
+  "designador": "CER-0230-MA-H14"
+},
+{
+  "hostname": "EQTMA-SE-SAO_VICENTE_DE_FERRER-IDU-TELESPAZIO_BCK",
+  "designador": "CER-0264-MA-H14"
+},
+{
+  "hostname": "EQTPA-SE-NOVA_PARAUAPEBAS-TELESPAZIO",
+  "designador": "CLPA-0415-PA-H14"
+},
+{
+  "hostname": "EQTPA-CL-PARAUAPEBAS-UC_8848408-AMERICANAS_COMERCIO-TELESPAZIO",
+  "designador": "CLPA-0249-PA-H12"
+},
+{
+  "hostname": "EQTPA-CL-PARAUAPEBAS-AMERICANAS_SHOPPING-TELESPAZIO",
+  "designador": "CLPA-0244-PA-H12"
+},
+{
+  "hostname": "EQTPA-SE-NOVA_PARAUAPEBAS-TELESPAZIO",
+  "designador": "CLPA-0415-PA-H14"
+},
+{
+  "hostname": "EQTPA-CC-ITAITUBA-3T_TROMBETAS-TELESPAZIO",
+  "designador": "CLPA-0296-PA-H12"
+},
+{
+  "hostname": "EQTGO-SE-RIO_PRETO-IDU_KU-TELESPAZIO-RIP",
+  "designador": "CELG-0606-GO-H11"
+},
+{
+  "hostname": "EQTPA-CL-UC_49847870-ITAITUBA-TERMINAL_DE_FRONTEIRA-TELESPAZIO",
+  "designador": "CELG-0606-GO-H11"
+},
+{
+  "hostname": "EQTPA-CC-MORAES_ALMEIDA-UC_81220158-J_S_MADEIRAS-TELESPAZIO",
+  "designador": "CLPA-0207-PA-H9"
+},
+{
+  "hostname": "EQTPA-CL-ELDORADO_DOS_CARAJAS-BRITAMIL-TELESPAZIO",
+  "designador": "CLPA-0238-PA-H12"
+}
   ]
 }
