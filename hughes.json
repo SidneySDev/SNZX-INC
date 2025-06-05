@@ -5871,6 +5871,50 @@
     {
       "hostname": "EQTPA-CL-CASTANHAL-PLASNORTE-HUGHES",
       "designador": "EQCP0070"
-    }
+    },
+    {
+    "hostname": "EQTGO-SE-MONTIVIDIU-IDU-HUGHES-MOT",
+    "designador": "H0005243"
+  },
+  {
+    "hostname": "EQTGO-SE-SERRA_DO_OURO-IDU-HUGHES-SOU",
+    "designador": "H0004944"
+  },
+  {
+    "hostname": "EQTGO-SE-GOIATUBA-IDU-HUGHES-GTB",
+    "designador": "H0005237"
+  },
+  {
+    "hostname": "EQTGO-SE-SAO_DOMINGOS-IDU-HUGHES-USD",
+    "designador": "H0006263"
+  },
+  {
+    "hostname": "EQTGO-SE-RUBIATABA-IDU-HUGHES-RUB",
+    "designador": "H0004934"
+  },
+  {
+    "hostname": "EQTGO-SE-BOM_JESUS-IDU-HUGHES-BJE",
+    "designador": "H0004939"
+  },
+  {
+    "hostname": "EQTGO-SE-ARAGUAPAZ-IDU-HUGHES-ARP",
+    "designador": "H0009262"
+  },
+  {
+    "hostname": "EQTGO-SE-SAO_MIGUEL_DO_ARAGUAIA-IDU-HUGHES-SMA",
+    "designador": "H0005017"
+  },
+  {
+    "hostname": "EQTGO-SE-PIRANHAS-IDU-HUGHES-PRH",
+    "designador": "H0005234"
+  },
+  {
+    "hostname": "EQTGO-SE-JARAGUA-IDU-HUGHES-JAR",
+    "designador": "H0004894"
+  },
+  {
+    "hostname": "EQTGO-SE-ITUMBIARA_VELHA-IDU-HUGHES-ITV",
+    "designador": "H0004843"
+  }
   ]
 }
