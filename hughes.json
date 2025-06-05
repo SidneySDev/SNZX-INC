@@ -5915,6 +5915,30 @@
   {
     "hostname": "EQTGO-SE-ITUMBIARA_VELHA-IDU-HUGHES-ITV",
     "designador": "H0004843"
-  }
+  },
+    {
+      "host": "EQTGO-SE-ALEXANIA-IDU_KU-HUGHES-ALX",
+      "designador": "H0010403"
+    },
+    {
+      "host": "EQTGO-SE-ARAGOIANIA-IDU_KU-HUGHES-AGO",
+      "designador": "H0009765"
+    },
+    {
+      "host": "EQTGO-SE-AREIAS-IDU_KU-HUGHES-ARI",
+      "designador": "H0011153"
+    },
+    {
+      "host": "EQTGO-SE-CACHOEIRINHA-IDU_KU-HUGHES-CNH",
+      "designador": "H0010046"
+    },
+    {
+      "host": "EQTGO-SE-COLINACU-IDU_KU-HUGHES-CLC",
+      "designador": "H0010405"
+    },
+    {
+      "host": "EQTGO-SE-CRISTALINA_MT-IDU_KU-HUGHES-CRS",
+      "designador": "H0011154"
+    }
   ]
 }
