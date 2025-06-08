@@ -238,11 +238,11 @@
       },
       {
         "hostname": "EQTAP-SD-AMAPA-ROUTER-ONS-EMBRATEL-PRIMARIO",
-        "designador": ""
+        "designador": "INTERFACE WAN"
       },
       {
         "hostname": "EQTAP-SD-AMAPA-ROUTER-ONS-EMBRATEL-SECUNDARIO",
-        "designador": ""
+        "designador": "INTERFACE WAN"
       },
       {
         "hostname": "EQTAP-HL-BRASILIA-ONS-HOTLINE-EMBRATEL",
@@ -262,7 +262,7 @@
       },
       {
         "hostname": "EQTMA-AG-LAGO_DA_PEDRA-ROUTER-EMBRATEL",
-        "designador": "LGP\\IP\\00103"
+        "designador": "LGP/IP/00103"
       },
       {
         "hostname": "EQTPI-AG-LUZILANDIA-MODEM-CISCO-EMBRATEL",
@@ -299,6 +299,30 @@
       {
         "hostname": "EQTPA-SD-BELEM-ETHERNET_EMBRATEL",
         "designador": ""
+      },
+      {
+        "hostname": "EQTTR-HL-BRASILIA-HOTLINE-EMBRATEL",
+        "designador": "BSA/IP/25523"
+      },
+     {
+        "hostname": "EQTTR-HL-FLORIANOPOLIS-HOTLINE-EMBRATEL",
+        "designador": "FNS/IP/02823"
+      },
+     {
+        "hostname": "EQTTR-HL-RECIFE-HOTLINE-EMBRATEL",
+        "designador": "RCE/IP/19587"
+      },
+     {
+        "hostname": "EQTTR-HL-RIO_DE_JANEIRO-HOTLINE-EMBRATEL",
+        "designador": "RJO/IP/91504"
+      },
+      {
+        "hostname": "EQTTR-HL-SAO_LUIS-HOTLINE-EMBRATEL",
+        "designador": "SLS/IP/00498"
+      }, 
+     {
+        "hostname": "EQTTR-HL-TIRIRICAL-HOTLINE-EMBRATEL",
+        "designador": "SLS/IP/07947"
       }
     ]
   }
