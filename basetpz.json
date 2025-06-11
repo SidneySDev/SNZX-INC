@@ -3307,6 +3307,10 @@
 {
   "hostname": "EQTPA-CL-ELDORADO_DOS_CARAJAS-BRITAMIL-TELESPAZIO",
   "designador": "CLPA-0238-PA-H12"
+},
+{
+  "hostname": "EQTGO-SE-TRES_BARRAS-IDU_KU-TELESPAZIO-TRB",
+  "designador": "CELG-0803-GO-H9"
 }
   ]
 }
