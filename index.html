@@ -1,236 +1,280 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Instalar Extensão</title>
-    
+    <title>Centro de Downloads NOC Equatorial</title>
     <style>
-        /* Configuração geral da página */
-        body {
-            font-family: Arial, sans-serif;
+        * {
             margin: 0;
             padding: 0;
-            background: white;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
+        }
+
+        body {
+            background-color: #f0f2f5; /* Fundo mais claro para melhor contraste */
+            min-height: 100vh;
             display: flex;
             justify-content: center;
             align-items: center;
-            height: 100vh;
+            flex-direction: column;
+            overflow-x: hidden;
         }
 
-        /* Container principal para dividir a tela em duas partes */
+        .header {
+            text-align: center;
+            margin-bottom: 50px;
+            width: 100%;
+        }
+
+        .header h1 {
+            font-size: 2.5rem;
+            color: #2c3e50;
+            font-weight: 600;
+            margin-bottom: 15px;
+            position: relative;
+            display: inline-block;
+        }
+
+        .header h1::after {
+            content: '';
+            position: absolute;
+            bottom: -10px;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 80px;
+            height: 3px;
+            background: linear-gradient(90deg, #00a2ff, #ff9e40, #6a7bff);
+            border-radius: 3px;
+        }
+
         .container {
             display: flex;
             justify-content: center;
             align-items: center;
+            flex-wrap: wrap;
+            gap: 40px;
+            padding: 20px;
+        }
+
+        .card {
+            width: 300px;
+            height: 400px;
+            background: rgba(255, 255, 255, 0.95); /* Fundo mais opaco para melhor contraste */
+            backdrop-filter: blur(12px);
+            -webkit-backdrop-filter: blur(12px);
+            border-radius: 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-around;
+            padding: 25px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.12); /* Sombra mais intensa */
+            position: relative;
+            overflow: hidden;
+            opacity: 0;
+            transform: translateY(100%) rotate(15deg);
+            animation: puzzleIn 1s forwards;
+            transition: all 0.4s cubic-bezier(0.25, 0.8, 0.25, 1); /* Transição mais suave */
+            border: 1px solid rgba(255, 255, 255, 0.4);
+            z-index: 1;
+        }
+
+        /* Animação de Quebra-cabeça */
+        @keyframes puzzleIn {
+            0% { 
+                opacity: 0; 
+                transform: translateY(100%) rotate(15deg); 
+            }
+            100% { 
+                opacity: 1; 
+                transform: translateY(0) rotate(0); 
+            }
+        }
+
+        .card-1 {
+            animation-delay: 0.2s;
+            transform-origin: bottom left;
+        }
+        .card-2 {
+            animation-delay: 0.4s;
+            transform-origin: bottom center;
+        }
+        .card-3 {
+            animation-delay: 0.6s;
+            transform-origin: bottom right;
+        }
+
+        .card:hover {
+            transform: translateY(-10px) scale(1.03); /* Efeito mais pronunciado */
+            box-shadow: 0 15px 45px rgba(0, 0, 0, 0.2); /* Sombra mais intensa no hover */
+            z-index: 2; /* Garante que o card hover fique acima dos outros */
+        }
+
+        .card::before {
+            content: '';
+            position: absolute;
+            top: -2px;
+            left: -2px;
+            right: -2px;
+            bottom: -2px;
+            border-radius: 22px;
+            z-index: -1;
+            opacity: 0;
+            transition: opacity 0.4s ease, box-shadow 0.4s ease;
+            background: linear-gradient(45deg, transparent, rgba(255,255,255,0.7), transparent);
+        }
+
+        .card:hover::before {
+            opacity: 0.8;
+            box-shadow: 0 0 20px rgba(255, 255, 255, 0.6); /* Brilho interno */
+        }
+
+        .card-1::before {
+            background: linear-gradient(45deg, #e1f7fa, #b3ebff, #8ad8ff);
+            box-shadow: 0 0 20px rgba(0, 200, 255, 0.4);
+        }
+
+        .card-2::before {
+            background: linear-gradient(45deg, #ffebcc, #ffd6a3, #ffc285);
+            box-shadow: 0 0 20px rgba(255, 180, 0, 0.3);
+        }
+
+        .card-3::before {
+            background: linear-gradient(45deg, #e6e8ff, #ccd0ff, #b3b8ff);
+            box-shadow: 0 0 20px rgba(100, 120, 255, 0.3);
+        }
+
+        .card-content {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+            z-index: 2;
+            width: 100%;
+        }
+
+        .card-icon {
+            width: 256px;
+            height: 256px;
+            margin-bottom: 40px;
+            transition: transform 0.4s cubic-bezier(0.25, 0.8, 0.25, 1);
+            object-fit: contain;
+            filter: drop-shadow(0 5px 10px rgba(0,0,0,0.1)); /* Sombra nos ícones */
+        }
+
+        .card:hover .card-icon {
+            transform: scale(1.12) rotate(-2deg); /* Efeito mais dinâmico */
+        }
+
+        .card-title {
+            font-size: 22px;
+            font-weight: 600;
+            margin-bottom: 12px;
+            color: #2c3e50;
+            transition: color 0.3s ease;
+            text-shadow: 0 1px 3px rgba(0,0,0,0.1);
+        }
+
+        .card:hover .card-title {
+            color: #1a1a1a;
+        }
+
+        .card-description {
+            font-size: 15px;
+            line-height: 1.5;
+            color: #555;
+            margin-bottom: 25px;
+            transition: color 0.3s ease;
+        }
+
+        .card:hover .card-description {
+            color: #444;
+        }
+
+        .download-btn {
+            padding: 12px 30px;
+            border: none;
+            border-radius: 50px;
+            background: #2c3e50;
+            color: white;
+            font-weight: 500;
+            cursor: pointer;
+            transition: all 0.4s cubic-bezier(0.25, 0.8, 0.25, 1);
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.15); /* Sombra mais intensa */
+            position: relative;
+            overflow: hidden;
+            z-index: 1;
+        }
+
+        .download-btn::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
             width: 100%;
             height: 100%;
-        }
-
-        /* Lado esquerdo com logo */
-        .left-side {
-            display: flex;
-            justify-content: right;
-            align-items: center;
-            width: 50%;
-            padding: 20px;
-        }
-
-        /* Lado direito com campo de instruções */
-        .right-side {
-            display: flex;
-            justify-content: left;
-            align-items: left;
-            width: 50%;
-            padding: 20px;
-        }
-
-        /* Estilo da logo */
-        .logo-container img {
-            width: 600px;
-            height: 600px;
-            justify-content: right;
-            align-items: center;
-        }
-
-        /* Bloco de instruções com efeito de vidro isolado */
-        .instructions {
-            padding: 30px;
-            width: 90%;
-            max-width: 500px;
-            text-align: center;
-            border: 1px solid rgba(255, 255, 255, 0.2);
-            transition: transform 0.3s ease-in-out;
-            transform: translateY(-10px);  /* Efeito de super salto */
-        }
-
-        /* Efeito de super salto para o bloco de instruções */
-        .instructions:hover {
-            transform: translateY(-20px);  /* Aumenta o efeito de super salto */
-        }
-
-        /* Parâmetros de Glassmorphism isolados */
-        .glassmorphism {
-            background: rgba(255, 255, 255, 0);
-            box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
-            backdrop-filter: blur(20px);
-            -webkit-backdrop-filter: blur(20px);
-            border-radius: 10px;
-        }
-
-        /* Estilos de texto */
-        h1, h2 {
-            color: #1e3a8a;
-            text-align: center;
-        }
-
-        p {
-            color: #333;
-            font-size: 16px;
-            line-height: 1.6;
-        }
-
-        /* Botão estilizado */
-        .download-btn {
-            display: inline-block;
-            margin-top: 20px;
-            padding: 12px 25px;
-            background: linear-gradient(135deg, #3b82f6, #1e40af);
-            color: white;
-            font-weight: bold;
-            text-decoration: none;
-            border-radius: 10px;
-            transition: all 0.3s ease-in-out;
-            border: none;
-            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+            background: linear-gradient(45deg, transparent, rgba(255,255,255,0.4), transparent);
+            transform: translateX(-100%);
+            transition: transform 0.6s ease;
+            z-index: -1;
         }
 
         .download-btn:hover {
-            background: linear-gradient(135deg, #1e40af, #3b82f6);
-            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
-            transform: scale(1.05);
+            transform: translateY(-5px); /* Efeito mais pronunciado */
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
         }
 
-
-
-        /* Novo estilo para o botão laranja */
-        .download-btn-orange {
-            display: inline-block;
-            margin-top: 20px;
-            margin-left: 15px; /* Espaço entre os botões */
-            padding: 12px 25px;
-            background: linear-gradient(135deg, #f97316, #c2410c);
-            color: white;
-            font-weight: bold;
-            text-decoration: none;
-            border-radius: 10px;
-            transition: all 0.3s ease-in-out;
-            border: none;
-            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+        .download-btn:hover::before {
+            transform: translateX(100%);
         }
 
-        .download-btn-orange:hover {
-            background: linear-gradient(135deg, #ea580c, #f97316);
-            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
-            transform: scale(1.05);
+        .card-1 .download-btn {
+            background: #00a2ff;
+            box-shadow: 0 5px 15px rgba(0, 162, 255, 0.3);
         }
 
-        /* Container para os botões lado a lado */
-        .button-container {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            flex-wrap: wrap;
-            gap: 15px;
-            margin-top: 20px;
+        .card-2 .download-btn {
+            background: #ff9e40;
+            box-shadow: 0 5px 15px rgba(255, 158, 64, 0.3);
         }
 
-        @media (max-width: 768px) {
-            /* Ajustes para mobile */
-            .button-container {
-                flex-direction: column;
-                gap: 10px;
-            }
-            
-            .download-btn-orange {
-                margin-left: 0;
-                margin-top: 10px;
-                padding: 10px 20px;
-                font-size: 0.9rem;
-            }
-        }
-        /* Responsividade para smartphones */
-        @media (max-width: 768px) {
-            /* Reduzir o tamanho da logo */
-            .logo-container img {
-                width: 300px; /* Tamanho menor para smartphones */
-                height: 300px; /* Mantém a proporção */
-            }
-
-            /* Reduzir o tamanho do bloco de instruções */
-            .instructions {
-                padding: 20px; /* Menos padding */
-                width: 100%; /* Ocupa toda a largura disponível */
-                max-width: 90%; /* Limita a largura máxima */
-            }
-
-            /* Ajustar o tamanho do texto para melhor legibilidade */
-            h1 {
-                font-size: 1.5rem; /* Título menor */
-            }
-
-            h2 {
-                font-size: 1.2rem; /* Subtítulo menor */
-            }
-
-            p {
-                font-size: 0.9rem; /* Texto menor */
-            }
-
-            /* Ajustar o botão para dispositivos móveis */
-            .download-btn {
-                padding: 10px 20px; /* Botão menor */
-                font-size: 0.9rem; /* Fonte menor */
-            }
+        .card-3 .download-btn {
+            background: #6a7bff;
+            box-shadow: 0 5px 15px rgba(106, 123, 255, 0.3);
         }
     </style>
 </head>
 <body>
-
-    <!-- Container principal dividido em duas partes -->
-    <div class="container">
-        
-        <!-- Lado esquerdo com logo -->
-        <div class="left-side">
-            <div class="logo-container">
-                <img src="./icons/snzx_logo_new.jpg" alt="Logo SNZX-INC">
-            </div>
-        </div>
-
-        <!-- Lado direito com campo de instruções -->
-        <div class="right-side">
-            <div class="instructions glassmorphism">
-                <h1>Instalar Extensão do Firefox</h1>
-                <h2>Instalação Manual</h2>
-                
-                <p>1️⃣ Abra o Firefox.</p>
-                <p>2️⃣ Vá para o menu Extensões e Temas.</p>
-                <p>3️⃣ No canto superior direito, clique no ícone de engrenagem e selecione "Instalar complemento a partir do arquivo".</p>
-                <p>4️⃣ Navegue até o local onde o arquivo XPI foi baixado e selecione-o.</p>
-                <p>5️⃣ O Firefox solicitará confirmação para instalar a extensão. Clique em "Adicionar".</p>
-                <p>🔽 Clique no botão abaixo para baixar a extensão.</p>
-
-                <!-- Link para instalação do XPI --> 
-                <a href="./SNZ-X_1.361.xpi" class="download-btn">Baixar SNZ-X Version 1.361 MODE WEB</a>
-                <!-- <a href="./541377f31d3f41e5a9e1-1.3334edmundo.xpi" class="download-btn">Baixar SNZ-X Version Edmundo</a>-->
-                <a href="./SNZ_B-1.249.xpi" class="download-btn-orange">Baixar SNZ-B Version 1.249</a>
-                 
-                
-            </div>
-        </div>
-        
+    <div class="header">
+        <h1>Centro de Downloads NOC Equatorial</h1>
     </div>
-
+    
+    <div class="container">
+        <!-- PRIMEIRO CARD -->
+        <div class="card card-1">
+            <div class="card-content">
+                <img src="./SNZ-X600-removebg-preview.png" class="card-icon" >
+                <button class="download-btn" onclick="window.location.href='./SNZ-X_1.361.xpi'">Download Version 1.361</button>
+            </div>
+        </div>
+        
+        <!-- SEGUNDO CARD -->
+        <div class="card card-2">
+            <div class="card-content">
+                <img src="./snz_b-removebg-preview.png" class="card-icon" >
+                 <button class="download-btn" onclick="window.location.href='./SNZ_B-1.249.xpi'">Download Version 1.2501</button>
+            </div>
+        </div>
+        
+        <!-- TERCEIRO CARD -->
+        <div class="card card-3">
+          <div class="card-content">
+         <img src="./LUIG-PRO-removebg-preview.png" class="card-icon" alt="Ícone Game Center">
+        <button class="download-btn" onclick="window.open('https://sidneysdev.github.io/noc-backlog/', '_blank')">Acessar Sistema</button>
+       </div>
+</div>
+    </div>
 </body>
 </html>
-
