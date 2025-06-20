@@ -13,7 +13,7 @@
         }
 
         body {
-            background-color: #f0f2f5; /* Fundo mais claro para melhor contraste */
+            background-color: #f0f2f5;
             min-height: 100vh;
             display: flex;
             justify-content: center;
@@ -61,7 +61,7 @@
         .card {
             width: 300px;
             height: 400px;
-            background: rgba(255, 255, 255, 0.95); /* Fundo mais opaco para melhor contraste */
+            background: rgba(255, 255, 255, 0.95);
             backdrop-filter: blur(12px);
             -webkit-backdrop-filter: blur(12px);
             border-radius: 20px;
@@ -70,18 +70,17 @@
             align-items: center;
             justify-content: space-around;
             padding: 25px;
-            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.12); /* Sombra mais intensa */
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.12);
             position: relative;
             overflow: hidden;
             opacity: 0;
             transform: translateY(100%) rotate(15deg);
             animation: puzzleIn 1s forwards;
-            transition: all 0.4s cubic-bezier(0.25, 0.8, 0.25, 1); /* Transição mais suave */
+            transition: all 0.4s cubic-bezier(0.25, 0.8, 0.25, 1);
             border: 1px solid rgba(255, 255, 255, 0.4);
             z-index: 1;
         }
 
-        /* Animação de Quebra-cabeça */
         @keyframes puzzleIn {
             0% { 
                 opacity: 0; 
@@ -107,9 +106,9 @@
         }
 
         .card:hover {
-            transform: translateY(-10px) scale(1.03); /* Efeito mais pronunciado */
-            box-shadow: 0 15px 45px rgba(0, 0, 0, 0.2); /* Sombra mais intensa no hover */
-            z-index: 2; /* Garante que o card hover fique acima dos outros */
+            transform: translateY(-10px) scale(1.03);
+            box-shadow: 0 15px 45px rgba(0, 0, 0, 0.2);
+            z-index: 2;
         }
 
         .card::before {
@@ -128,7 +127,7 @@
 
         .card:hover::before {
             opacity: 0.8;
-            box-shadow: 0 0 20px rgba(255, 255, 255, 0.6); /* Brilho interno */
+            box-shadow: 0 0 20px rgba(255, 255, 255, 0.6);
         }
 
         .card-1::before {
@@ -161,11 +160,11 @@
             margin-bottom: 40px;
             transition: transform 0.4s cubic-bezier(0.25, 0.8, 0.25, 1);
             object-fit: contain;
-            filter: drop-shadow(0 5px 10px rgba(0,0,0,0.1)); /* Sombra nos ícones */
+            filter: drop-shadow(0 5px 10px rgba(0,0,0,0.1));
         }
 
         .card:hover .card-icon {
-            transform: scale(1.12) rotate(-2deg); /* Efeito mais dinâmico */
+            transform: scale(1.12) rotate(-2deg);
         }
 
         .card-title {
@@ -199,10 +198,10 @@
             border-radius: 50px;
             background: #2c3e50;
             color: white;
-            font-weight: 500;
+            font-weight: 900; /* Texto em negrito forte */
             cursor: pointer;
             transition: all 0.4s cubic-bezier(0.25, 0.8, 0.25, 1);
-            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.15); /* Sombra mais intensa */
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.15);
             position: relative;
             overflow: hidden;
             z-index: 1;
@@ -222,7 +221,7 @@
         }
 
         .download-btn:hover {
-            transform: translateY(-5px); /* Efeito mais pronunciado */
+            transform: translateY(-5px);
             box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
         }
 
@@ -244,6 +243,15 @@
             background: #6a7bff;
             box-shadow: 0 5px 15px rgba(106, 123, 255, 0.3);
         }
+
+        .firefox-warning {
+            display: none;
+            color: #ff6b6b;
+            margin-top: 10px;
+            font-weight: 600;
+            text-align: center;
+            font-size: 14px;
+        }
     </style>
 </head>
 <body>
@@ -255,26 +263,79 @@
         <!-- PRIMEIRO CARD -->
         <div class="card card-1">
             <div class="card-content">
-                <img src="./SNZ-X600-removebg-preview.png" class="card-icon" >
-                <button class="download-btn" onclick="window.location.href='./SNZ-X_1.361.xpi'">Download Version 1.361</button>
+                <img src="./SNZ-X600-removebg-preview.png" class="card-icon" alt="SNZ-X600">
+                <button class="download-btn" id="download1">Download Version 1.361</button>
+                <div class="firefox-warning" id="firefoxWarning1">
+                    Este download está disponível apenas no navegador Firefox.
+                </div>
             </div>
         </div>
         
         <!-- SEGUNDO CARD -->
         <div class="card card-2">
             <div class="card-content">
-                <img src="./snz_b-removebg-preview.png" class="card-icon" >
-                 <button class="download-btn" onclick="window.location.href='./SNZ-B-1.2501.xpi'">Download Version 1.2501</button>
+                <img src="./snz_b-removebg-preview.png" class="card-icon" alt="SNZ-B">
+                <button class="download-btn" id="download2">Download Version 1.2501</button>
+                <div class="firefox-warning" id="firefoxWarning2">
+                    Este download está disponível apenas no navegador Firefox.
+                </div>
             </div>
         </div>
         
         <!-- TERCEIRO CARD -->
         <div class="card card-3">
-          <div class="card-content">
-         <img src="./LUIG-PRO-removebg-preview.png" class="card-icon" alt="Ícone Game Center">
-        <button class="download-btn" onclick="window.open('https://sidneysdev.github.io/noc-backlog/', '_blank')">Acessar Sistema</button>
-       </div>
-</div>
+            <div class="card-content">
+                <img src="./LUIG-PRO-removebg-preview.png" class="card-icon" alt="Luig Pro">
+                <button class="download-btn" onclick="window.open('https://sidneysdev.github.io/noc-backlog/', '_blank')">Acessar Sistema</button>
+            </div>
+        </div>
     </div>
+
+    <script>
+        // Verifica se é Firefox
+        function isFirefox() {
+            return navigator.userAgent.toLowerCase().indexOf('firefox') > -1;
+        }
+
+        // Configura os botões de download
+        function setupDownloadButtons() {
+            const download1 = document.getElementById('download1');
+            const download2 = document.getElementById('download2');
+            const warning1 = document.getElementById('firefoxWarning1');
+            const warning2 = document.getElementById('firefoxWarning2');
+
+            if (isFirefox()) {
+                // Firefox - permite download
+                download1.onclick = function() {
+                    window.location.href = './SNZ-X_1.361.xpi';
+                };
+                download2.onclick = function() {
+                    window.location.href = './SNZ-B-1.2501.xpi';
+                };
+            } else {
+                // Outros navegadores - mostra aviso
+                download1.style.opacity = '0.7';
+                download1.style.cursor = 'not-allowed';
+                download2.style.opacity = '0.7';
+                download2.style.cursor = 'not-allowed';
+                
+                warning1.style.display = 'block';
+                warning2.style.display = 'block';
+
+                download1.onclick = function(e) {
+                    e.preventDefault();
+                    alert('Por favor, utilize o navegador Firefox para fazer este download.');
+                };
+
+                download2.onclick = function(e) {
+                    e.preventDefault();
+                    alert('Por favor, utilize o navegador Firefox para fazer este download.');
+                };
+            }
+        }
+
+        // Inicializa quando o DOM estiver carregado
+        document.addEventListener('DOMContentLoaded', setupDownloadButtons);
+    </script>
 </body>
 </html>
