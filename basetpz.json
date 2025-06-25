@@ -1,5 +1,9 @@
 {
   "equipamentos": [
+     {
+      "hostname": "EQTPA-CC-UC_2000137896-TRAIRAO-BEATRIZ_FERREIRA_SANTOS-TELESPAZIO",
+      "designador": "CLPA-0078-PA-H14"
+    },
     {
       "hostname": "EQTMA-SE-CAXIAS_BAU-IDU-TELESPAZIO_BCK",
       "designador": "CER-0215-MA-H2"
