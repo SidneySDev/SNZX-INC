@@ -8,6 +8,10 @@
       "hostname": "EQTMA-SE-CAXIAS_BAU-IDU-TELESPAZIO_BCK",
       "designador": "CER-0215-MA-H2"
     },
+   {
+      "hostname": "EQTPA-CL-RONDON-JUPARANA-TELESPAZIO",
+      "designador": "CLPA-0335-PA-H12"
+    },
     {
       "hostname": "EQTPA-SE-OEIRASDOPARA-IDU-TELESPAZIO",
       "designador": "CLPA-0433-PA-H14"
