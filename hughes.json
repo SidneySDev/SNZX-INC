@@ -5,6 +5,10 @@
       "designador": "H0004807"
     },
     {
+      "hostname": "EQTMA-SE-TRES_MARIAS-FIREWALL_TRANSITO_HUGHES",
+      "designador": "EQCM0133"
+    },
+    {
       "hostname": "EQTPI-CC-UC_2000059322_CENTRO_BIONUCLEAR-IDU-HUGHES",
       "designador": "EQCS0431"
     },
@@ -5942,3 +5946,4 @@
     }
   ]
 }
+
