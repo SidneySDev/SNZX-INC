@@ -161,6 +161,34 @@
             text-align: center;
             z-index: 2;
             width: 100%;
+            position: relative;
+        }
+
+        /* Estilo da etiqueta Firefox Add-on */
+        .firefox-badge {
+            position: absolute;
+            top: -10px;
+            right: -10px;
+            background: #FF7139;
+            color: white;
+            padding: 5px 10px;
+            border-radius: 15px;
+            font-size: 12px;
+            font-weight: bold;
+            box-shadow: 0 3px 8px rgba(0, 0, 0, 0.15);
+            z-index: 3;
+            display: flex;
+            align-items: center;
+        }
+
+        .firefox-badge::before {
+            content: '';
+            display: inline-block;
+            width: 14px;
+            height: 14px;
+            background-image: url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48cGF0aCBmaWxsPSJ3aGl0ZSIgZD0iTTI1NiAxMjhjLTcwLjcgMC0xMjggNTcuMy0xMjggMTI4czU3LjMgMTI4IDEyOCAxMjggMTI4LTU3LjMgMTI4LTEyOC01Ny4zLTEyOC0xMjgtMTI4em0wIDIyNGMtNTMgMC05Ni00My05Ni05NnM0My05NiA5Ni05NiA5NiA0MyA5NiA5Ni00MyA5Ni05NiA5NnptMTYtMTQ0aC0zMnYtMzJoMzJ2MzJ6Ii8+PC9zdmc+');
+            background-size: contain;
+            margin-right: 5px;
         }
 
         .card-icon {
@@ -207,7 +235,7 @@
             border-radius: 50px;
             background: #2c3e50;
             color: white;
-            font-weight: 900; /* Texto em negrito forte */
+            font-weight: 900;
             cursor: pointer;
             transition: all 0.4s cubic-bezier(0.25, 0.8, 0.25, 1);
             box-shadow: 0 5px 15px rgba(0, 0, 0, 0.15);
@@ -270,14 +298,15 @@
 </head>
 <body>
     <div class="header">
-        <h1>Centro de Aplicações</h1>
+        <h1>Central de Aplicações</h1>
     </div>
     
     <div class="container">
         <!-- PRIMEIRO CARD -->
         <div class="card card-1">
             <div class="card-content">
-                <img src="./SNZ-X600-removebg-preview.png" class="card-icon" alt="SNZ-X600">
+                <div class="firefox-badge">Firefox Add-on</div>
+                <img src="https://github.com/SidneySDev/SNZX-INC/blob/main/SNZ-X600-removebg-preview.png?raw=true" class="card-icon" alt="SNZ-X600">
                 <button class="download-btn" id="download1">Download Version 1.361</button>
                 <div class="firefox-warning" id="firefoxWarning1">
                     Download somente via Firefox.
@@ -288,7 +317,8 @@
         <!-- SEGUNDO CARD -->
         <div class="card card-2">
             <div class="card-content">
-                <img src="./snz_b-removebg-preview.png" class="card-icon" alt="SNZ-B">
+                <div class="firefox-badge">Firefox Add-on</div>
+                <img src="https://github.com/SidneySDev/SNZX-INC/blob/main/snz_b-removebg-preview.png?raw=true" class="card-icon" alt="SNZ-B">
                 <button class="download-btn" id="download2">Download Version 1.2601</button>
                 <div class="firefox-warning" id="firefoxWarning2">
                      Download somente via Firefox.
@@ -299,7 +329,7 @@
         <!-- TERCEIRO CARD -->
         <div class="card card-3">
             <div class="card-content">
-                <img src="./LUIG-PRO-removebg-preview.png" class="card-icon" alt="Luig Pro">
+                <img src="https://github.com/SidneySDev/SNZX-INC/blob/main/LUIG-PRO-removebg-preview.png?raw=true" class="card-icon" alt="Luig Pro">
                 <button class="download-btn" onclick="window.open('https://sidneysdev.github.io/noc-backlog/', '_blank')">Acessar Sistema</button>
             </div>
         </div>
@@ -307,7 +337,7 @@
         <!-- QUARTO CARD - HUAWEI -->
         <div class="card card-4">
             <div class="card-content">
-                <img src="./logohuaweioem-removebg-preview.png" class="card-icon" alt="Provisionamento Huawei">
+                <img src="https://github.com/SidneySDev/SNZX-INC/blob/main/logohuaweioem-removebg-preview.png?raw=true" class="card-icon" alt="Provisionamento Huawei">
                 <button class="download-btn" onclick="window.open('https://sidneysdev.github.io/onthuawei.github.io/', '_blank')">Acessar Site</button>
             </div>
         </div>
