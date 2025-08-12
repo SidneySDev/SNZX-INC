@@ -104,6 +104,10 @@
             animation-delay: 0.6s;
             transform-origin: bottom right;
         }
+        .card-4 {
+            animation-delay: 0.8s;
+            transform-origin: bottom center;
+        }
 
         .card:hover {
             transform: translateY(-10px) scale(1.03);
@@ -143,6 +147,11 @@
         .card-3::before {
             background: linear-gradient(45deg, #e6e8ff, #ccd0ff, #b3b8ff);
             box-shadow: 0 0 20px rgba(100, 120, 255, 0.3);
+        }
+        
+        .card-4::before {
+            background: linear-gradient(45deg, #ffd6d6, #ffb3b3, #ff8a8a);
+            box-shadow: 0 0 20px rgba(255, 80, 80, 0.3);
         }
 
         .card-content {
@@ -243,6 +252,11 @@
             background: #6a7bff;
             box-shadow: 0 5px 15px rgba(106, 123, 255, 0.3);
         }
+        
+        .card-4 .download-btn {
+            background: #ff4d4d;
+            box-shadow: 0 5px 15px rgba(255, 77, 77, 0.3);
+        }
 
         .firefox-warning {
             display: none;
@@ -287,6 +301,14 @@
             <div class="card-content">
                 <img src="./LUIG-PRO-removebg-preview.png" class="card-icon" alt="Luig Pro">
                 <button class="download-btn" onclick="window.open('https://sidneysdev.github.io/noc-backlog/', '_blank')">Acessar Sistema</button>
+            </div>
+        </div>
+        
+        <!-- QUARTO CARD - HUAWEI -->
+        <div class="card card-4">
+            <div class="card-content">
+                <img src="./logohuaweioem.png" class="card-icon" alt="Provisionamento Huawei">
+                <button class="download-btn" onclick="window.open('https://sidneysdev.github.io/onthuawei.github.io/', '_blank')">Acessar Site</button>
             </div>
         </div>
     </div>
