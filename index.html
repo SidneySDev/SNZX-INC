@@ -108,6 +108,10 @@
             animation-delay: 0.8s;
             transform-origin: bottom center;
         }
+        .card-5 {
+            animation-delay: 1s;
+            transform-origin: bottom center;
+        }
 
         .card:hover {
             transform: translateY(-10px) scale(1.03);
@@ -154,6 +158,17 @@
             box-shadow: 0 0 20px rgba(255, 80, 80, 0.3);
         }
 
+        /* Novo card rosa com glassmorphism */
+        .card-5 {
+            background: rgba(255, 192, 203, 0.22); /* rosa translúcido */
+            border: 1px solid rgba(255, 182, 193, 0.7);
+        }
+
+        .card-5::before {
+            background: linear-gradient(45deg, #ffe1ec, #ffb3cf, #ff8ab8);
+            box-shadow: 0 0 22px rgba(255, 105, 180, 0.4);
+        }
+
         .card-content {
             display: flex;
             flex-direction: column;
@@ -186,7 +201,7 @@
             display: inline-block;
             width: 14px;
             height: 14px;
-            background-image: url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48cGF0aCBmaWxsPSJ3aGl0ZSIgZD0iTTI1NiAxMjhjLTcwLjcgMC0xMjggNTcuMy0xMjggMTI4czU3LjMgMTI4IDEyOCAxMjggMTI4LTU3LjMgMTI4LTEyOC01Ny4zLTEyOC0xMjgtMTI4em0wIDIyNGMtNTMgMC05Ni00My05Ni05NnM0My05NiA5Ni05NiA5NiA0MyA5NiA5Ni00MyA5Ni05NiA5NnptMTYtMTQ0aC0zMnYtMzJoMzJ2MzJ6Ii8+PC9zdmc+');
+            background-image: url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48cGF0aCBmaWxsPSJ3aGl0ZSIgZD0iTTI1NiAxMjhjLTcwLjcgMC0xMjggNTcuMy0xMjggMTI4czU3LjMgMTI4IDEyOCAxMjggMTI4LTU3LjMgMTI4LTEyOC01Ny4zLTEyOC0xMjgtMTI4em0wIDIyNGMtNTMgMC05Ni00My05Ni05NnM0My05NiA5Ni05NiA5NiA5MyA5NiA5Ni00MyA5Ni05NiA5NnptMTYtMTQ0aC0zMnYtMzJoMzJ2MzJ6Ii8+PC9zdmc+');
             background-size: contain;
             margin-right: 5px;
         }
@@ -286,6 +301,11 @@
             box-shadow: 0 5px 15px rgba(255, 77, 77, 0.3);
         }
 
+        .card-5 .download-btn {
+            background: #ff6ba3;
+            box-shadow: 0 5px 15px rgba(255, 105, 180, 0.35);
+        }
+
         .firefox-warning {
             display: none;
             color: #ff6b6b;
@@ -325,6 +345,14 @@
                 </div>
             </div>
         </div>
+         <div class="card card-5">
+            <div class="card-content">
+                <img src="https://github.com/SidneySDev/SNZX-INC/blob/main/logo1.png" class="card-icon" alt="SIDINEYA">
+                <button class="download-btn" type="button" id="download3">
+                    Download
+                </button>
+            </div>
+        </div>
         
         <!-- TERCEIRO CARD -->
         <div class="card card-3">
@@ -341,6 +369,9 @@
                 <button class="download-btn" onclick="window.open('https://sidneysdev.github.io/onthuawei.github.io/', '_blank')">Acessar Site</button>
             </div>
         </div>
+
+      
+       
     </div>
 
     <script>
@@ -350,42 +381,63 @@
         }
 
         // Configura os botões de download
-        function setupDownloadButtons() {
-            const download1 = document.getElementById('download1');
-            const download2 = document.getElementById('download2');
-            const warning1 = document.getElementById('firefoxWarning1');
-            const warning2 = document.getElementById('firefoxWarning2');
+   function setupDownloadButtons() {
+    const download1 = document.getElementById('download1');
+    const download2 = document.getElementById('download2');
+    const download3 = document.getElementById('download3');
 
-            if (isFirefox()) {
-                // Firefox - permite download
-                download1.onclick = function() {
-                    window.location.href = './SLLS-1.211.xpi';
-                   
-                };
-                download2.onclick = function() {
-                    window.location.href = './SNZ-B-1.2601.xpi';
-                };
-            } else {
-                // Outros navegadores - mostra aviso
-                download1.style.opacity = '0.7';
-                download1.style.cursor = 'not-allowed';
-                download2.style.opacity = '0.7';
-                download2.style.cursor = 'not-allowed';
-                
-                warning1.style.display = 'block';
-                warning2.style.display = 'block';
+    const warning1 = document.getElementById('firefoxWarning1');
+    const warning2 = document.getElementById('firefoxWarning2');
+    const warning3 = document.getElementById('firefoxWarning3');
 
-                download1.onclick = function(e) {
-                    e.preventDefault();
-                    alert('Por favor, utilize o navegador Firefox para fazer este download.');
-                };
+    // Se algum dos botões principais não existir, não faz nada
+    if (!download1 || !download2 || !download3) return;
 
-                download2.onclick = function(e) {
-                    e.preventDefault();
-                    alert('Por favor, utilize o navegador Firefox para fazer este download.');
-                };
-            }
-        }
+    if (isFirefox()) {
+        // Firefox - permite download
+        download1.onclick = function() {
+            window.location.href = './SLLS-1.211.xpi';
+        };
+        download2.onclick = function() {
+            window.location.href = './SNZ-B-1.2601.xpi';
+        };
+        download3.onclick = function() {
+            // 🔁 Troca pelo arquivo que você quiser
+            window.location.href = './sidineya-1.0.xpi';
+        };
+
+        // Esconde avisos (se existirem)
+        if (warning1) warning1.style.display = 'none';
+        if (warning2) warning2.style.display = 'none';
+        if (warning3) warning3.style.display = 'none';
+
+    } else {
+        // Outros navegadores - mostra aviso e bloqueia clique
+        [download1, download2, download3].forEach(btn => {
+            btn.style.opacity = '0.7';
+            btn.style.cursor = 'not-allowed';
+        });
+
+        if (warning1) warning1.style.display = 'block';
+        if (warning2) warning2.style.display = 'block';
+        if (warning3) warning3.style.display = 'block';
+
+        download1.onclick = function(e) {
+            e.preventDefault();
+            alert('Por favor, utilize o navegador Firefox para fazer este download.');
+        };
+
+        download2.onclick = function(e) {
+            e.preventDefault();
+            alert('Por favor, utilize o navegador Firefox para fazer este download.');
+        };
+
+        download3.onclick = function(e) {
+            e.preventDefault();
+            alert('Por favor, utilize o navegador Firefox para fazer este download.');
+        };
+    }
+}
 
         // Inicializa quando o DOM estiver carregado
         document.addEventListener('DOMContentLoaded', setupDownloadButtons);
