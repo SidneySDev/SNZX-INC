@@ -158,9 +158,8 @@
             box-shadow: 0 0 20px rgba(255, 80, 80, 0.3);
         }
 
-        /* Novo card rosa com glassmorphism */
         .card-5 {
-            background: rgba(255, 192, 203, 0.22); /* rosa translúcido */
+            background: rgba(255, 192, 203, 0.22);
             border: 1px solid rgba(255, 182, 193, 0.7);
         }
 
@@ -179,7 +178,6 @@
             position: relative;
         }
 
-        /* Estilo da etiqueta Firefox Add-on */
         .firefox-badge {
             position: absolute;
             top: -10px;
@@ -314,6 +312,204 @@
             text-align: center;
             font-size: 14px;
         }
+
+        /* MODAL PARA PERFIS DOS ANALISTAS */
+        .modal-overlay {
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.85);
+            backdrop-filter: blur(8px);
+            -webkit-backdrop-filter: blur(8px);
+            z-index: 1000;
+            justify-content: center;
+            align-items: center;
+            opacity: 0;
+            transition: opacity 0.4s ease;
+        }
+
+        .modal-overlay.active {
+            display: flex;
+            opacity: 1;
+        }
+
+        .modal-content {
+            background: rgba(255, 255, 255, 0.97);
+            border-radius: 25px;
+            width: 90%;
+            max-width: 1200px;
+            max-height: 85vh;
+            overflow-y: auto;
+            padding: 40px;
+            position: relative;
+            transform: scale(0.8);
+            transition: transform 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+            box-shadow: 0 25px 60px rgba(0, 0, 0, 0.3);
+            border: 1px solid rgba(255, 255, 255, 0.3);
+        }
+
+        .modal-overlay.active .modal-content {
+            transform: scale(1);
+        }
+
+        .close-modal {
+            position: absolute;
+            top: 20px;
+            right: 25px;
+            background: #ff4d4d;
+            color: white;
+            border: none;
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            font-size: 24px;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            transition: all 0.3s ease;
+            z-index: 10;
+        }
+
+        .close-modal:hover {
+            background: #ff3333;
+            transform: rotate(90deg);
+        }
+
+        .modal-header {
+            text-align: center;
+            margin-bottom: 40px;
+        }
+
+        .modal-header h2 {
+            font-size: 2.2rem;
+            color: #2c3e50;
+            margin-bottom: 10px;
+            background: linear-gradient(90deg, #00a2ff, #0077ff);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        .modal-header p {
+            color: #666;
+            font-size: 1.1rem;
+        }
+
+        .profiles-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+            gap: 30px;
+            margin-top: 30px;
+        }
+
+        .profile-card {
+            background: white;
+            border-radius: 20px;
+            padding: 25px;
+            text-align: center;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+            transition: all 0.4s cubic-bezier(0.25, 0.8, 0.25, 1);
+            border: 1px solid rgba(0, 162, 255, 0.1);
+            position: relative;
+            overflow: hidden;
+        }
+
+        .profile-card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 15px 40px rgba(0, 162, 255, 0.15);
+            border-color: rgba(0, 162, 255, 0.3);
+        }
+
+        .profile-card::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 5px;
+            background: linear-gradient(90deg, #00a2ff, #0099ff);
+            border-radius: 20px 20px 0 0;
+        }
+
+        .profile-icon {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            margin: 0 auto 20px;
+            background: linear-gradient(135deg, #e1f7fa, #b3ebff);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 40px;
+            color: #00a2ff;
+            font-weight: bold;
+            box-shadow: 0 8px 20px rgba(0, 162, 255, 0.2);
+        }
+
+        .profile-name {
+            font-size: 1.4rem;
+            font-weight: 700;
+            color: #2c3e50;
+            margin-bottom: 8px;
+        }
+
+        .profile-role {
+            color: #00a2ff;
+            font-weight: 600;
+            font-size: 1rem;
+            margin-bottom: 15px;
+            padding: 5px 15px;
+            background: rgba(0, 162, 255, 0.1);
+            border-radius: 20px;
+            display: inline-block;
+        }
+
+        .profile-description {
+            color: #666;
+            font-size: 0.95rem;
+            line-height: 1.5;
+            margin-bottom: 20px;
+            min-height: 60px;
+        }
+
+        .profile-download-btn {
+            padding: 12px 25px;
+            background: linear-gradient(90deg, #00a2ff, #0077ff);
+            color: white;
+            border: none;
+            border-radius: 50px;
+            font-weight: 700;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            width: 100%;
+            box-shadow: 0 5px 15px rgba(0, 162, 255, 0.3);
+        }
+
+        .profile-download-btn:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 8px 20px rgba(0, 162, 255, 0.4);
+            background: linear-gradient(90deg, #0099ff, #0066ff);
+        }
+
+        /* Responsividade */
+        @media (max-width: 768px) {
+            .profiles-grid {
+                grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+                gap: 20px;
+            }
+            
+            .modal-content {
+                padding: 25px;
+                width: 95%;
+            }
+            
+            .modal-header h2 {
+                font-size: 1.8rem;
+            }
+        }
     </style>
 </head>
 <body>
@@ -322,30 +518,22 @@
     </div>
     
     <div class="container">
-        <!-- PRIMEIRO CARD -->
+        <!-- PRIMEIRO CARD - SOLLUS -->
         <div class="card card-1">
             <div class="card-content">
                 <div class="firefox-badge">Firefox Add-on</div>
                 <img src="./sollosoficialtransparent.png" class="card-icon" alt="SolluS">
-                <button class="download-btn" id="download1">Download Version 1.201</button>
+                <button class="download-btn" id="openProfiles">Selecionar Perfil</button>
                 <div class="firefox-warning" id="firefoxWarning1">
                     Download somente via Firefox.
                 </div>
             </div>
         </div>
         
-        <!-- SEGUNDO CARD -->
-        <div class="card card-2">
-            <div class="card-content">
-                <div class="firefox-badge">Firefox Add-on</div>
-                <img src="./snz_b-removebg-preview.png" class="card-icon" alt="SNZ-B">
-                <button class="download-btn" id="download2">Download Version 1.211</button>
-                <div class="firefox-warning" id="firefoxWarning2">
-                     Download somente via Firefox.
-                </div>
-            </div>
-        </div>
-         <div class="card card-5">
+      
+        
+        <!-- TERCEIRO CARD -->
+        <div class="card card-5">
             <div class="card-content">
                 <img src="./logo1.png" class="card-icon" alt="SIDINEYA">
                 <button class="download-btn" type="button" id="download3">
@@ -354,7 +542,7 @@
             </div>
         </div>
         
-        <!-- TERCEIRO CARD -->
+        <!-- QUARTO CARD -->
         <div class="card card-3">
             <div class="card-content">
                 <img src="./LUIG-PRO-removebg-preview.png" class="card-icon" alt="Luig Pro">
@@ -362,85 +550,195 @@
             </div>
         </div>
         
-        <!-- QUARTO CARD - HUAWEI -->
+        <!-- QUINTO CARD -->
         <div class="card card-4">
             <div class="card-content">
                 <img src="./logohuaweioem-removebg-preview.png" class="card-icon" alt="Provisionamento Huawei">
                 <button class="download-btn" onclick="window.open('https://sidneysdev.github.io/onthuawei.github.io/', '_blank')">Acessar Site</button>
             </div>
         </div>
+    </div>
 
-      
-       
+    <!-- MODAL DE PERFIS DOS ANALISTAS -->
+    <div class="modal-overlay" id="profilesModal">
+        <div class="modal-content">
+            <button class="close-modal" id="closeModal">&times;</button>
+            
+            <div class="modal-header">
+                <h2>Perfis dos Analistas - SolluS</h2>
+                <p>Selecione o perfil do analista para baixar a versão personalizada</p>
+            </div>
+            
+            <div class="profiles-grid" id="profilesGrid">
+                <!-- Perfis serão inseridos dinamicamente via JavaScript -->
+            </div>
+        </div>
     </div>
 
     <script>
+        // Dados dos analistas (pode ser expandido)
+        const analysts = [
+            {
+                id: 1,
+                name: "User Default",
+                fileName: "./SLLS-1.211.xpi",
+                initials: "SolluS",
+            },
+            {
+                id: 2,
+                name: "Profile Lynna",
+                fileName: "./SOLLUS_PROFILE_LYNNA1.31A.xpi",
+                initials: "A",
+
+            },
+            {
+                id: 3,
+                name: "Profile Edmundo",
+                fileName: "./SOLLUS_PROFILE_EDMUNDO1.31E.xpi",
+                initials: "E",
+
+            }
+        ];
+
+        // Elementos do DOM
+        const profilesModal = document.getElementById('profilesModal');
+        const openProfilesBtn = document.getElementById('openProfiles');
+        const closeModalBtn = document.getElementById('closeModal');
+        const profilesGrid = document.getElementById('profilesGrid');
+
+        // Criar cards dos perfis
+        function createProfileCards() {
+            profilesGrid.innerHTML = '';
+            
+            analysts.forEach(analyst => {
+                const profileCard = document.createElement('div');
+                profileCard.className = 'profile-card';
+                profileCard.innerHTML = `
+                    <div class="profile-icon">${analyst.initials}</div>
+                    <h3 class="profile-name">${analyst.name}</h3>
+                    <button class="profile-download-btn" data-file="${analyst.fileName}">
+                        Download
+                    </button>
+                `;
+                profilesGrid.appendChild(profileCard);
+            });
+
+            // Adicionar eventos aos botões de download dos perfis
+            document.querySelectorAll('.profile-download-btn').forEach(btn => {
+                btn.addEventListener('click', function() {
+                    const fileName = this.getAttribute('data-file');
+                    downloadProfile(fileName);
+                });
+            });
+        }
+
+        // Função para download do perfil
+        function downloadProfile(fileName) {
+            if (isFirefox()) {
+                window.location.href = `./profiles/${fileName}`;
+                profilesModal.classList.remove('active');
+                setTimeout(() => {
+                    alert('Download do perfil iniciado!');
+                }, 300);
+            } else {
+                alert('Por favor, utilize o navegador Firefox para fazer este download.');
+            }
+        }
+
         // Verifica se é Firefox
         function isFirefox() {
             return navigator.userAgent.toLowerCase().indexOf('firefox') > -1;
         }
 
-        // Configura os botões de download
-   function setupDownloadButtons() {
-    const download1 = document.getElementById('download1');
-    const download2 = document.getElementById('download2');
-    const download3 = document.getElementById('download3');
+        // Configura os botões de download principais
+        function setupDownloadButtons() {
+            const download2 = document.getElementById('download2');
+            const download3 = document.getElementById('download3');
 
-    const warning1 = document.getElementById('firefoxWarning1');
-    const warning2 = document.getElementById('firefoxWarning2');
-    const warning3 = document.getElementById('firefoxWarning3');
+            const warning1 = document.getElementById('firefoxWarning1');
+            const warning2 = document.getElementById('firefoxWarning2');
 
-    // Se algum dos botões principais não existir, não faz nada
-    if (!download1 || !download2 || !download3) return;
+            // Botão do SolluS agora abre o modal
+            openProfilesBtn.addEventListener('click', () => {
+                profilesModal.classList.add('active');
+                document.body.style.overflow = 'hidden';
+            });
 
-    if (isFirefox()) {
-        // Firefox - permite download
-        download1.onclick = function() {
-            window.location.href = './SLLS-1.211.xpi';
-        };
-        download2.onclick = function() {
-            window.location.href = './SNZ-B-1.2601.xpi';
-        };
-        download3.onclick = function() {
-            // 🔁 Troca pelo arquivo que você quiser
-            window.location.href = './sidineya-2.0.xpi';
-        };
+            if (isFirefox()) {
+                // Firefox - permite download
+                download2.onclick = function() {
+                    window.location.href = './SNZ-B-1.2601.xpi';
+                };
+                
+                download3.onclick = function() {
+                    window.location.href = './sidineya-2.0.xpi';
+                };
 
-        // Esconde avisos (se existirem)
-        if (warning1) warning1.style.display = 'none';
-        if (warning2) warning2.style.display = 'none';
-        if (warning3) warning3.style.display = 'none';
+                // Esconde avisos
+                if (warning1) warning1.style.display = 'none';
+                if (warning2) warning2.style.display = 'none';
 
-    } else {
-        // Outros navegadores - mostra aviso e bloqueia clique
-        [download1, download2, download3].forEach(btn => {
-            btn.style.opacity = '0.7';
-            btn.style.cursor = 'not-allowed';
+            } else {
+                // Outros navegadores
+                [download2, download3].forEach(btn => {
+                    btn.style.opacity = '0.7';
+                    btn.style.cursor = 'not-allowed';
+                });
+
+                if (warning1) warning1.style.display = 'block';
+                if (warning2) warning2.style.display = 'block';
+
+                download2.onclick = function(e) {
+                    e.preventDefault();
+                    alert('Por favor, utilize o navegador Firefox para fazer este download.');
+                };
+
+                download3.onclick = function(e) {
+                    e.preventDefault();
+                    alert('Por favor, utilize o navegador Firefox para fazer este download.');
+                };
+            }
+        }
+
+        // Fechar modal
+        closeModalBtn.addEventListener('click', () => {
+            profilesModal.classList.remove('active');
+            document.body.style.overflow = 'auto';
         });
 
-        if (warning1) warning1.style.display = 'block';
-        if (warning2) warning2.style.display = 'block';
-        if (warning3) warning3.style.display = 'block';
+        // Fechar modal ao clicar fora
+        profilesModal.addEventListener('click', (e) => {
+            if (e.target === profilesModal) {
+                profilesModal.classList.remove('active');
+                document.body.style.overflow = 'auto';
+            }
+        });
 
-        download1.onclick = function(e) {
-            e.preventDefault();
-            alert('Por favor, utilize o navegador Firefox para fazer este download.');
-        };
+        // Inicializar
+        document.addEventListener('DOMContentLoaded', () => {
+            createProfileCards();
+            setupDownloadButtons();
+            
+            // Adicionar aviso se não for Firefox
+            if (!isFirefox()) {
+                const modalHeader = document.querySelector('.modal-header');
+                const warning = document.createElement('div');
+                warning.className = 'firefox-warning';
+                warning.style.display = 'block';
+                warning.style.marginTop = '15px';
+                warning.style.fontSize = '16px';
+                warning.textContent = '⚠️ Aviso: Os downloads só funcionam no navegador Firefox';
+                modalHeader.appendChild(warning);
+            }
+        });
 
-        download2.onclick = function(e) {
-            e.preventDefault();
-            alert('Por favor, utilize o navegador Firefox para fazer este download.');
-        };
-
-        download3.onclick = function(e) {
-            e.preventDefault();
-            alert('Por favor, utilize o navegador Firefox para fazer este download.');
-        };
-    }
-}
-
-        // Inicializa quando o DOM estiver carregado
-        document.addEventListener('DOMContentLoaded', setupDownloadButtons);
+        // Fechar modal com ESC
+        document.addEventListener('keydown', (e) => {
+            if (e.key === 'Escape' && profilesModal.classList.contains('active')) {
+                profilesModal.classList.remove('active');
+                document.body.style.overflow = 'auto';
+            }
+        });
     </script>
 </body>
 </html>
