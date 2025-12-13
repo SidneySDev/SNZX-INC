@@ -158,11 +158,6 @@
             box-shadow: 0 0 20px rgba(255, 80, 80, 0.3);
         }
 
-        .card-5 {
-            background: rgba(255, 192, 203, 0.22);
-            border: 1px solid rgba(255, 182, 193, 0.7);
-        }
-
         .card-5::before {
             background: linear-gradient(45deg, #ffe1ec, #ffb3cf, #ff8ab8);
             box-shadow: 0 0 22px rgba(255, 105, 180, 0.4);
@@ -175,7 +170,9 @@
             text-align: center;
             z-index: 2;
             width: 100%;
+            height: 100%;
             position: relative;
+            justify-content: space-between;
         }
 
         .firefox-badge {
@@ -199,15 +196,15 @@
             display: inline-block;
             width: 14px;
             height: 14px;
-            background-image: url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48cGF0aCBmaWxsPSJ3aGl0ZSIgZD0iTTI1NiAxMjhjLTcwLjcgMC0xMjggNTcuMy0xMjggMTI4czU3LjMgMTI4IDEyOCAxMjggMTI4LTU3LjMgMTI4LTEyOC01Ny4zLTEyOC0xMjgtMTI4em0wIDIyNGMtNTMgMC05Ni00My05Ni05NnM0My05NiA5Ni05NiA5NiA5MyA5NiA5Ni00MyA5Ni05NiA5NnptMTYtMTQ0aC0zMnYtMzJoMzJ2MzJ6Ii8+PC9zdmc+');
+            background-image: url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48cGF0aCBmaWxsPSJ3aGl0ZSIgZD0iTTI1NiAxMjhjLTcwLjcgMC0xMjggNTcuMy0xMjggMTI4czU3LjMgMTI4IDEyOCAxMjggMTI4LTU3LjMgMTI4LTEyOC01Ny4yLTEyOC0xMjgtMTI4em0wIDIyNGMtNTMgMC05Ni00My05Ni05NnM0My05NiA5Ni05NiA5NiA5MyA5NiA5Ni00MyA5Ni05NiA5NnptMTYtMTQ0aC0zMnYtMzJoMzJ2MzJ6Ii8+PC9zdmc+');
             background-size: contain;
             margin-right: 5px;
         }
 
         .card-icon {
-            width: 256px;
-            height: 256px;
-            margin-bottom: 40px;
+            width: 180px;
+            height: 180px;
+            margin-top: 10px;
             transition: transform 0.4s cubic-bezier(0.25, 0.8, 0.25, 1);
             object-fit: contain;
             filter: drop-shadow(0 5px 10px rgba(0,0,0,0.1));
@@ -220,7 +217,7 @@
         .card-title {
             font-size: 22px;
             font-weight: 600;
-            margin-bottom: 12px;
+            margin-bottom: 8px;
             color: #2c3e50;
             transition: color 0.3s ease;
             text-shadow: 0 1px 3px rgba(0,0,0,0.1);
@@ -231,11 +228,12 @@
         }
 
         .card-description {
-            font-size: 15px;
+            font-size: 14px;
             line-height: 1.5;
             color: #555;
-            margin-bottom: 25px;
+            margin-bottom: 15px;
             transition: color 0.3s ease;
+            padding: 0 10px;
         }
 
         .card:hover .card-description {
@@ -243,18 +241,21 @@
         }
 
         .download-btn {
-            padding: 12px 30px;
+            padding: 12px 25px;
             border: none;
             border-radius: 50px;
             background: #2c3e50;
             color: white;
-            font-weight: 900;
+            font-weight: 700;
             cursor: pointer;
             transition: all 0.4s cubic-bezier(0.25, 0.8, 0.25, 1);
             box-shadow: 0 5px 15px rgba(0, 0, 0, 0.15);
             position: relative;
             overflow: hidden;
             z-index: 1;
+            font-size: 15px;
+            width: 90%;
+            margin-bottom: 10px;
         }
 
         .download-btn::before {
@@ -305,12 +306,12 @@
         }
 
         .firefox-warning {
-            display: none;
             color: #ff6b6b;
-            margin-top: 10px;
             font-weight: 600;
             text-align: center;
-            font-size: 14px;
+            font-size: 12px;
+            margin-top: 5px;
+            display: none;
         }
 
         /* MODAL PARA PERFIS DOS ANALISTAS */
@@ -453,26 +454,7 @@
             font-size: 1.4rem;
             font-weight: 700;
             color: #2c3e50;
-            margin-bottom: 8px;
-        }
-
-        .profile-role {
-            color: #00a2ff;
-            font-weight: 600;
-            font-size: 1rem;
-            margin-bottom: 15px;
-            padding: 5px 15px;
-            background: rgba(0, 162, 255, 0.1);
-            border-radius: 20px;
-            display: inline-block;
-        }
-
-        .profile-description {
-            color: #666;
-            font-size: 0.95rem;
-            line-height: 1.5;
             margin-bottom: 20px;
-            min-height: 60px;
         }
 
         .profile-download-btn {
@@ -509,6 +491,16 @@
             .modal-header h2 {
                 font-size: 1.8rem;
             }
+            
+            .card {
+                width: 280px;
+                height: 380px;
+            }
+            
+            .card-icon {
+                width: 150px;
+                height: 150px;
+            }
         }
     </style>
 </head>
@@ -523,37 +515,61 @@
             <div class="card-content">
                 <div class="firefox-badge">Firefox Add-on</div>
                 <img src="./sollosoficialtransparent.png" class="card-icon" alt="SolluS">
+                <h3 class="card-title">SolluS</h3>
+                <p class="card-description">Ferramenta para automação de chamados e consultas</p>
                 <button class="download-btn" id="openProfiles">Selecionar Perfil</button>
                 <div class="firefox-warning" id="firefoxWarning1">
-                    Download somente via Firefox.
+                    ⚠️ Somente via Firefox
                 </div>
             </div>
         </div>
         
-      
-        
-        <!-- TERCEIRO CARD -->
-        <div class="card card-5">
+        <!-- SEGUNDO CARD - SNZ-B -->
+        <div class="card card-2">
             <div class="card-content">
-                <img src="./logo1.png" class="card-icon" alt="SIDINEYA">
-                <button class="download-btn" type="button" id="download3">
-                    Download Versão 2.0
-                </button>
+                <div class="firefox-badge">Firefox Add-on</div>
+                <img src="./snz_b-removebg-preview.png" class="card-icon" alt="SNZ-B">
+                <h3 class="card-title">SNZ-B</h3>
+                <p class="card-description">Consulta múltipla de chamados e status</p>
+                <button class="download-btn" id="download2">Download Version 1.211</button>
+                <div class="firefox-warning" id="firefoxWarning2">
+                    ⚠️ Somente via Firefox
+                </div>
             </div>
         </div>
         
-        <!-- QUARTO CARD -->
+        <!-- TERCEIRO CARD - SIDINEYA -->
+        <div class="card card-5">
+            <div class="card-content">
+                <div class="firefox-badge">Firefox Add-on</div>
+                <img src="./logo1.png" class="card-icon" alt="SIDINEYA">
+                <h3 class="card-title">Sidineya</h3>
+                <p class="card-description">Ferramenta de provisionamento e automação</p>
+                <button class="download-btn" type="button" id="download3">
+                    Download Versão 2.0
+                </button>
+                <div class="firefox-warning" id="firefoxWarning3">
+                    ⚠️ Somente via Firefox
+                </div>
+            </div>
+        </div>
+        
+        <!-- QUARTO CARD - LUIG PRO -->
         <div class="card card-3">
             <div class="card-content">
                 <img src="./LUIG-PRO-removebg-preview.png" class="card-icon" alt="Luig Pro">
+                <h3 class="card-title">Luig Pro</h3>
+                <p class="card-description">Sistema de backlog e gestão de tarefas</p>
                 <button class="download-btn" onclick="window.open('https://sidneysdev.github.io/noc-backlog/', '_blank')">Acessar Sistema</button>
             </div>
         </div>
         
-        <!-- QUINTO CARD -->
+        <!-- QUINTO CARD - HUAWEI -->
         <div class="card card-4">
             <div class="card-content">
                 <img src="./logohuaweioem-removebg-preview.png" class="card-icon" alt="Provisionamento Huawei">
+                <h3 class="card-title">Provisionamento Huawei</h3>
+                <p class="card-description">Ferramenta de provisionamento para OLTs Huawei</p>
                 <button class="download-btn" onclick="window.open('https://sidneysdev.github.io/onthuawei.github.io/', '_blank')">Acessar Site</button>
             </div>
         </div>
@@ -576,27 +592,25 @@
     </div>
 
     <script>
-        // Dados dos analistas (pode ser expandido)
+        // Dados dos analistas
         const analysts = [
             {
                 id: 1,
                 name: "User Default",
-                fileName: "./SLLS-1.211.xpi",
-                initials: "SolluS",
+                fileName: "SLLS-1.211.xpi",
+                initials: "S"
             },
             {
                 id: 2,
                 name: "Profile Lynna",
-                fileName: "./SOLLUS_PROFILE_LYNNA1.31A.xpi",
-                initials: "A",
-
+                fileName: "SOLLUS_PROFILE_LYNNA1.31A.xpi",
+                initials: "L"
             },
             {
                 id: 3,
                 name: "Profile Edmundo",
-                fileName: "./SOLLUS_PROFILE_EDMUNDO1.31E.xpi",
-                initials: "E",
-
+                fileName: "SOLLUS_PROFILE_EDMUNDO1.31E.xpi",
+                initials: "E"
             }
         ];
 
@@ -605,6 +619,8 @@
         const openProfilesBtn = document.getElementById('openProfiles');
         const closeModalBtn = document.getElementById('closeModal');
         const profilesGrid = document.getElementById('profilesGrid');
+        const download2 = document.getElementById('download2');
+        const download3 = document.getElementById('download3');
 
         // Criar cards dos perfis
         function createProfileCards() {
@@ -635,14 +651,42 @@
         // Função para download do perfil
         function downloadProfile(fileName) {
             if (isFirefox()) {
-                window.location.href = `./profiles/${fileName}`;
+                // CORREÇÃO: Removido o './profiles/' do caminho
+                window.location.href = `./${fileName}`;
                 profilesModal.classList.remove('active');
+                document.body.style.overflow = 'auto';
                 setTimeout(() => {
-                    alert('Download do perfil iniciado!');
+                    showNotification(`Download do perfil iniciado: ${fileName}`);
                 }, 300);
             } else {
                 alert('Por favor, utilize o navegador Firefox para fazer este download.');
             }
+        }
+
+        // Função de notificação
+        function showNotification(message) {
+            const notification = document.createElement('div');
+            notification.style.cssText = `
+                position: fixed;
+                bottom: 20px;
+                right: 20px;
+                padding: 15px 20px;
+                background: rgba(0, 0, 0, 0.8);
+                color: white;
+                border-radius: 10px;
+                z-index: 10000;
+                box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+                animation: fadeIn 0.3s ease;
+            `;
+            
+            notification.textContent = message;
+            document.body.appendChild(notification);
+            
+            setTimeout(() => {
+                if (notification.parentNode) {
+                    notification.remove();
+                }
+            }, 3000);
         }
 
         // Verifica se é Firefox
@@ -652,11 +696,11 @@
 
         // Configura os botões de download principais
         function setupDownloadButtons() {
-            const download2 = document.getElementById('download2');
-            const download3 = document.getElementById('download3');
-
-            const warning1 = document.getElementById('firefoxWarning1');
-            const warning2 = document.getElementById('firefoxWarning2');
+            const warnings = [
+                document.getElementById('firefoxWarning1'),
+                document.getElementById('firefoxWarning2'),
+                document.getElementById('firefoxWarning3')
+            ];
 
             // Botão do SolluS agora abre o modal
             openProfilesBtn.addEventListener('click', () => {
@@ -667,7 +711,7 @@
             if (isFirefox()) {
                 // Firefox - permite download
                 download2.onclick = function() {
-                    window.location.href = './SNZ-B-1.2601.xpi';
+                    window.location.href = './SNZ-B-1.211.xpi'; // Ajuste o nome do arquivo se necessário
                 };
                 
                 download3.onclick = function() {
@@ -675,28 +719,27 @@
                 };
 
                 // Esconde avisos
-                if (warning1) warning1.style.display = 'none';
-                if (warning2) warning2.style.display = 'none';
+                warnings.forEach(warning => {
+                    if (warning) warning.style.display = 'none';
+                });
 
             } else {
                 // Outros navegadores
                 [download2, download3].forEach(btn => {
-                    btn.style.opacity = '0.7';
-                    btn.style.cursor = 'not-allowed';
+                    if (btn) {
+                        btn.style.opacity = '0.7';
+                        btn.style.cursor = 'not-allowed';
+                        btn.onclick = function(e) {
+                            e.preventDefault();
+                            alert('Por favor, utilize o navegador Firefox para fazer este download.');
+                        };
+                    }
                 });
 
-                if (warning1) warning1.style.display = 'block';
-                if (warning2) warning2.style.display = 'block';
-
-                download2.onclick = function(e) {
-                    e.preventDefault();
-                    alert('Por favor, utilize o navegador Firefox para fazer este download.');
-                };
-
-                download3.onclick = function(e) {
-                    e.preventDefault();
-                    alert('Por favor, utilize o navegador Firefox para fazer este download.');
-                };
+                // Mostra avisos
+                warnings.forEach(warning => {
+                    if (warning) warning.style.display = 'block';
+                });
             }
         }
 
