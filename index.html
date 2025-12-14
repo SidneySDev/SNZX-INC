@@ -476,6 +476,80 @@
             background: linear-gradient(90deg, #0099ff, #0066ff);
         }
 
+        /* ANIMAÇÃO DE DOWNLOAD */
+        .download-overlay {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.9);
+            backdrop-filter: blur(10px);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            z-index: 10000;
+            animation: fadeIn 0.3s ease;
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+
+        .download-modal {
+            background: white;
+            padding: 40px;
+            border-radius: 20px;
+            text-align: center;
+            min-width: 400px;
+            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+            border: 1px solid rgba(255, 255, 255, 0.2);
+        }
+
+        .download-modal h3 {
+            color: #2c3e50;
+            margin-bottom: 25px;
+            font-size: 1.5rem;
+        }
+
+        .progress-container {
+            width: 100%;
+            height: 12px;
+            background: #e0e0e0;
+            border-radius: 10px;
+            overflow: hidden;
+            margin: 25px 0;
+        }
+
+        .progress-bar {
+            height: 100%;
+            background: linear-gradient(90deg, #00a2ff, #0077ff);
+            border-radius: 10px;
+            width: 0%;
+            transition: width 0.3s ease;
+        }
+
+        .download-status {
+            font-weight: 600;
+            color: #2c3e50;
+            margin: 15px 0;
+            min-height: 24px;
+        }
+
+        .download-success {
+            color: #4CAF50;
+            font-size: 60px;
+            margin: 20px 0;
+            animation: scaleIn 0.5s ease;
+        }
+
+        @keyframes scaleIn {
+            0% { transform: scale(0); opacity: 0; }
+            70% { transform: scale(1.2); }
+            100% { transform: scale(1); opacity: 1; }
+        }
+
         /* Responsividade */
         @media (max-width: 768px) {
             .profiles-grid {
@@ -501,6 +575,12 @@
                 width: 150px;
                 height: 150px;
             }
+            
+            .download-modal {
+                min-width: 300px;
+                padding: 25px;
+                margin: 20px;
+            }
         }
     </style>
 </head>
@@ -515,8 +595,6 @@
             <div class="card-content">
                 <div class="firefox-badge">Firefox Add-on</div>
                 <img src="./sollosoficialtransparent.png" class="card-icon" alt="SolluS">
-                <h3 class="card-title">SolluS</h3>
-                <p class="card-description">Ferramenta para automação de chamados e consultas</p>
                 <button class="download-btn" id="openProfiles">Selecionar Perfil</button>
                 <div class="firefox-warning" id="firefoxWarning1">
                     ⚠️ Somente via Firefox
@@ -529,8 +607,6 @@
             <div class="card-content">
                 <div class="firefox-badge">Firefox Add-on</div>
                 <img src="./snz_b-removebg-preview.png" class="card-icon" alt="SNZ-B">
-                <h3 class="card-title">SNZ-B</h3>
-                <p class="card-description">Consulta múltipla de chamados e status</p>
                 <button class="download-btn" id="download2">Download Version 1.211</button>
                 <div class="firefox-warning" id="firefoxWarning2">
                     ⚠️ Somente via Firefox
@@ -543,8 +619,6 @@
             <div class="card-content">
                 <div class="firefox-badge">Firefox Add-on</div>
                 <img src="./logo1.png" class="card-icon" alt="SIDINEYA">
-                <h3 class="card-title">Sidineya</h3>
-                <p class="card-description">Ferramenta de provisionamento e automação</p>
                 <button class="download-btn" type="button" id="download3">
                     Download Versão 2.0
                 </button>
@@ -558,8 +632,6 @@
         <div class="card card-3">
             <div class="card-content">
                 <img src="./LUIG-PRO-removebg-preview.png" class="card-icon" alt="Luig Pro">
-                <h3 class="card-title">Luig Pro</h3>
-                <p class="card-description">Sistema de backlog e gestão de tarefas</p>
                 <button class="download-btn" onclick="window.open('https://sidneysdev.github.io/noc-backlog/', '_blank')">Acessar Sistema</button>
             </div>
         </div>
@@ -568,8 +640,6 @@
         <div class="card card-4">
             <div class="card-content">
                 <img src="./logohuaweioem-removebg-preview.png" class="card-icon" alt="Provisionamento Huawei">
-                <h3 class="card-title">Provisionamento Huawei</h3>
-                <p class="card-description">Ferramenta de provisionamento para OLTs Huawei</p>
                 <button class="download-btn" onclick="window.open('https://sidneysdev.github.io/onthuawei.github.io/', '_blank')">Acessar Site</button>
             </div>
         </div>
@@ -622,6 +692,102 @@
         const download2 = document.getElementById('download2');
         const download3 = document.getElementById('download3');
 
+        // ==================================================
+        // FUNÇÃO DE ANIMAÇÃO DE DOWNLOAD (Progress Bar)
+        // ==================================================
+
+        async function downloadProfile(fileName) {
+            if (isFirefox()) {
+                // Mostrar animação
+                showDownloadAnimation(fileName);
+                
+                // Simular delay do download (1.5 segundos para ver a animação)
+                await simulateDownload();
+                
+                // Iniciar download real
+                window.location.href = "./" + fileName;
+                
+            } else {
+                alert('Por favor, utilize o navegador Firefox para fazer este download.');
+            }
+        }
+
+        function showDownloadAnimation(fileName) {
+            // Criar overlay
+            const overlay = document.createElement('div');
+            overlay.className = 'download-overlay';
+            
+            overlay.innerHTML = `
+                <div class="download-modal">
+                    <h3>Baixando: ${fileName}</h3>
+                    <div class="progress-container">
+                        <div class="progress-bar" id="progressBar"></div>
+                    </div>
+                    <div class="download-status" id="downloadStatus">Iniciando download...</div>
+                </div>
+            `;
+            
+            document.body.appendChild(overlay);
+            
+            // Animar progress bar
+            animateProgressBar(fileName, overlay);
+        }
+
+        function animateProgressBar(fileName, overlay) {
+            const progressBar = overlay.querySelector('#progressBar');
+            const statusText = overlay.querySelector('#downloadStatus');
+            
+            let progress = 0;
+            const interval = setInterval(() => {
+                progress += 2;
+                progressBar.style.width = `${progress}%`;
+                
+                // Atualizar mensagem baseada no progresso
+                if (progress <= 30) {
+                    statusText.textContent = '📁 Preparando arquivo...';
+                } else if (progress <= 60) {
+                    statusText.textContent = '⚡ Baixando dados...';
+                } else if (progress <= 90) {
+                    statusText.textContent = '🔧 Processando...';
+                } else if (progress < 100) {
+                    statusText.textContent = '🎉 Finalizando...';
+                }
+                
+                if (progress >= 100) {
+                    clearInterval(interval);
+                    
+                    // Mostrar sucesso
+                    setTimeout(() => {
+                        progressBar.style.display = 'none';
+                        statusText.textContent = '✅ Download iniciado com sucesso!';
+                        
+                        // Adicionar ícone de sucesso
+                        const successIcon = document.createElement('div');
+                        successIcon.className = 'download-success';
+                        successIcon.textContent = '✓';
+                        overlay.querySelector('.download-modal').appendChild(successIcon);
+                        
+                        // Fechar modal após 1.5 segundos
+                        setTimeout(() => {
+                            overlay.remove();
+                            if (profilesModal) {
+                                profilesModal.classList.remove('active');
+                                document.body.style.overflow = 'auto';
+                            }
+                        }, 1500);
+                    }, 300);
+                }
+            }, 30); // Ajuste a velocidade da animação aqui (mais rápido = número menor)
+        }
+
+        function simulateDownload() {
+            return new Promise(resolve => setTimeout(resolve, 1500));
+        }
+
+        // ==================================================
+        // FUNÇÕES EXISTENTES
+        // ==================================================
+
         // Criar cards dos perfis
         function createProfileCards() {
             profilesGrid.innerHTML = '';
@@ -648,47 +814,6 @@
             });
         }
 
-        // Função para download do perfil
-        function downloadProfile(fileName) {
-            if (isFirefox()) {
-                // CORREÇÃO: Removido o './profiles/' do caminho
-                window.location.href = `./${fileName}`;
-                profilesModal.classList.remove('active');
-                document.body.style.overflow = 'auto';
-                setTimeout(() => {
-                    showNotification(`Download do perfil iniciado: ${fileName}`);
-                }, 300);
-            } else {
-                alert('Por favor, utilize o navegador Firefox para fazer este download.');
-            }
-        }
-
-        // Função de notificação
-        function showNotification(message) {
-            const notification = document.createElement('div');
-            notification.style.cssText = `
-                position: fixed;
-                bottom: 20px;
-                right: 20px;
-                padding: 15px 20px;
-                background: rgba(0, 0, 0, 0.8);
-                color: white;
-                border-radius: 10px;
-                z-index: 10000;
-                box-shadow: 0 5px 15px rgba(0,0,0,0.3);
-                animation: fadeIn 0.3s ease;
-            `;
-            
-            notification.textContent = message;
-            document.body.appendChild(notification);
-            
-            setTimeout(() => {
-                if (notification.parentNode) {
-                    notification.remove();
-                }
-            }, 3000);
-        }
-
         // Verifica se é Firefox
         function isFirefox() {
             return navigator.userAgent.toLowerCase().indexOf('firefox') > -1;
@@ -709,13 +834,13 @@
             });
 
             if (isFirefox()) {
-                // Firefox - permite download
+                // Firefox - permite download com animação
                 download2.onclick = function() {
-                    window.location.href = './SNZ-B-1.211.xpi'; // Ajuste o nome do arquivo se necessário
+                    downloadProfile('SNZ-B-1.211.xpi');
                 };
                 
                 download3.onclick = function() {
-                    window.location.href = './sidineya-2.0.xpi';
+                    downloadProfile('sidineya-2.0.xpi');
                 };
 
                 // Esconde avisos
