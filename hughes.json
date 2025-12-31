@@ -10,7 +10,7 @@
     },
     {
       "hostname": "EQTPI-CC-UC_2000059322_CENTRO_BIONUCLEAR-IDU-HUGHES",
-      "designador": "EQCS0431"
+      "designador": "H0373646"
     },
     {
       "hostname": "EQTPI-CC-UC_2585421-PRAESA-IDU-HUGHES",
@@ -90,7 +90,7 @@
     },
     {
       "hostname": "EQTMA-MF-TABULEIRO-CEPISA-IDU-HUGHES",
-      "designador": "EQCM0136"
+      "designador": "H0373370"
     },
     {
       "hostname": "EQTMA-SE-COROATA-IDU-HUGHES_BCK",
@@ -126,11 +126,11 @@
     },
     {
       "hostname": "EQTPA-CL-UC_3011211789-PARAUAPEBAS-BRITAMIL-HUGHES",
-      "designador": "EQCP0237"
+      "designador": "H0372846"
     },
     {
       "hostname": "EQTMA-CL-CODO-FC_OLIVEIRA-IDU-HUGHES",
-      "designador": "EQCM0126"
+      "designador": "H0373160"
     },
     {
       "hostname": "EQTMA-SE-ARAIOSES-IDU-HUGHES",
@@ -170,11 +170,11 @@
     },
     {
       "hostname": "EQTPA-CC-UC_14908846-PARAGOMINAS-IBL-HUGHES",
-      "designador": "EQCP0408"
+      "designador": "H0372724"
     },
     {
       "hostname": "EQTPA-SE-SANTA_MARIA-HUGHES",
-      "designador": "EQCP0382"
+      "designador": "H0373450"
     },
     {
       "hostname": "EQTAP-CC-UC_6261582-MINERACAO_E_PESQUISA_DO_AMAPA-HUGHES",
@@ -182,7 +182,7 @@
     },
     {
       "hostname": "EQTPA-CC-UC_2000504082-NOVA_ESPERANCA-DERQUIAN2-HUGHES",
-      "designador": "EQCP0407"
+      "designador": "H0372706"
     },
     {
       "hostname": "EQTPI-CC-UC_2000044103-ELECNOR-IDU-HUGHES",
@@ -274,7 +274,7 @@
     },
     {
       "hostname": "EQTMA-CL-IMPERATRIZ-UC_34001022-MIX_MATEUS-IDU-HUGHES",
-      "designador": "EQCM0066"
+      "designador": "H0373154"
     },
     {
       "hostname": "EQTMA-CC-UC_2000706929-JUAREZ_ANTONIO_DE_SOUZA-HUGHES",
@@ -358,7 +358,7 @@
     },
     {
       "hostname": "EQTPA-CL-BENEVIDES-HADEX-HUGHES",
-      "designador": "EQCP0073"
+      "designador": "H0372798"
     },
     {
       "hostname": "EQTMA-CL-CAXIAS-CASA_DE_SAUDE-IDU-HUGHES",
@@ -386,7 +386,7 @@
     },
     {
       "hostname": "EQTPA-CL-CASTANHAL-ATIVO_ALIMENTOS-HUGHES",
-      "designador": "EQCP0087"
+      "designador": "H0372794"
     },
     {
       "hostname": "EQTMA-SE-CANTANHEDE-IDU-HUGHES",
@@ -398,7 +398,7 @@
     },
     {
       "hostname": "EQTMA-CL-UC_2000189313-BALSAS-JUPARANA-IDU-HUGHES",
-      "designador": "EQCM0156"
+      "designador": "H0373136"
     },
     {
       "hostname": "EQTPA-CL-INHANGAPI-XINGUI_FRUIT-HUGHES",
@@ -553,7 +553,7 @@
       "designador": "H0008466"
     },
     {
-      "hostname": "EQTRS-CC-UC_46729062-DOM_PEDRITO-AGROVERDE_AGROPECU-HUGHES",
+      "hostname": "EQTRS-CC-UC_46729062-DOM_PEDRITO-AGROVERDE_AGROPEC-HUGHES",
       "designador": "EQCE0060"
     },
     {
@@ -606,7 +606,7 @@
     },
     {
       "hostname": "EQTMA-SE-GODOFREDO_VIANA-HUGHES",
-      "designador": "EQCM0104"
+      "designador": "H0373244"
     },
     {
       "hostname": "EQTMA-SE-SANTA_INES_2-IDU-HUGHES",
@@ -650,7 +650,7 @@
     },
     {
       "hostname": "EQTPA-RP-BELTERRA-HUGHES",
-      "designador": "EQCP0096"
+      "designador": "H0373513"
     },
     {
       "hostname": "EQTPI-CC-UC_14084643-FORTALEZA_TELHAS_EIRELI-IDU-HUGHES",
@@ -694,7 +694,7 @@
     },
     {
       "hostname": "EQTPA-CL-UC_80448538-MARABA-CARGILL_AGRICOLA-HUGHES",
-      "designador": "EQCP0226"
+      "designador": "H0372736"
     },
     {
       "hostname": "EQTMA-SE-TURIACU-IDU-HUGHES",
@@ -702,7 +702,7 @@
     },
     {
       "hostname": "EQTPA-CL-UC_13798478-SANTA_IZABEL-PLASMETAL-HUGHES",
-      "designador": "EQCP0057"
+      "designador": "H0372742"
     },
     {
       "hostname": "EQTPI-MF-GILBUES_II_CHESF-IDU-HUGHES",
@@ -718,7 +718,7 @@
     },
     {
       "hostname": "EQTPA-CL-SAO_FELIX_DO_XINGU-FRIGOL-HUGHES",
-      "designador": "EQCP0158"
+      "designador": "H0372748"
     },
     {
       "hostname": "EQTRS-SE-RIO_GRANDE-QUINTA-IDU-HUGHES",
@@ -782,7 +782,7 @@
     },
     {
       "hostname": "EQTPA-MF-TAPAJOS-EQUATORIAL-HUGHES",
-      "designador": "EQCP0240"
+      "designador": "H0373505"
     },
     {
       "hostname": "EQTMA-SE-ITAPECURUZINHO-IDU-HUGHES",
@@ -802,11 +802,11 @@
     },
     {
       "hostname": "EQTMA-CL-IMPERATRIZ-RIACHUELO_SH_IMPERIAL-IDU-HUGHES",
-      "designador": "EQCM0143"
+      "designador": "H0373134"
     },
     {
       "hostname": "EQTMA-CL-UC_5246881-VARGEM_GRANDE-FRANGO_AMERICANO-IDU-HUGHES",
-      "designador": "EQCM0149"
+      "designador": "H0373658"
     },
     {
       "hostname": "EQTAL-CC-UC_14920190-QUEBRANGULO-HUGHES",
@@ -814,7 +814,7 @@
     },
     {
       "hostname": "EQTPA-RP-VISEU-HUGHES",
-      "designador": "EQCP0030"
+      "designador": "H0373628"
     },
     {
       "hostname": "EQTPA-CC-SANTA_MARIA_BARREIRAS-LEONARDO_MEDEIROS-HUGHES",
@@ -862,7 +862,7 @@
     },
     {
       "hostname": "EQTMA-CL-ITAPECURU_MIRIM-UC_43080997-BOM_PRECO-IDU-HUGHES",
-      "designador": "EQCM0163"
+      "designador": "H0373714"
     },
     {
       "hostname": "EQTMA-SE-JENIPAPO_DOS_VIEIRAS-IDU-HUGHES",
@@ -874,7 +874,7 @@
     },
     {
       "hostname": "EQTMA-CL-PARNAIBA-GAS-NATURAL-HUGHES",
-      "designador": "EQCM0055"
+      "designador": "H0373174"
     },
     {
       "hostname": "EQTPA-MF-ALTAMIRA-ELETRONORTE-HUGHES",
@@ -886,7 +886,7 @@
     },
     {
       "hostname": "EQTPA-RP-PREFEITURA-ULIANOPOLIS-HUGHES",
-      "designador": "EQCP0163"
+      "designador": "H0373493"
     },
     {
       "hostname": "EQTMA-CL-TIMON-PQ_PIAUI_RMC_COM_ALIM-IDU-HUGHES",
@@ -898,7 +898,7 @@
     },
     {
       "hostname": "EQTPA-MF-MARITUBA-EQUATORIAL-HUGHES",
-      "designador": "EQCP0241"
+      "designador": "H0373524"
     },
     {
       "hostname": "EQTPA-MF-TOME_ACU-ENERGISA-HUGHES",
@@ -922,7 +922,7 @@
     },
     {
       "hostname": "EQTMA-SE-CARUTAPERA-IDU-HUGHES",
-      "designador": "EQCM0086"
+      "designador": "H0373354"
     },
     {
       "hostname": "EQTMA-CL-SAO_LUIS-AMBEV-IDU-HUGHES",
@@ -1022,7 +1022,7 @@
     },
     {
       "hostname": "EQTPA-MF-CASTANHAL-HUGHES",
-      "designador": "EQCP0349"
+      "designador": "H0373530"
     },
     {
       "hostname": "EQTAL-SE-MARAGOGI-IDU-HUGHES",
@@ -1110,7 +1110,7 @@
     },
     {
       "hostname": "EQTTR-SE-COS-RUROPOLIS-IDU-HUGHES",
-      "designador": "EQTR0008"
+      "designador": "H0373444"
     },
     {
       "hostname": "EQTMA-CL-BACABAL-UC_6272690-TELEMAR-HUGHES",
@@ -1138,7 +1138,7 @@
     },
     {
       "hostname": "EQTPA-CL-PARAUAPEBAS-AVB_MINERACAO-HUGHES",
-      "designador": "EQCP0180"
+      "designador": "H0372740"
     },
     {
       "hostname": "EQTPI-CC-UC_17732751-SIMOES_TRANSMISSORA-IDU-HUGHES",
@@ -1146,7 +1146,7 @@
     },
     {
       "hostname": "EQTPA-CL-CASTANHAL-MERCURIO-HUGHES",
-      "designador": "EQCP0035"
+      "designador": "H0372776"
     },
     {
       "hostname": "EQTAL-CC-UC_8048860-PASSO_DE_CAMARAGIBE-HUGHES",
@@ -1182,7 +1182,7 @@
     },
     {
       "hostname": "EQTMA-CL-ACAILANDIA-UC_35659161-MATEUS-IDU-HUGHES",
-      "designador": "EQCM0042"
+      "designador": "H0373158"
     },
     {
       "hostname": "EQTMA-CL-BACABAL_TELEMAR-IDU-HUGHES",
@@ -1242,7 +1242,7 @@
     },
     {
       "hostname": "EQTMA-CL-IMPERATRIZ-CEA_IMPERIAL-IDU-HUGHES",
-      "designador": "EQCM0038"
+      "designador": "H0373142"
     },
     {
       "hostname": "EQTMA-CL-ITINGA-POSTURUS-IDU-HUGHES",
@@ -1262,7 +1262,7 @@
     },
     {
       "hostname": "EQTMA-CL-SAO_LUIS-INDUSTRIA_DE_PAES_E_MASSAS_MATEUS-HUGHES",
-      "designador": "EQCM0068"
+      "designador": "H0373162"
     },
     {
       "hostname": "EQTAL-CC-UC_11865016-CAPELA-HUGHES",
@@ -1286,7 +1286,7 @@
     },
     {
       "hostname": "EQTMA-SE-SAO_JOAO_DO_CARU-IDU-HUGHES",
-      "designador": "EQCM0113"
+      "designador": "H0373346"
     },
     {
       "hostname": "EQTMA-SE-PALESTINA-IDU-HUGHES",
@@ -1310,11 +1310,11 @@
     },
     {
       "hostname": "EQTMA-CL-IMPERATRIZ-UC_2000130231-VLI_VILA_DAVI-IDU-HUGHES",
-      "designador": "EQCM0172"
+      "designador": "H0373200"
     },
     {
       "hostname": "EQTMA-CL-PINHEIRO-UC_2000395501-MED-MATEUS-IDU-HUGHES",
-      "designador": "EQCM0154"
+      "designador": "H0373190"
     },
     {
       "hostname": "EQTMA-CL-IMPERATRIZ-UNISULMA-IDU-HUGHES",
@@ -1378,11 +1378,11 @@
     },
     {
       "hostname": "EQTMA-CL-IMPERATRIZ-UC_43717090-DAVINOPOLIS-MATEUS_BR-IDU-HUGHES",
-      "designador": "EQCM0135"
+      "designador": "H0373132"
     },
     {
       "hostname": "EQTMA-CL-UC_45745228-STO_ANT_LOPES-PARNAIBA2_CAP_AGUA-IDU-HUGHES",
-      "designador": "EQCM0169"
+      "designador": "H0373164"
     },
     {
       "hostname": "EQTMA-SE-BOM_JESUS_DAS_SELVAS-IDU-HUGHES",
@@ -1390,7 +1390,7 @@
     },
     {
       "hostname": "EQTMA-SE-SANTA_LUZIA_DO_TIDE-IDU-HUGHES",
-      "designador": "EQCM0107"
+      "designador": "H0373394"
     },
     {
       "hostname": "EQTAL-CC-UC_6978142-TEOTONIO VILELA-HUGHES",
@@ -1406,7 +1406,7 @@
     },
     {
       "hostname": "EQTPA-SE-CACHOEIRA_DO_ARARI-HUGHES-PRINCIPAL",
-      "designador": "EQCP0095"
+      "designador": "H0373464"
     },
     {
       "hostname": "EQTMA-SE-AMARANTE-IDU-HUGHES",
@@ -1414,11 +1414,11 @@
     },
     {
       "hostname": "EQTPA-SE-TERRA_ALTA-HUGHES",
-      "designador": "EQCP0025"
+      "designador": "H0373614"
     },
     {
       "hostname": "EQTPA-CL-IPIXUNA-IMERYS-HUGHES",
-      "designador": "EQCP0213"
+      "designador": "H0372808"
     },
     {
       "hostname": "EQTPA-SE-MONTE_ALEGRE-HUGHES",
@@ -1426,7 +1426,7 @@
     },
     {
       "hostname": "EQTMA-SE-TURILANDIA-HUGHES",
-      "designador": "EQCM0121"
+      "designador": "H0373218"
     },
     {
       "hostname": "EQTPA-SE-OUREM-HUGHES-BACKUP",
@@ -1434,7 +1434,7 @@
     },
     {
       "hostname": "EQTPA-SE-OBIDOS-HUGHES",
-      "designador": "EQCP0118"
+      "designador": "H0373456"
     },
     {
       "hostname": "EQTMA-CL-TUTOIA-UC_33841230-POSTERUS-IDU-HUGHES",
@@ -1458,7 +1458,7 @@
     },
     {
       "hostname": "EQTMA-CL-UC_8687382-TIMON-FRIGOTIL-IDU-HUGHES",
-      "designador": "EQCM0171"
+      "designador": "H0373202"
     },
     {
       "hostname": "EQTPA-SE-TUCURUI_VILA-HUGHES",
@@ -1498,7 +1498,7 @@
     },
     {
       "hostname": "EQTPA-SE-RIO_MARIA-HUGHES_PRINCIPAL",
-      "designador": "EQCP0123"
+      "designador": "H0372860"
     },
     {
       "hostname": "EQTPA-SE-BOM_JESUS-HUGHES-PRINCIPAL",
@@ -1506,11 +1506,11 @@
     },
     {
       "hostname": "EQTMA-SE-SANTA_INES-IDU-HUGHES",
-      "designador": "EQCM0100"
+      "designador": "H0373350"
     },
     {
       "hostname": "EQTPA-SE-RIO_VERMELHO-HUGHES",
-      "designador": "EQCP0124"
+      "designador": "H0373448"
     },
     {
       "hostname": "EQTPA-SE-SAO_CAETANO_DE_ODIVELAS-IDU-HUGHES",
@@ -1526,7 +1526,7 @@
     },
     {
       "hostname": "EQTPA-SE-MAE_DO_RIO-IDU-HUGHES",
-      "designador": "EQCP0012"
+      "designador": "H0373616"
     },
     {
       "hostname": "EQTPA-SE-BAGRE-HUGHES-BACKUP",
@@ -1534,7 +1534,7 @@
     },
     {
       "hostname": "EQTMA-CL-UC_5075912-SAO_LUIS-CERAMICA-MENDES-IDU-HUGHES",
-      "designador": "EQCM0147"
+      "designador": "H0373198"
     },
     {
       "hostname": "EQTPI-CC-UC_7282168-RICARDO-IDU-HUGHES",
@@ -1582,7 +1582,7 @@
     },
     {
       "hostname": "EQTPA-SE-CURRALINHO-HUGHES-PRINCIPAL",
-      "designador": "EQCP0008"
+      "designador": "H0373460"
     },
     {
       "hostname": "EQTPA-SE-AGUA_AZUL_DO_NORTE-HUGHES-BACKUP",
@@ -1614,7 +1614,7 @@
     },
     {
       "hostname": "EQTPA-SE-SANTA_LUZIA_DO_PARA-HUGHES-PRINCIPAL.old",
-      "designador": "EQCP0022"
+      "designador": "H0372864"
     },
     {
       "hostname": "EQTMA-SE-ARARI-IDU-HUGHES",
@@ -1642,7 +1642,7 @@
     },
     {
       "hostname": "EQTPA-CC-PARAGOMINAS-MURILO_VILELLA-2-HUGHES",
-      "designador": "EQCP0340"
+      "designador": "H0372722"
     },
     {
       "hostname": "EQTPA-CC-PARAGOMINAS-MURILO_VILELLA-HUGHES",
@@ -1670,7 +1670,7 @@
     },
     {
       "hostname": "EQTPI-CL-UC_5651379-MINACAL-IDU-HUGHES",
-      "designador": "EQCS0075"
+      "designador": "H0373668"
     },
     {
       "hostname": "EQTPI-CL-MATEUS_PIRIPIRI-IDU-HUGHES",
@@ -1702,7 +1702,7 @@
     },
     {
       "hostname": "EQTPI-CL-RMC_AREIAS-IDU-HUGHES",
-      "designador": "EQCS0038"
+      "designador": "H0373690"
     },
     {
       "hostname": "EQTPI-CL-RMC PEDRA MOLE-IDU-HUGHES",
@@ -1722,7 +1722,7 @@
     },
     {
       "hostname": "EQTPI-CL-RMC_AV_MARANHAO-IDU-HUGHES",
-      "designador": "EQCS0079"
+      "designador": "H0373684"
     },
     {
       "hostname": "EQTPI-CC-UC_2000149139-GOLDEN_AGRO_EMPREENDIMENTOS-IDU-HUGHES",
@@ -1826,11 +1826,11 @@
     },
     {
       "hostname": "EQTPI-CL-THE-CeA-C.BRANCO-IDU-HUGHES",
-      "designador": "EQCS0011"
+      "designador": "H0373678"
     },
     {
       "hostname": "EQTPA-SE-SANTA_LUZIA_DO_PARA-HUGHES",
-      "designador": "EQCP0022"
+      "designador": "H0372864"
     },
     {
       "hostname": "EQTGO-SE-CAMPOS_VERDES-IDU-HUGHES-CVE",
@@ -1926,11 +1926,11 @@
     },
     {
       "hostname": "EQTPA-SE-CURRALINHO-HUGHES",
-      "designador": "EQCP0008"
+      "designador": "H0373460"
     },
     {
       "hostname": "EQTPA-SE-CARAJAS-HUGHES",
-      "designador": "EQCP0103"
+      "designador": "H0372868"
     },
     {
       "hostname": "EQTPA-CC-ULIANOPOLIS-PAGRISA-HUGHES",
@@ -1938,7 +1938,7 @@
     },
     {
       "hostname": "EQTPA-SE-CACHOEIRA_DO_ARARI-HUGHES",
-      "designador": "EQCP0095"
+      "designador": "H0373464"
     },
     {
       "hostname": "EQTAP-CC-UC_6100066-SUPERMERCADO_NOVO_LAR-HUGHES",
@@ -1994,7 +1994,7 @@
     },
     {
       "hostname": "EQTPI-CL-DENCLA_INDUSTRIA_DE_POLPAS-IDU-HUGHES",
-      "designador": "EQCS0017"
+      "designador": "H0373720"
     },
     {
       "hostname": "EQTGO-SE-PORTELANDIA-IDU-HUGHES-PTE",
@@ -2010,11 +2010,11 @@
     },
     {
       "hostname": "EQTPA-SE-AGUA_AZUL_DO_NORTE-HUGHES",
-      "designador": "EQCP0097"
+      "designador": "H0373452"
     },
     {
       "hostname": "EQTPA-SE-AGUA_AZUL_DO_NORTE-FIREWALL_WAN1-HUGHES",
-      "designador": "EQCP0097"
+      "designador": "H0373452"
     },
     {
       "hostname": "EQTPI-CC-UC_14774267-CURRAL-CONSORCIO_CONEXAO-IDU-HUGHES",
@@ -2022,7 +2022,7 @@
     },
     {
       "hostname": "EQTPA-SE-NOVA_PARAUAPEBAS-HUGHES",
-      "designador": "EQCP0210"
+      "designador": "H0372866"
     },
     {
       "hostname": "EQTPI-CC-UC_11432063_PIO_IX-BEZERRA_ALENCAR-IDU-HUGHES",
@@ -2046,7 +2046,7 @@
     },
     {
       "hostname": "EQTPA-SE-RIO_MARIA-HUGHES",
-      "designador": "EQCP0123"
+      "designador": "H0372860"
     },
     {
       "hostname": "EQTPA-CC-SAO_GERALDO-UC_50660460-FREDERICO_VENDRAMINI-HUGHES",
@@ -2078,7 +2078,7 @@
     },
     {
       "hostname": "EQTPA-SE-CURUCA-HUGHES",
-      "designador": "EQCP0009"
+      "designador": "H0372960"
     },
     {
       "hostname": "EQTPA-CC-RONDON-GILVAN_ANDRE_CARDOSO-HUGHES",
@@ -2090,7 +2090,7 @@
     },
     {
       "hostname": "EQTPA-SE-PAU_DARCO-HUGHES",
-      "designador": "EQCP0120"
+      "designador": "H0372922"
     },
     {
       "hostname": "EQTPA-SE-PARADA_DO_BENTO-HUGHES",
@@ -2242,7 +2242,7 @@
     },
     {
       "hostname": "EQTPA-CC-UC_2001054086-CONCEICAO_ARAGUAIA-NIQUEL_METAIS-HUGHES",
-      "designador": "EQCP0380"
+      "designador": "H0372712"
     },
     {
       "hostname": "EQTPI-RP-MURICI_DOS_PORTELAS-IDU-HUGHES",
@@ -2250,7 +2250,7 @@
     },
     {
       "hostname": "EQTPA-CC-PARAGOMINAS-ELIANE_ANDRADE-HUGHES",
-      "designador": "EQCP0335"
+      "designador": "H0372836"
     },
     {
       "hostname": "EQTPI-CC-UC_2000142130-RAIA_DROGASIL-IDU-HUGHES",
@@ -2422,7 +2422,7 @@
     },
     {
       "hostname": "EQTPI-CL-VANGUARDA_ALTOS-IDU-HUGHES",
-      "designador": "EQCS0048"
+      "designador": "H0373698"
     },
     {
       "hostname": "EQTPI-CC-UC_2012103-COMVAP_ACUCAR_ALCOOL-IDU-HUGHES",
@@ -2430,7 +2430,7 @@
     },
     {
       "hostname": "EQTPI-CL-RMC_FLORIANO-IDU-HUGHES",
-      "designador": "EQCS0052"
+      "designador": "H0373680"
     },
     {
       "hostname": "EQTPI-MF-CHAPADA_I-IDU-HUGHES",
@@ -2442,7 +2442,7 @@
     },
     {
       "hostname": "EQTPI-SE-LUZILANDIA-IDU-HUGHES",
-      "designador": "EQCS0003"
+      "designador": "H0373746"
     },
     {
       "hostname": "EQTPI-CC-UC_2000136217-NETLUX_SOLAR_LTDA-IDU-HUGHES",
@@ -2462,7 +2462,7 @@
     },
     {
       "hostname": "EQTPI-CL-WMS_SUPERMERCADO-IDU-HUGHES",
-      "designador": "EQCS0010"
+      "designador": "H0373696"
     },
     {
       "hostname": "EQTPI-MF-BOM_JESUS_II-IDU-HUGHES",
@@ -2498,11 +2498,11 @@
     },
     {
       "hostname": "EQTPI-SE-CASTELO_DO_PIAUI-IDU-HUGHES",
-      "designador": "EQCS0004"
+      "designador": "H0373730"
     },
     {
       "hostname": "EQTMA-SE-BACABEIRA-IDU-HUGHES",
-      "designador": "EQCM0014"
+      "designador": "H0373312"
     },
     {
       "hostname": "EQTPI-CC-LION_KING_CALCARIO-IDU-HUGHES",
@@ -2542,7 +2542,7 @@
     },
     {
       "hostname": "EQTPA-SE-BUJARU-HUGHES",
-      "designador": "EQCP0005"
+      "designador": "H0373458"
     },
     {
       "hostname": "EQTPA-SE-TAILANDIA-IDU-HUGHES",
@@ -2562,7 +2562,7 @@
     },
     {
       "hostname": "EQTPI-SE-MANDACARU-IDU-HUGHES",
-      "designador": "EQCS0008"
+      "designador": "H0373738"
     },
     {
       "hostname": "EQTPI-CC-JAIRO_APARECIDO-IDU-HUGHES",
@@ -2590,11 +2590,11 @@
     },
     {
       "hostname": "EQTPI-SE-CANTO_DO_BURITI-IDU-HUGHES",
-      "designador": "EQCS0006"
+      "designador": "H0373750"
     },
     {
       "hostname": "EQTPA-CC-RONDON-E_BRINA_DEPOSITO-HUGHES",
-      "designador": "EQCP0354"
+      "designador": "H0372714"
     },
     {
       "hostname": "EQTPI-CC-UC_15776476-ILTON_WALKER-IDU-HUGHES",
@@ -2650,7 +2650,7 @@
     },
     {
       "hostname": "EQTPA-SE-MEDICILANDIA-HUGHES",
-      "designador": "EQCP0113"
+      "designador": "H0373610"
     },
     {
       "hostname": "EQTMA-CC-UC_2000398394-COLINAS-MAURO_S_PORTO_FAZENDA-IDU-HUGHES",
@@ -2722,11 +2722,11 @@
     },
     {
       "hostname": "EQTPI-SE-PIRACURUCA-IDU-HUGHES",
-      "designador": "EQCS0068"
+      "designador": "H0373736"
     },
     {
       "hostname": "EQTPI-SE-QUILOMBO-IDU-HUGHES",
-      "designador": "EQCS0064"
+      "designador": "H0373726"
     },
     {
       "hostname": "EQTPI-SE-PEDRO_II-IDU-HUGHES",
@@ -2750,7 +2750,7 @@
     },
     {
       "hostname": "EQTMA-SE-SANTA_QUITERIA-IDU-HUGHES",
-      "designador": "EQCM0108"
+      "designador": "H0373300"
     },
     {
       "hostname": "EQTPI-MF-USINA_BOA_ESPERANCA-IDU-HUGHES",
@@ -2790,7 +2790,7 @@
     },
     {
       "hostname": "EQTPI-CL-FERRONORTE_POLO_SUL-IDU-HUGHES",
-      "designador": "EQCS0066"
+      "designador": "H0373708"
     },
     {
       "hostname": "EQTPI-CL-UNINASSAU_PARNAIBA-IDU-HUGHES",
@@ -2798,7 +2798,7 @@
     },
     {
       "hostname": "EQTPI-CL-UC_1332210-VANGUARDA PRINCESA ISABEL-IDU-HUGHES",
-      "designador": "EQCS0053"
+      "designador": "H0373744"
     },
     {
       "hostname": "EQTPI-CL-VANGUARDA_RIVERSIDE-IDU-HUGHES",
@@ -2894,7 +2894,7 @@
     },
     {
       "hostname": "EQTPA-CC-SANTANA_ARAGUAIA-DARLA_SANTANA-HUGHES",
-      "designador": "EQCP0379"
+      "designador": "H0372726"
     },
     {
       "hostname": "EQTPA-CC-CONCEICAO_ARAGUAIA-GILBERTO_CARLOS-HUGHES",
@@ -2958,7 +2958,7 @@
     },
     {
       "hostname": "EQTMA-MF-TOCANTINS-GUADALUPE_CHESF-IDU-HUGHES",
-      "designador": "EQCM0137"
+      "designador": "H0373372"
     },
     {
       "hostname": "EQTPI-SE-ESPERANTINA-IDU-HUGHES",
@@ -2982,11 +2982,11 @@
     },
     {
       "hostname": "EQTPA-SE-BELTERRA-HUGHES",
-      "designador": "EQCP0230"
+      "designador": "H0373487"
     },
     {
       "hostname": "EQTPI-RP-SAO_JOSE_DO_DIVINO-HUGHES",
-      "designador": "EQCS0424"
+      "designador": "H0373752"
     },
     {
       "hostname": "EQTPI-CC-MONSENHOR_GIL-BRITA-IDU-HUGHES",
@@ -3030,11 +3030,11 @@
     },
     {
       "hostname": "EQTPI-CL-VANGUARDA_SAO_SEBASTIAO-IDU-HUGHES",
-      "designador": "EQCS0054"
+      "designador": "H0373674"
     },
     {
       "hostname": "EQTPA-SE-CANAA_DOS_CARAJAS-HUGHES",
-      "designador": "EQCP0102"
+      "designador": "H0373526"
     },
     {
       "hostname": "EQTPI-CL-RMC_RUA_PE_TERESINA-IDU-HUGHES",
@@ -3082,7 +3082,7 @@
     },
     {
       "hostname": "EQTPA-SE-SALVATERRA-HUGHES",
-      "designador": "EQCP0020"
+      "designador": "H0373503"
     },
     {
       "hostname": "EQTPI-CC-UC_13222724-SEBASTIAO_LEAL-ST_AGRONEGOCIOS-IDU-HUGHES",
@@ -3090,7 +3090,7 @@
     },
     {
       "hostname": "EQTPA-SE-SANTA_IZABEL-HUGHES",
-      "designador": "EQCP0021"
+      "designador": "H0372886"
     },
     {
       "hostname": "EQTPI-CL-YDUQS_RUA_LILIZINHA-IDU-HUGHES",
@@ -3158,7 +3158,7 @@
     },
     {
       "hostname": "EQTPI-CL-HIPER-IDU-HUGHES",
-      "designador": "EQCS0001"
+      "designador": "H0373662"
     },
     {
       "hostname": "EQTAL-CL-QUEBRANGULO-UC_0006746020-CASAL-HUGHES",
@@ -3166,11 +3166,11 @@
     },
     {
       "hostname": "EQTPI-SE-SANTA_FILOMENA-IDU-HUGHES",
-      "designador": "EQCS0319"
+      "designador": "H0373734"
     },
     {
       "hostname": "EQTPA-CC-SANTA_ISABEL-RUBENS_NATAN-HUGHES",
-      "designador": "EQCP0339"
+      "designador": "H0372710"
     },
     {
       "hostname": "EQTMA-SE-GOD_VIANA-IDU-HUGHES",
@@ -3210,7 +3210,7 @@
     },
     {
       "hostname": "EQTPA-SE-MARAPANIM-HUGHES",
-      "designador": "EQCP0013"
+      "designador": "H0372934"
     },
     {
       "hostname": "EQTMA-CL-UC_37078875-BACABEIRA-BRASIL_MINERACAO-IDU-HUGHES",
@@ -3226,11 +3226,11 @@
     },
     {
       "hostname": "EQTPI-CL-UDI_CANDIDO_FERRAZ-IDU-HUGHES",
-      "designador": "EQCS0074"
+      "designador": "H0373706"
     },
     {
       "hostname": "EQTPI-CC-UC_ 5828015-UBIRATAN_FRANCISCO1-IDU-HUGHES",
-      "designador": "EQCS0292"
+      "designador": "H0373654"
     },
     {
       "hostname": "EQTMA-SE-TRES_MARIAS-IDU-HUGHES",
@@ -3254,7 +3254,7 @@
     },
     {
       "hostname": "EQTPA-SE-VIGIA-HUGHES",
-      "designador": "EQCP0027"
+      "designador": "H0372952"
     },
     {
       "hostname": "EQTPI-CL-TEREZINA-UC_5648270-SANEAMENTO_SPE-HUGHES",
@@ -3294,7 +3294,7 @@
     },
     {
       "hostname": "EQTPI-CL-VANGUARDA_PARQUE_PIAUI-IDU-HUGHES",
-      "designador": "EQCS0045"
+      "designador": "H0373700"
     },
     {
       "hostname": "EQTPI-CC-UC_6816770-BOM_JESUS-FAZ_TRES_IRMAOS-IDU-HUGHES",
@@ -3330,7 +3330,7 @@
     },
     {
       "hostname": "EQTPA-CC-UC_17195670-DOM_ELISEU-M_E_F_COMERCIO-HUGHES",
-      "designador": "EQCP0361"
+      "designador": "H0372718"
     },
     {
       "hostname": "EQTAP-CC-UC_5422264-CUPIXI_FLORESTAL-HUGHES",
@@ -3346,11 +3346,11 @@
     },
     {
       "hostname": "EQTPI-CL-VANGUARDA_FREI_SERAFIM-IDU-HUGHES",
-      "designador": "EQCS0032"
+      "designador": "H0373686"
     },
     {
       "hostname": "EQTMA-CL-UC_10842492-BALSAS-FAZ_PARNAIBA-IDU-HUGHES",
-      "designador": "EQCM0003"
+      "designador": "H0373156"
     },
     {
       "hostname": "EQTMA-CL-CHAPADINHA-UC_2000313935-MATHEUS-IDU-HUGHES",
@@ -3358,7 +3358,7 @@
     },
     {
       "hostname": "EQTMA-SE-MANAUS-IDU-HUGHES",
-      "designador": "EQCM0090"
+      "designador": "H0373380"
     },
     {
       "hostname": "EQTMA-CC-CARUTAPERA-CERAMICA_R_SOARES-IDU-HUGHES",
@@ -3426,7 +3426,7 @@
     },
     {
       "hostname": "EQTPI-CL-RMC_PLANALTO_URUGUAI-IDU-HUGHES",
-      "designador": "EQCS0040"
+      "designador": "H0373676"
     },
     {
       "hostname": "EQTPA-CC-UC_2000860983-CASA_TABUA-FAUSTO_SILVEIRA-HUGHES",
@@ -3450,7 +3450,7 @@
     },
     {
       "hostname": "EQTMA-CL-SAO_LUIS-EM_VIDROS-HUGHES",
-      "designador": "EQCM0040"
+      "designador": "H0373168"
     },
     {
       "hostname": "EQTPI-RP-LAGOA_DO_SAO_FRANCISCO-HUGHES",
@@ -3610,11 +3610,11 @@
     },
     {
       "hostname": "EQTPI-CL-RIO_POTY-IDU-HUGHES",
-      "designador": "EQCS0012"
+      "designador": "H0373710"
     },
     {
       "hostname": "EQTPI-CL-RIO_POTY-CeA-IDU-HUGHES",
-      "designador": "EQCS0011"
+      "designador": "H0373678"
     },
     {
       "hostname": "EQTPI-CL-RIO_POTY-ESTOK_COMERCIO-IDU-HUGHES",
@@ -3642,7 +3642,7 @@
     },
     {
       "hostname": "EQTPA-CL-AGUA_AZUL-AVB_MINERACAO-HUGHES",
-      "designador": "EQCP0242"
+      "designador": "H0372848"
     },
     {
       "hostname": "EQTGO-SE-IPEGUARI-IDU-HUGHES-IPG",
@@ -3769,7 +3769,7 @@
       "designador": "H0004805"
     },
     {
-      "hostname": "EQTGO-SE-GOIANESIA-IDU-HUGHES-GNS",
+      "hostname": "EQTGO-SE-GOIANSIA-IDU-HUGHES-GNS",
       "designador": "H0004781"
     },
     {
@@ -3906,7 +3906,7 @@
     },
     {
       "hostname": "EQTPI-CL-UC_14594005-GRUPO_EDUCACIONAL_CEV-IDU-HUGHES",
-      "designador": "EQCS0015"
+      "designador": "H0373660"
     },
     {
       "hostname": "EQTPI-CC-UC_16147243-SONIA_LEIDA_PEREIRA_RESENDE-HUGHES",
@@ -3922,11 +3922,11 @@
     },
     {
       "hostname": "EQTPI-SE-NOVO_ORIENTE-IDU-HUGHES",
-      "designador": "EQCS0005"
+      "designador": "H0373740"
     },
     {
       "hostname": "EQTPI-CL-RMC_JAIME_FORTES-IDU-HUGHES",
-      "designador": "EQCS0078"
+      "designador": "H0373662"
     },
     {
       "hostname": "EQTPI-CL-RMC_AV_JUSCELINO-IDU-HUGHES",
@@ -3954,7 +3954,7 @@
     },
     {
       "hostname": "EQTPI-CL-VANGUARDA_ALTO_RESSURREICAO-IDU-HUGHES",
-      "designador": "EQCS0030"
+      "designador": "H0373712"
     },
     {
       "hostname": "EQTPI-CL-SANTANDER_TERESINA-IDU-HUGHES",
@@ -4054,7 +4054,7 @@
     },
     {
       "hostname": "EQTMA-CL-UC_38478117-AURIZONA-IDU-HUGHES",
-      "designador": "EQCM0144"
+      "designador": "H0373196"
     },
     {
       "hostname": "EQTPA-SE-MONTE_DOURADO-HUGHES",
@@ -4062,7 +4062,7 @@
     },
     {
       "hostname": "EQTPA-SE-JURUTI-HUGHES",
-      "designador": "EQCP0351"
+      "designador": "H0373606"
     },
     {
       "hostname": "EQTPI-CL-VANGUARDA_PICOS-IDU-HUGHES",
@@ -4070,7 +4070,7 @@
     },
     {
       "hostname": "EQTPA-SE-COLARES-IDU-HUGHES",
-      "designador": "EQCP0007"
+      "designador": "H0372906"
     },
     {
       "hostname": "EQTPI-SE-CAMPO_MAIOR-IDU-HUGHES",
@@ -4086,7 +4086,7 @@
     },
     {
       "hostname": "EQTPI-CL-VANGUARDA_REAL_COPAGRI-IDU-HUGHES",
-      "designador": "EQCS0044"
+      "designador": "H0373718"
     },
     {
       "hostname": "EQTGO-SE-FLORES_DE_GOIAS-IDU-HUGHES-FLO",
@@ -4134,15 +4134,15 @@
     },
     {
       "hostname": "EQTMA-CL-UC_2000116801-PRESIDENTE_DUTRA-NUTRILAR_2_BR_226-IDU-HUGHES",
-      "designador": "EQCM0056"
+      "designador": "H0373178"
     },
     {
       "hostname": "EQTPA-SE-CURUA-HUGHES",
-      "designador": "EQCP0107"
+      "designador": "H0372884"
     },
     {
       "hostname": "EQTPA-SE-ACARA-HUGHES",
-      "designador": "EQCP0002"
+      "designador": "H0373509"
     },
     {
       "hostname": "EQTPI-CC-MIGUEL_ALVES-OSCAR-IDU-HUGHES",
@@ -4166,7 +4166,7 @@
     },
     {
       "hostname": "EQTPA-SE-SAO_MIGUEL_DO_GUAMA-HUGHES",
-      "designador": "EQCP0024"
+      "designador": "H0372870"
     },
     {
       "hostname": "EQTPA-SE-SANTANA_DO_ARAGUAIA-HUGHES",
@@ -4182,11 +4182,11 @@
     },
     {
       "hostname": "EQTPI-CL-VANGUARDA_CD_PERECIVEL-IDU-HUGHES",
-      "designador": "EQCS0036"
+      "designador": "H0373688"
     },
     {
       "hostname": "EQTPI-CL-VANGUARDA_SM_CODIPE-IDU-HUGHES",
-      "designador": "EQCS0034"
+      "designador": "H0373664"
     },
     {
       "hostname": "EQTGO-SE-JARAGUA-IDU-HUGHES-JAR",
@@ -4222,7 +4222,7 @@
     },
     {
       "hostname": "EQTMA-SE-MORROS-IDU-HUGHES",
-      "designador": "EQCM0031"
+      "designador": "H0373392"
     },
     {
       "hostname": "EQTMA-SE-FORMOSA_DA_SERRA_NEGRA-IDU-HUGHES",
@@ -4238,7 +4238,7 @@
     },
     {
       "hostname": "EQTPA-SE-CAMETA-IDU-HUGHES",
-      "designador": "EQCP0006"
+      "designador": "H0372958"
     },
     {
       "hostname": "EQTMA-CL-SAO_LUIS-UC_42419222-CIMENTOS_MA-IDU-HUGHES",
@@ -4246,7 +4246,7 @@
     },
     {
       "hostname": "EQTMA-SE-VARGEM_GRANDE-IDU-HUGHES",
-      "designador": "EQCM0054"
+      "designador": "H0373332"
     },
     {
       "hostname": "EQTPI-MF-PIRIPIRI_CHESF-IDU-HUGHES",
@@ -4298,10 +4298,10 @@
     },
     {
       "hostname": "EQTMA-CL-SANTA_INES-UC_42336947-MATEUS_MIX-IDU-HUGHES",
-      "designador": "EQCM0132"
+      "designador": "H0373210"
     },
     {
-      "hostname": "EQTPA-SE-PONTA_DE_PEDRA-HUGHES",
+      "hostname": "EQTPA-SE-PONTA_DE_PEDRAS-HUGHES",
       "designador": "EQCP0019"
     },
     {
@@ -4314,7 +4314,7 @@
     },
     {
       "hostname": "EQTPA-SE-CURIONOPOLIS-HUGHES",
-      "designador": "EQCP0106"
+      "designador": "H0372950"
     },
     {
       "hostname": "EQTRS-CC-UC_45454434-DOM_PEDRITO-EDELCI_CARLOS_3-IDU-HUGHES",
@@ -4430,7 +4430,7 @@
     },
     {
       "hostname": "EQTPA-SE-SANTAREM-TAPAJOS-HUGHES",
-      "designador": "EQCP0318"
+      "designador": "H0372858"
     },
     {
       "hostname": "EQTPI-CL-TIM-IDU-HUGHES",
@@ -4450,7 +4450,7 @@
     },
     {
       "hostname": "EQTMA-CL-UC_8687412-TIMON-CERAMICA_LIVRAMENTO-IDU-HUGHES",
-      "designador": "EQCM0150"
+      "designador": "H0373192"
     },
     {
       "hostname": "EQTAL-CC-UC_16918070-ATALAIA-HUGHES",
@@ -4530,7 +4530,7 @@
     },
     {
       "hostname": "EQTPI-CL-C_BRASILEIRA_DISTRIBUICAO_GURGUEIA-IDU-HUGHES",
-      "designador": "EQCS0069"
+      "designador": "H0373716"
     },
     {
       "hostname": "EQTPI-CC-UC_14898128-CORNELIO_ADRIANO_SANDERS-IDU-HUGHES",
@@ -4625,7 +4625,7 @@
       "designador": "EQCM0198"
     },
     {
-      "hostname": "EQTMA-CC-ACAILANDIA_VALE _PATIO28-IDU-HUGHES",
+      "hostname": "EQTMA-CC-ACAILANDIA-VALE _PATIO28-IDU-HUGHES",
       "designador": "EQCM0214"
     },
     {
@@ -5146,7 +5146,7 @@
     },
     {
       "hostname": "EQTPI-CC-UC_920517-TRANSSERVICE_PETROLEO-IDU-HUGHES",
-      "designador": "EQCS0429"
+      "designador": "H0373652"
     },
     {
       "hostname": "EQTMA-CC-BALSAS-GILMAR_JOSE_CANALI-IDU-HUGHES",
@@ -5266,7 +5266,7 @@
     },
     {
       "hostname": "EQTMA-SE-SAO_MATEUS-IDU-HUGHES",
-      "designador": "EQCM0116"
+      "designador": "H0373406"
     },
     {
       "hostname": "EQTAL-CC-UC_10708510-JACUIPE-HUGHES",
@@ -5274,11 +5274,11 @@
     },
     {
       "hostname": "EQTPA-CL-BENEVIDES-BENEVIDES_AGUAS-HUGHES",
-      "designador": "EQCP0207"
+      "designador": "H0372732"
     },
     {
       "hostname": "EQTPI-CL-ARCOS_DOURADOS-IDU-HUGHES",
-      "designador": "EQCS0251"
+      "designador": "H0373692"
     },
     {
       "hostname": "EQTRS-SE-ARENA_GREMIO-IDU-HUGHES",
@@ -5358,7 +5358,7 @@
     },
     {
       "hostname": "EQTPI-CL-PAO_DE_ACUCAR_JOAO-IDU-HUGHES",
-      "designador": "EQCS0013"
+      "designador": "H0373702"
     },
     {
       "hostname": "EQTPI-CC-FLORIANO-GONZAGA_GRANJA-IDU-HUGHES",
@@ -5370,7 +5370,7 @@
     },
     {
       "hostname": "EQTPI-CL-ALMODOVA_DIRCEU_ARCOVERDE-IDU-HUGHES",
-      "designador": "EQCS0027"
+      "designador": "H0373692"
     },
     {
       "hostname": "EQTAP-SMC-MACAPABA-IDU-HUGHES",
@@ -5406,7 +5406,7 @@
     },
     {
       "hostname": "EQTPI-CL-VANGUARDA_JOAQUIM_NELSON-IDU-HUGHES",
-      "designador": "EQCS0058"
+      "designador": "H0373704"
     },
     {
       "hostname": "EQTPI-SE-JOSE_DE_FREITAS-IDU-HUGHES",
@@ -5458,7 +5458,7 @@
     },
     {
       "hostname": "EQTMA-SE-ZE_DOCA-IDU-HUGHES",
-      "designador": "EQCM0131"
+      "designador": "H0373262"
     },
     {
       "hostname": "EQTRS-SE-PORTO_ALEGRE_17-IDU-HUGHES",
@@ -5582,7 +5582,7 @@
     },
     {
       "hostname": "EQTPI-CL-CB_DISTRIBUICAO_SAO_CRISTOVAO-IDU-HUGHES",
-      "designador": "EQCS0019"
+      "designador": "H0373682"
     },
     {
       "hostname": "EQTPA-CC-CASA_DE_TABUA-NPL_FRIGORIFICO-HUGHES",
@@ -5622,7 +5622,7 @@
     },
     {
       "hostname": "EQTMA-CL-UC_43375938-BALSAS-NOTARO_GRANJA-IDU-HUGHES",
-      "designador": "EQCM0036"
+      "designador": "H0373140"
     },
     {
       "hostname": "EQTMA-CL-PORTO_FRANCO-BUNGE-IDU-HUGHES",
@@ -5642,7 +5642,7 @@
     },
     {
       "hostname": "EQTPA-SE-SANTAREM-HUGHES",
-      "designador": "EQCP0127"
+      "designador": "H0372858"
     },
     {
       "hostname": "EQTPA-SE-XINGUARA-HUGHES",
@@ -5662,7 +5662,7 @@
     },
     {
       "hostname": "EQTPA-SE-RUROPOLIS-HUGHES",
-      "designador": "EQCP0126"
+      "designador": "H0372862"
     },
     {
       "hostname": "EQTPA-SE-BREVES-IDU-HUGHES",
@@ -5670,7 +5670,7 @@
     },
     {
       "hostname": "EQTPA-SE-PAU_DARCO-HUGHES-PRINCIPAL",
-      "designador": "EQCP0120"
+      "designador": "H0372922"
     },
     {
       "hostname": "EQTPA-SE-BOM_JESUS-HUGHES-BACKUP",
@@ -5706,11 +5706,11 @@
     },
     {
       "hostname": "EQTPA-SE-CONCEICAO_DO_ARAGUAIA-IDU-HUGHES",
-      "designador": "EQCP0105"
+      "designador": "H0373520"
     },
     {
       "hostname": "EQTPA-SE-NOVO_PROGRESSO-HUGHES",
-      "designador": "EQCP0116"
+      "designador": "H0373632"
     },
     {
       "hostname": "EQTPA-SE-RONDON_DO_PARA-HUGHES",
@@ -5742,11 +5742,11 @@
     },
     {
       "hostname": "EQTPA-CL-SANTAREM-TAPAJOS_ALIMENTOS-HUGHES",
-      "designador": "EQCP0146"
+      "designador": "H0372746"
     },
     {
       "hostname": "EQTPA-CL-BELTERRA-TAPAJOS_ALIMENTOS-HUGHES",
-      "designador": "EQCP0147"
+      "designador": "H0372752"
     },
     {
       "hostname": "EQTPA-CC-MARABA-MINERACAO_BURITIRAMA-HUGHES",
@@ -5774,7 +5774,7 @@
     },
     {
       "hostname": "EQTMA-CC-UC_40996532-GODOFREDO_VIANA-AURIZONA_PORTAO-IDU-HUGHES",
-      "designador": "EQCM0178"
+      "designador": "H0373146"
     },
     {
       "hostname": "EQTPA-CC-SANTAREM-MADEIREIRA_PARAISO-HUGHES",
@@ -5782,11 +5782,11 @@
     },
     {
       "hostname": "EQTMA-SE-SAO_BENTO-IDU-HUGHES",
-      "designador": "EQCM0109"
+      "designador": "H0373408"
     },
     {
       "hostname": "EQTMA-SE-CURURUPU-IDU-HUGHES",
-      "designador": "EQCM0125"
+      "designador": "H0373276"
     },
     {
       "hostname": "EQTMA-SE-MATA_ROMA-IDU-HUGHES",
@@ -5798,11 +5798,11 @@
     },
     {
       "hostname": "EQTMA-SE-LAGO_VERDE-IDU-HUGHES",
-      "designador": "EQCM0105"
+      "designador": "H0373234"
     },
     {
       "hostname": "EQTMA-SE-SANTA_LUZIA_DO_TIDE_ESTACA_TRINTA-IDU-HUGHES",
-      "designador": "EQCM0101"
+      "designador": "H0373328"
     },
     {
       "hostname": "EQTMA-SE-PENALVA-IDU-HUGHES",
@@ -5810,7 +5810,7 @@
     },
     {
       "hostname": "EQTMA-SE-SERRANO-IDU-HUGHES",
-      "designador": "EQCM0118"
+      "designador": "H0373276"
     },
     {
       "hostname": "EQTMA-SE-ITAIPAVA-IDU-HUGHES",
@@ -5818,7 +5818,7 @@
     },
     {
       "hostname": "EQTMA-SE-IGARAPE_GRANDE-IDU-HUGHES",
-      "designador": "EQCM0088"
+      "designador": "H0373432"
     },
     {
       "hostname": "EQTMA-SE-GOVENADOR_EDSON_LOBAO-IDU-HUGHES",
@@ -5834,15 +5834,15 @@
     },
     {
       "hostname": "EQTMA-CL-VARGEM_GRANDE-UC_2000596610-POSTERUS-IDU-HUGHES",
-      "designador": "EQCM0290"
+      "designador": "H0373436"
     },
     {
       "hostname": "EQTMA-CL-PRESIDENTE_DUTRA_CENTRO-NUTRILAR_1-IDU-HUGHES",
-      "designador": "EQCM0146"
+      "designador": "H0373208"
     },
     {
       "hostname": "EQTMA-CL-UC_44497395-BALSAS-AGROMANTOVA-IDU-HUGHES",
-      "designador": "EQCM0167"
+      "designador": "H0373166"
     },
     {
       "hostname": "EQTPA-SE-SAO_DOMINGOS_DO_ARAGUAIA-HUGHES-BACKUP",
@@ -5877,73 +5877,72 @@
       "designador": "EQCP0070"
     },
     {
-    "hostname": "EQTGO-SE-MONTIVIDIU-IDU-HUGHES-MOT",
-    "designador": "H0005243"
-  },
-  {
-    "hostname": "EQTGO-SE-SERRA_DO_OURO-IDU-HUGHES-SOU",
-    "designador": "H0004944"
-  },
-  {
-    "hostname": "EQTGO-SE-GOIATUBA-IDU-HUGHES-GTB",
-    "designador": "H0005237"
-  },
-  {
-    "hostname": "EQTGO-SE-SAO_DOMINGOS-IDU-HUGHES-USD",
-    "designador": "H0006263"
-  },
-  {
-    "hostname": "EQTGO-SE-RUBIATABA-IDU-HUGHES-RUB",
-    "designador": "H0004934"
-  },
-  {
-    "hostname": "EQTGO-SE-BOM_JESUS-IDU-HUGHES-BJE",
-    "designador": "H0004939"
-  },
-  {
-    "hostname": "EQTGO-SE-ARAGUAPAZ-IDU-HUGHES-ARP",
-    "designador": "H0009262"
-  },
-  {
-    "hostname": "EQTGO-SE-SAO_MIGUEL_DO_ARAGUAIA-IDU-HUGHES-SMA",
-    "designador": "H0005017"
-  },
-  {
-    "hostname": "EQTGO-SE-PIRANHAS-IDU-HUGHES-PRH",
-    "designador": "H0005234"
-  },
-  {
-    "hostname": "EQTGO-SE-JARAGUA-IDU-HUGHES-JAR",
-    "designador": "H0004894"
-  },
-  {
-    "hostname": "EQTGO-SE-ITUMBIARA_VELHA-IDU-HUGHES-ITV",
-    "designador": "H0004843"
-  },
+      "hostname": "EQTGO-SE-MONTIVIDIU-IDU-HUGHES-MOT",
+      "designador": "H0005243"
+    },
     {
-      "host": "EQTGO-SE-ALEXANIA-IDU_KU-HUGHES-ALX",
+      "hostname": "EQTGO-SE-SERRA_DO_OURO-IDU-HUGHES-SOU",
+      "designador": "H0004944"
+    },
+    {
+      "hostname": "EQTGO-SE-GOIATUBA-IDU-HUGHES-GTB",
+      "designador": "H0005237"
+    },
+    {
+      "hostname": "EQTGO-SE-SAO_DOMINGOS-IDU-HUGHES-USD",
+      "designador": "H0006263"
+    },
+    {
+      "hostname": "EQTGO-SE-RUBIATABA-IDU-HUGHES-RUB",
+      "designador": "H0004934"
+    },
+    {
+      "hostname": "EQTGO-SE-BOM_JESUS-IDU-HUGHES-BJE",
+      "designador": "H0004939"
+    },
+    {
+      "hostname": "EQTGO-SE-ARAGUAPAZ-IDU-HUGHES-ARP",
+      "designador": "H0009262"
+    },
+    {
+      "hostname": "EQTGO-SE-SAO_MIGUEL_DO_ARAGUAIA-IDU-HUGHES-SMA",
+      "designador": "H0005017"
+    },
+    {
+      "hostname": "EQTGO-SE-PIRANHAS-IDU-HUGHES-PRH",
+      "designador": "H0005234"
+    },
+    {
+      "hostname": "EQTGO-SE-JARAGUA-IDU-HUGHES-JAR",
+      "designador": "H0004894"
+    },
+    {
+      "hostname": "EQTGO-SE-ITUMBIARA_VELHA-IDU-HUGHES-ITV",
+      "designador": "H0004843"
+    },
+    {
+      "hostname": "EQTGO-SE-ALEXANIA-IDU_KU-HUGHES-ALX",
       "designador": "H0010403"
     },
     {
-      "host": "EQTGO-SE-ARAGOIANIA-IDU_KU-HUGHES-AGO",
+      "hostname": "EQTGO-SE-ARAGOIANIA-IDU_KU-HUGHES-AGO",
       "designador": "H0009765"
     },
     {
-      "host": "EQTGO-SE-AREIAS-IDU_KU-HUGHES-ARI",
+      "hostname": "EQTGO-SE-AREIAS-IDU_KU-HUGHES-ARI",
       "designador": "H0011153"
     },
     {
-      "host": "EQTGO-SE-CACHOEIRINHA-IDU_KU-HUGHES-CNH",
+      "hostname": "EQTGO-SE-CACHOEIRINHA-IDU_KU-HUGHES-CNH",
       "designador": "H0010046"
     },
     {
-      "host": "EQTGO-SE-COLINACU-IDU_KU-HUGHES-CLC",
+      "hostname": "EQTGO-SE-COLINACU-IDU_KU-HUGHES-CLC",
       "designador": "H0010405"
     },
     {
-      "host": "EQTGO-SE-CRISTALINA_MT-IDU_KU-HUGHES-CRS",
+      "hostname": "EQTGO-SE-CRISTALINA_MT-IDU_KU-HUGHES-CRS",
       "designador": "H0011154"
     }
   ]
 }
-
