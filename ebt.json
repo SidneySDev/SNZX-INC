@@ -113,7 +113,7 @@
         "designador": "RSI/IP/00113"
       },
       {
-        "hostname": "EQTMA-SE-SANTA_INES-EBT",
+        "hostname": "EQTMA-SE-SANTA_INES-EMBRATEL",
         "designador": "SIS/IP/00222"
       },
       {
@@ -326,3 +326,4 @@
       }
     ]
   }
+
