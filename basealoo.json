@@ -1,0 +1,496 @@
+{
+    "equipamentos": [
+        {
+            "hostname": "EQTAL-AG-ARAPIRACA-ROUTER-ALOO",
+            "designador": "AIR22114"
+        },
+        {
+            "hostname": "EQTAL-AG-ATALAIA-ROUTER-ALOO",
+            "designador": "ATL21835"
+        },
+        {
+            "hostname": "EQTAL-AG-BOCA_DA_MATA-ROUTER-ALOO",
+            "designador": "BOD218360"
+        },
+        {
+            "hostname": "EQTAL-AG-CAMPO_ALEGRE-ROUTER-ALOO",
+            "designador": "CLR22733"
+        },
+        {
+            "hostname": "EQTAL-AG-CORURIPE-ROUTER-ALOO",
+            "designador": "CUI21838"
+        },
+        {
+            "hostname": "EQTAL-AG-GIRAU_DO_PONCIANO-ROUTER-ALOO",
+            "designador": "GUP218400"
+        },
+        {
+            "hostname": "EQTAL-AG-IGACI-ROUTER-ALOO",
+            "designador": "ICY21841"
+        },
+        {
+            "hostname": "EQTAL-AG-JA_BENEDITO_BENTES-ROUTER-ALOO",
+            "designador": "MCO24710"
+        },
+        {
+            "hostname": "EQTAL-AG-JA_DELMIRO-ROUTER-ALOO",
+            "designador": "DGA27243"
+        },
+        {
+            "hostname": "EQTAL-AG-JA_MACEIO_SHP-ROUTER-ALOO",
+            "designador": "MCO24711"
+        },
+        {
+            "hostname": "EQTAL-AG-JA_PENEDO-ROUTER-ALOO",
+            "designador": "PND25811"
+        },
+        {
+            "hostname": "EQTAL-AG-JA_SHP_FAROL-ROUTER-ALOO",
+            "designador": "MCO26826"
+        },
+        {
+            "hostname": "EQTAL-AG-MARAGOGI-ROUTER-ALOO",
+            "designador": "MGI22804"
+        },
+        {
+            "hostname": "EQTAL-AG-MARECHAL_DEODORO-ROUTER-ALOO",
+            "designador": "MHD21850"
+        },
+        {
+            "hostname": "EQTAL-AG-MURICI-ROUTER-ALOO",
+            "designador": "MRI21854"
+        },
+        {
+            "hostname": "EQTAL-AG-PAO_DE_ACUCAR-ROUTER-ALOO",
+            "designador": "PKW218580"
+        },
+        {
+            "hostname": "EQTAL-AG-PILAR-ROUTER-ALOO",
+            "designador": "PLR21860"
+        },
+        {
+            "hostname": "EQTAL-AG-PORTO_CALVO-ROUTER-ALOO",
+            "designador": "PCV21861"
+        },
+        {
+            "hostname": "EQTAL-AG-RIO_LARGO-ROUTER-ALOO",
+            "designador": "RGO22379"
+        },
+        {
+            "hostname": "EQTAL-AG-SAO_JOSE_DA_TAPERA-ROUTER-ALOO",
+            "designador": "SPX21865"
+        },
+        {
+            "hostname": "EQTAL-AG-SAO_LUIZ_DO_QUITUNDE-ROUTER-ALOO",
+            "designador": "SLQ21867"
+        },
+        {
+            "hostname": "EQTAL-AG-SAO_MIGUEL_DOS_CAMPOS-ROUTER-ALOO",
+            "designador": "SMM21868"
+        },
+        {
+            "hostname": "EQTAL-AG-TEOTONIO_VILELA-ROUTER-ALOO",
+            "designador": "TNVL21898"
+        },
+        {
+            "hostname": "EQTAL-AG-UNIAO_DOS_PALMARES-ROUTER-ALOO",
+            "designador": "UPS22380"
+        },
+        {
+            "hostname": "EQTAL-AG-VICOSA-ROUTER-ALOO",
+            "designador": "VIS21872"
+        },
+        {
+            "hostname": "EQTAL-CL-ARAPIRACA-ASA_BRANCA-ROUTER-ALOO",
+            "designador": "AIR24265"
+        },
+        {
+            "hostname": "EQTAL-CL-ARAPIRACA-UC_1476955-BANCO_SANTANDER-CENTRO-ALOO",
+            "designador": "AIR26021"
+        },
+        {
+            "hostname": "EQTAL-CL-ARAPIRACA-UC_3482324-ASSAI-ALOO",
+            "designador": "AIR24973"
+        },
+        {
+            "hostname": "EQTAL-CL-ARAPIRACA-UC_4538897-MERCONPLAS-ALOO",
+            "designador": "AIR24293"
+        },
+        {
+            "hostname": "EQTAL-CL-ARAPIRACA-UC_12928771-CORINGA_2-ALOO",
+            "designador": "AIR24179"
+        },
+        {
+            "hostname": "EQTAL-CL-ARAPIRACA-UC_13131168-RIACHUELO_ARAPIRACA_SHP-ALOO",
+            "designador": "AIR24767"
+        },
+        {
+            "hostname": "EQTAL-CL-ARAPIRACA-UC_16515170-CORINGA_3-ALOO",
+            "designador": "AIR24971"
+        },
+        {
+            "hostname": "EQTAL-CL-DELMIRO_GOUVEIA-UC_14064677-JR_EMBALAGENS-ALOO",
+            "designador": "DGA25818"
+        },
+        {
+            "hostname": "EQTAL-CL-MACEIO-MACEIO_UC_3920860-SHP_SATELITE-ALOO",
+            "designador": "MCO24197"
+        },
+        {
+            "hostname": "EQTAL-CL-MACEIO-UC_323829-RIACHUELO_CENTRO-ALOO",
+            "designador": "MCO24765"
+        },
+        {
+            "hostname": "EQTAL-CL-MACEIO-UC_331120-MARISA_CENTRO-ALOO",
+            "designador": "MCO25514"
+        },
+        {
+            "hostname": "EQTAL-CL-MACEIO-UC_996009-SANTA_CASA_ONCOLOGIA-ALOO",
+            "designador": "MCO24257"
+        },
+        {
+            "hostname": "EQTAL-CL-MACEIO-UC_1470035-BOMPRECO_FAROL-ALOO",
+            "designador": "MCO24283"
+        },
+        {
+            "hostname": "EQTAL-CL-MACEIO-UC_1470108-HOSP_ARTHUR_RAMOS-ALOO",
+            "designador": "MCO25516"
+        },
+        {
+            "hostname": "EQTAL-CL-MACEIO-UC_1470523-COPRA-ALOO",
+            "designador": "MCO25681"
+        },
+        {
+            "hostname": "EQTAL-CL-MACEIO-UC_1470680-REPLAST_2-ALOO",
+            "designador": "MCO24289"
+        },
+        {
+            "hostname": "EQTAL-CL-MACEIO-UC_1471600-SANTA_CASA_FAROL-ALOO",
+            "designador": "MCO24277"
+        },
+        {
+            "hostname": "EQTAL-CL-MACEIO-UC_1472364-CEA_MACEIO_SHOPPING-ALOO",
+            "designador": "MCO24243"
+        },
+        {
+            "hostname": "EQTAL-CL-MACEIO-UC_1473123-SANTA_CASA_NOSSA_SRA_GUIA-ALOO",
+            "designador": "MCO24297"
+        },
+        {
+            "hostname": "EQTAL-CL-MACEIO-UC_1473301-BANCO_SANTANDER-CENTRO_310-ALOO",
+            "designador": "MCO26035"
+        },
+        {
+            "hostname": "EQTAL-CL-MACEIO-UC_1473743-BRADESCO_CENTRO-ALOO",
+            "designador": "MCO25525"
+        },
+        {
+            "hostname": "EQTAL-CL-MACEIO-UC_1473840-OI_ESTACAO_CENTRO-ALOO",
+            "designador": "MCO24107"
+        },
+        {
+            "hostname": "EQTAL-CL-MACEIO-UC_3920933-CENTRO_MEDICO_MCZ_SHOP-ALOO",
+            "designador": "MCO24223"
+        },
+        {
+            "hostname": "EQTAL-CL-MACEIO-UC_4409787-BANCO_SANTANDER-FAROL-ALOO",
+            "designador": "MCO26037"
+        },
+        {
+            "hostname": "EQTAL-CL-MACEIO-UC_5392136-SANTA_CASA_MATRIZ-ALOO",
+            "designador": "MCO24299"
+        },
+        {
+            "hostname": "EQTAL-CL-MACEIO-UC_6007775-SEB-ALOO",
+            "designador": "MCO24303"
+        },
+        {
+            "hostname": "EQTAL-CL-MACEIO-UC_6075398-CLARO-POCO-ALOO",
+            "designador": "MCO24884"
+        },
+        {
+            "hostname": "EQTAL-CL-MACEIO-UC_6081800-SHOPPING_CIDADE_AMERICANAS-ALOO",
+            "designador": "MCO26111"
+        },
+        {
+            "hostname": "EQTAL-CL-MACEIO-UC_6854184-ATACADAO-ALOO",
+            "designador": "MCO25683"
+        },
+        {
+            "hostname": "EQTAL-CL-MACEIO-UC_7094612-ASSAI_SERRARIA-ALOO",
+            "designador": "MCO24890"
+        },
+        {
+            "hostname": "EQTAL-CL-MACEIO-UC_8283834-IGREJA_UNIVERSAL-ALOO",
+            "designador": "MCO25708"
+        },
+        {
+            "hostname": "EQTAL-CL-MACEIO-UC_9248870-BOMPRECO_PONTA_VERDE-ALOO",
+            "designador": "MCO24281"
+        },
+        {
+            "hostname": "EQTAL-CL-MACEIO-UC_10333690-GVT_VIVO-ALOO",
+            "designador": "MCO24301"
+        },
+        {
+            "hostname": "EQTAL-CL-MACEIO-UC_11169303-MARISA_SHOP_PATIO-ALOO",
+            "designador": "MCO24215"
+        },
+        {
+            "hostname": "EQTAL-CL-MACEIO-UC_11986271-IPLAC-VPN_S2S",
+            "designador": "IPSEC"
+        },
+        {
+            "hostname": "EQTAL-CL-MACEIO-UC_14155230-ALMA_VIVA_BENEDITO_BENTES-ALOO",
+            "designador": "MCO24181"
+        },
+        {
+            "hostname": "EQTAL-CL-MACEIO-UC_14572370-DIAGNOSE_PONTA_VERDE-ALOO",
+            "designador": "MCO24144"
+        },
+        {
+            "hostname": "EQTAL-CL-MACEIO-UC_15898601-PALATO_PRAIA-ALOO",
+            "designador": "MCO24886"
+        },
+        {
+            "hostname": "EQTAL-CL-MACEIO-UC_16572980-ASSAI_TABULEIRO-ALOO",
+            "designador": "MCO25483"
+        },
+        {
+            "hostname": "EQTAL-CL-MARECHAL_DEODORO-UC_10425551-BBA-ALOO",
+            "designador": "MHD24305"
+        },
+        {
+            "hostname": "EQTAL-CL-MARECHAL_DEODORO-UC_11770988-KRONA-ALOO",
+            "designador": "MHD24207"
+        },
+        {
+            "hostname": "EQTAL-CL-MARECHAL_DEODORO-UC_14236788-ZTT-ALOO",
+            "designador": "MHD24221"
+        },
+        {
+            "hostname": "EQTAL-CL-PENEDO-UC_17009936-USINA_SOLAR_SHP_CIDADE-ALOO",
+            "designador": "PND26508"
+        },
+        {
+            "hostname": "EQTAL-CL-PILAR-UC_9756825-PETROBRAS-ALOO",
+            "designador": "PLR24161"
+        },
+        {
+            "hostname": "EQTAL-CL-S_LUZIA_DO_NORTE-UC_3920763-TIMAC_AGRO-ALOO",
+            "designador": "SZT25407"
+        },
+        {
+            "hostname": "EQTAL-CL-S_M_DOS_CAMPOS-UC_9756817-PETROBRAS_FURADO-ALOO",
+            "designador": "SMM24159"
+        },
+        {
+            "hostname": "EQTAL-CL-S_M_DOS_CAMPOS-UC_13550020-US_CAETE_BIOFLEX-ALOO",
+            "designador": "SMM24195"
+        },
+        {
+            "hostname": "EQTAL-CL-S_M_DOS_CAMPOS-UC_14154919-SANTA_CASA-ALOO",
+            "designador": "SMM25241"
+        },
+        {
+            "hostname": "EQTAL-CL-UC_1471643-MACEIO-CLARO_FAROL-ROUTER-ALOO",
+            "designador": "MCO24267"
+        },
+        {
+            "hostname": "EQTAL-ES-SANTANA_DO_IPANEMA-ROUTER-ALOO",
+            "designador": "SNN28446"
+        },
+        {
+            "hostname": "EQTAL-MF-SE_ANGELIM-ROUTER-ALOO",
+            "designador": "AGM20793"
+        },
+        {
+            "hostname": "EQTAL-MF-SE_ARAPIRACA_III-ROUTER-ALOO",
+            "designador": "AIR24155"
+        },
+        {
+            "hostname": "EQTAL-MF-SE_MACEIO_I-ROUTER-ALOO",
+            "designador": "MCO20798"
+        },
+        {
+            "hostname": "EQTAL-MF-SE_MACEIO_II-ROUTER-ALOO",
+            "designador": "MCO23185"
+        },
+        {
+            "hostname": "EQTAL-MF-SE_PALMARES-ROUTER-ALOO",
+            "designador": "PLS20800"
+        },
+        {
+            "hostname": "EQTAL-MF-SE_PAULO_AFONSO_ABAIXADORA-ROUTER-ALOO",
+            "designador": "PAF20796"
+        },
+        {
+            "hostname": "EQTAL-MF-SE_PENEDO-ROUTER-ALOO",
+            "designador": "PND20794"
+        },
+        {
+            "hostname": "EQTAL-MF-SE_RIO_LARGO_II-ROUTER-ALOO",
+            "designador": "RGO20792"
+        },
+        {
+            "hostname": "EQTAL-MF-SE_SANTANA_II-ROUTER-ALOO",
+            "designador": "SNN26012"
+        },
+        {
+            "hostname": "EQTAL-MF-SE_XINGO-ROUTER-ALOO",
+            "designador": "CFY20797"
+        },
+        {
+            "hostname": "EQTAL-MF-SE_ZEBU_I-ROUTER-ALOO",
+            "designador": "PAF24156"
+        },
+        {
+            "hostname": "EQTAL-MF-SE_ZEBU_II-ROUTER-ALOO",
+            "designador": "PAF20795"
+        },
+        {
+            "hostname": "EQTAL-SD-CONCENTRADOR-MPLS-ROUTER-ALOO",
+            "designador": "MCO21833"
+        },
+        {
+            "hostname": "EQTAL-SD-CONCENTRADOR-SMF-ROUTER-ALOO",
+            "designador": "MCO20791"
+        },
+        {
+            "hostname": "EQTAL-SD-INTERNET-ROUTER-ALOO",
+            "designador": "MCO21832"
+        },
+        {
+            "hostname": "EQTAL-SE-ARAPIRACA-ROUTER-ALOO",
+            "designador": "AIR22734"
+        },
+        {
+            "hostname": "EQTAL-SE-BARRA_DE_SAO_MIGUEL-ALOO",
+            "designador": "BDG27425"
+        },
+        {
+            "hostname": "EQTAL-SE-CAMPESTRE-ROUTER-ALOO",
+            "designador": "CPEE26963"
+        },
+        {
+            "hostname": "EQTAL-SE-CAPELA-ROUTER-ALOO",
+            "designador": "CPA21837"
+        },
+        {
+            "hostname": "EQTAL-SE-CORURIPE-ROUTER-ALOO",
+            "designador": "CUI24772"
+        },
+        {
+            "hostname": "EQTAL-SE-CORURIPE_II-ROUTER-ALOO",
+            "designador": "CUI24101"
+        },
+        {
+            "hostname": "EQTAL-SE-CRAIBAS-ROUTER-ALOO",
+            "designador": "KIS27424"
+        },
+        {
+            "hostname": "EQTAL-SE-DELMIRO_GOUVEIA-ROUTER-ALOO",
+            "designador": "DGA21839"
+        },
+        {
+            "hostname": "EQTAL-SE-GIRAU_DO_PONCIANO-ROUTER-ALOO",
+            "designador": "GUP24099"
+        },
+        {
+            "hostname": "EQTAL-SE-INHAPI-ROUTER-ALOO",
+            "designador": "IHP21842"
+        },
+        {
+            "hostname": "EQTAL-SE-JOAQUIM_GOMES-ROUTER-ALOO",
+            "designador": "JQG28372"
+        },
+        {
+            "hostname": "EQTAL-SE-MACEIO_IPIOCA-ROUTER-ALOO",
+            "designador": "MCO25462"
+        },
+        {
+            "hostname": "EQTAL-SE-MACEIO_STELLA_MARIS-FW-FORTIGATE",
+            "designador": "Firewall"
+        },
+        {
+            "hostname": "EQTAL-SE-MARAGOGI-ROUTER-ALOO",
+            "designador": "MGI21849"
+        },
+        {
+            "hostname": "EQTAL-SE-MARECHAL_DEODORO-POLO-ROUTER-ALOO",
+            "designador": "MHD25854"
+        },
+        {
+            "hostname": "EQTAL-SE-MARIBONDO-ROUTER-ALOO",
+            "designador": "MBO21851"
+        },
+        {
+            "hostname": "EQTAL-SE-MARITUBA-ROUTER-ALOO",
+            "designador": "PND25702"
+        },
+        {
+            "hostname": "EQTAL-SE-MATRIZ_DO_CAMARAGIBE-ROUTER-ALOO",
+            "designador": "MZC21853"
+        },
+        {
+            "hostname": "EQTAL-SE-MURICI-ROUTER-ALOO",
+            "designador": "MRI21855"
+        },
+        {
+            "hostname": "EQTAL-SE-OLHO_DAGUA_DAS_FLORES-ROUTER-ALOO",
+            "designador": "OLF26093"
+        },
+        {
+            "hostname": "EQTAL-SE-PALMEIRA_DOS_INDIOS-ROUTER-ALOO",
+            "designador": "PIN21857"
+        },
+        {
+            "hostname": "EQTAL-SE-PORTO_CALVO-ROUTER-ALOO",
+            "designador": "PCV21862"
+        },
+        {
+            "hostname": "EQTAL-SE-PORTO_DE_PEDRAS-COSTA_DOS_CORAIS-ROUTER-ALOO",
+            "designador": "POP27710"
+        },
+        {
+            "hostname": "EQTAL-SE-RIO-LARGO-ROUTER-ALOO",
+            "designador": "RGO25019"
+        },
+        {
+            "hostname": "EQTAL-SE-SANTANA_DO_IPANEMA-ROUTER-ALOO",
+            "designador": "SNN26042"
+        },
+        {
+            "hostname": "EQTAL-SE-SAO_BRAS-ROUTER-ALOO",
+            "designador": "SOB25717"
+        },
+        {
+            "hostname": "EQTAL-SE-SAO_LUIZ_DO_QUITUNDE-ROUTER-ALOO",
+            "designador": "SLQ21866"
+        },
+        {
+            "hostname": "EQTAL-SE-SAO_MIGUEL_DOS_CAMPOS-TIPICA-ROUTER-ALOO",
+            "designador": "SMM21869"
+        },
+        {
+            "hostname": "EQTAL-SE-SAO_SEBASTIAO-CURRALINHO-ROUTER-ALOO",
+            "designador": "SWS25693"
+        },
+        {
+            "hostname": "EQTAL-SE-SAO_SEBASTIAO-ROUTER-ALOO",
+            "designador": "SWS25831"
+        },
+        {
+            "hostname": "EQTAL-SE-TEOTONIO_VILELA-PERI_PERI-ROUTER-ALOO",
+            "designador": "TRP24575"
+        },
+        {
+            "hostname": "EQTAL-SE-UNIAO_DOS_PALMARES-ROUTER-ALOO",
+            "designador": "UPS24866"
+        },
+        {
+            "hostname": "EQTAL-SE-VICOSA-ROUTER-ALOO",
+            "designador": "VIS23009"
+        }
+    ]
+}
