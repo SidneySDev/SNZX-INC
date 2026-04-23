@@ -1,16 +1,12 @@
 {
-  "addons": {
-    "{aaf84e8f-c5a6-428e-98b8-273599e4575a}": {
-      "updates": [
-        {
-          "version": "1.250",
-          "update_link": "https://sidneysdev.github.io/SNZX-INC/SNZ_B-1.250.xpi",
-          "update_info_url": "https://sidneysdev.github.io/SNZX-INC/",
-          "maintenance_mode": false,
-          "maintenance_message": "A extensão está em manutenção. Volte em breve!",
-          "maintenance_redirect": "https://sidneysdev.github.io/SNZX-INC/"
+    "addons": {
+        "{9f37c85e-a1ca-4584-8f12-f73ae3c1641e}": {
+            "updates": [
+                {
+                    "version": "1.993",
+                    "update_link": "https://sidneysdev.github.io/SNZX-INC/sollus1_993.xpi"
+                }
+            ]
         }
-      ]
     }
-  }
 }
