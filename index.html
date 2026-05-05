@@ -689,7 +689,7 @@
         const openProfilesBtn = document.getElementById('openProfiles');
         const closeModalBtn = document.getElementById('closeModal');
         const profilesGrid = document.getElementById('profilesGrid');
-        const download2 = document.getElementById('download2');
+        //const download2 = document.getElementById('download2');
         const download3 = document.getElementById('download3');
 
         // ==================================================
@@ -823,7 +823,6 @@
         function setupDownloadButtons() {
             const warnings = [
                 document.getElementById('firefoxWarning1'),
-                document.getElementById('firefoxWarning2'),
                 document.getElementById('firefoxWarning3')
             ];
 
@@ -835,9 +834,9 @@
 
             if (isFirefox()) {
                 // Firefox - permite download com animação
-                download2.onclick = function() {
-                    downloadProfile('SNZ-B-1.211.xpi');
-                };
+               // download2.onclick = function() {
+               //     downloadProfile('SNZ-B-1.211.xpi');
+              //  };
                 
                 download3.onclick = function() {
                    // versão 2.1 downloadProfile('8f32a5208e2641fb8e85-2_1.xpi');
@@ -851,7 +850,7 @@
 
             } else {
                 // Outros navegadores
-                [download2, download3].forEach(btn => {
+                [download3].forEach(btn => {
                     if (btn) {
                         btn.style.opacity = '0.7';
                         btn.style.cursor = 'not-allowed';
