@@ -2823,6 +2823,10 @@
     {
       "hostname": "EQTRS-VPN-RELIGADORES_TELESPAZIO_1_CONCENTRADOR",
       "designador": ""
+    },
+    {
+      "hostname": "EQTGO-US-MAMBAI-IDU_KU-TELESPAZIO-UMA",
+      "designador": "CELG-0632-GO-H12"
     }
   ]
 }
