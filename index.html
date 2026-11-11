@@ -314,6 +314,260 @@
             display: none;
         }
 
+        /* ==================================================
+           CARD 3 - LUIG PRO: ESCOLHA DE SERVIDOR (HA)
+           Firebase + GitHub Pages com triângulo de energia
+           ================================================== */
+        .card-3 {
+            cursor: pointer;
+            outline: none;
+        }
+
+        .card-3:focus-visible {
+            box-shadow: 0 0 0 3px #6a7bff, 0 10px 30px rgba(0, 0, 0, 0.12);
+        }
+
+        .card-3.open {
+            box-shadow: 0 15px 45px rgba(0, 0, 0, 0.2);
+        }
+
+        .card-3.open::before {
+            opacity: 0.8;
+            box-shadow: 0 0 20px rgba(255, 255, 255, 0.6);
+        }
+
+        .card-3.open .card-icon {
+            transform: scale(1.12) rotate(-2deg);
+        }
+
+        .card-3 .card-icon {
+            position: relative;
+            z-index: 1;
+        }
+
+        .card-3 .icon-fallback {
+            width: 180px;
+            height: 180px;
+            margin-top: 10px;
+            display: none;
+            align-items: center;
+            justify-content: center;
+            font-size: 28px;
+            font-weight: 700;
+            color: #6a7bff;
+            border: 2px dashed #b3b8ff;
+            border-radius: 20px;
+        }
+
+        /* botão some quando as bolhas aparecem */
+        .card-3 .download-btn {
+            transition: opacity .3s ease, transform .3s ease, box-shadow .4s ease;
+        }
+
+        .card-3.open .download-btn {
+            opacity: 0;
+            transform: translateY(10px);
+            pointer-events: none;
+        }
+
+        /* bolhas */
+        .choose {
+            position: absolute;
+            left: 0;
+            right: 0;
+            bottom: 22px;
+            display: flex;
+            justify-content: center;
+            gap: 34px;
+            pointer-events: none;
+        }
+
+        .bubble-wrap {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .bubble {
+            position: relative;
+            z-index: 1;
+            width: 68px;
+            height: 68px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-decoration: none;
+            border: none;
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.25);
+            transform: scale(0) translateY(40px);
+            opacity: 0;
+            transition: transform .45s cubic-bezier(.175, .885, .32, 1.4), opacity .25s ease, box-shadow .25s ease;
+        }
+
+        .bubble svg {
+            width: 34px;
+            height: 34px;
+        }
+
+        .bubble.github {
+            background: #24292f;
+            color: #fff;
+        }
+
+        .bubble.firebase {
+            background: #fff;
+            border: 2px solid #ffe0a3;
+        }
+
+        .bubble-label {
+            font-size: 12px;
+            font-weight: 700;
+            color: #2c3e50;
+            opacity: 0;
+            transform: translateY(6px);
+            transition: all .3s ease;
+        }
+
+        .card-3.open .choose {
+            pointer-events: auto;
+        }
+
+        .card-3.open .bubble {
+            transform: scale(1) translateY(0);
+            opacity: 1;
+        }
+
+        .card-3.open .bubble-label {
+            opacity: 1;
+            transform: none;
+        }
+
+        /* entrada escalonada */
+        .card-3.open .bubble-wrap:nth-child(1) .bubble,
+        .card-3.open .bubble-wrap:nth-child(1) .bubble-label { transition-delay: .05s; }
+        .card-3.open .bubble-wrap:nth-child(2) .bubble,
+        .card-3.open .bubble-wrap:nth-child(2) .bubble-label { transition-delay: .15s; }
+
+        .card-3.open .bubble:hover,
+        .bubble:focus-visible {
+            transform: scale(1.15) translateY(-4px);
+            box-shadow: 0 12px 26px rgba(0, 0, 0, 0.32);
+            outline: none;
+        }
+
+        /* flutuação suave */
+        @keyframes floaty {
+            0%, 100% { margin-top: 0; }
+            50% { margin-top: -6px; }
+        }
+
+        .card-3.open .bubble-wrap:nth-child(1) { animation: floaty 2.6s ease-in-out .6s infinite; }
+        .card-3.open .bubble-wrap:nth-child(2) { animation: floaty 2.6s ease-in-out 1s infinite; }
+
+        /* pílula HA entre Firebase e GitHub */
+        .ha-link {
+            position: absolute;
+            left: 50%;
+            top: 34px;
+            width: 70px;
+            height: 0;
+            transform: translate(-50%, -50%);
+            opacity: 0;
+            transition: opacity .3s ease .9s;
+            z-index: 1;
+        }
+
+        .ha-link span {
+            position: absolute;
+            left: 50%;
+            top: 0;
+            transform: translate(-50%, -50%);
+            background: #22a06b;
+            color: #fff;
+            font-size: 10px;
+            font-weight: 800;
+            letter-spacing: .5px;
+            padding: 3px 7px;
+            border-radius: 10px;
+            box-shadow: 0 2px 6px rgba(34, 160, 107, 0.4);
+        }
+
+        .card-3.open .ha-link {
+            opacity: 1;
+        }
+
+        /* triângulo de energia: topo = logo, base = Firebase e GitHub */
+        .energy {
+            position: absolute;
+            inset: 0;
+            width: 100%;
+            height: 100%;
+            z-index: 0;
+            pointer-events: none;
+            overflow: visible;
+        }
+
+        .energy .edge-base {
+            fill: none;
+            stroke: #22e07a;
+            stroke-width: 2.5;
+            stroke-linejoin: round;
+            stroke-linecap: round;
+            stroke-dasharray: 100;
+            stroke-dashoffset: 100;
+            filter: url(#glow);
+            transition: stroke-dashoffset .9s cubic-bezier(.4, 0, .2, 1) .25s;
+        }
+
+        .energy .edge-flow {
+            fill: none;
+            stroke: #d9ffe9;
+            stroke-width: 2;
+            stroke-linejoin: round;
+            stroke-linecap: round;
+            stroke-dasharray: 3 9;
+            opacity: 0;
+            transition: opacity .4s ease 1s;
+            animation: energyFlow 1.2s linear infinite;
+        }
+
+        @keyframes energyFlow {
+            to { stroke-dashoffset: -24; }
+        }
+
+        .energy .particles,
+        .energy .ping {
+            opacity: 0;
+            transition: opacity .4s ease 1s;
+        }
+
+        .energy .ping circle {
+            transform-box: fill-box;
+            transform-origin: center;
+            animation: ping 2s ease-out infinite;
+        }
+
+        @keyframes ping {
+            0% { transform: scale(.4); opacity: .9; }
+            100% { transform: scale(3.2); opacity: 0; }
+        }
+
+        .card-3.open .energy .edge-base { stroke-dashoffset: 0; }
+
+        .card-3.open .energy .edge-flow,
+        .card-3.open .energy .particles,
+        .card-3.open .energy .ping {
+            opacity: 1;
+        }
+
+        @media (prefers-reduced-motion: reduce) {
+            .card-3.open .bubble-wrap { animation: none !important; }
+            .energy .edge-flow { animation: none; }
+            .energy .particles, .energy .ping { display: none; }
+        }
+
         /* MODAL PARA PERFIS DOS ANALISTAS */
         .modal-overlay {
             display: none;
@@ -628,11 +882,71 @@
             </div>
         </div>
         
-        <!-- QUARTO CARD - LUIG PRO -->
-        <div class="card card-3">
+        <!-- QUARTO CARD - LUIG PRO (Firebase + GitHub Pages em HA) -->
+        <div class="card card-3" id="card3" tabindex="0" role="button" aria-expanded="false" aria-label="Luig Pro - escolher servidor">
             <div class="card-content">
-                <img src="./LUIG-PRO-removebg-preview.png" class="card-icon" alt="Luig Pro">
-                <button class="download-btn" onclick="window.open('https://backlogproeqtl.web.app/', '_blank')">Acessar Sistema</button>
+                <img src="./LUIG-PRO-removebg-preview.png" class="card-icon" alt="Luig Pro"
+                     onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+                <div class="icon-fallback">LUIG PRO</div>
+
+                <button class="download-btn" type="button" tabindex="-1">Acessar Sistema</button>
+
+                <!-- Triângulo de energia: topo = logo, base = Firebase e GitHub -->
+                <svg class="energy" viewBox="0 0 250 350" preserveAspectRatio="none" aria-hidden="true">
+                    <defs>
+                        <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+                            <feGaussianBlur stdDeviation="2.5" result="b"/>
+                            <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+                        </filter>
+                    </defs>
+
+                    <path class="edge-base" pathLength="100" d="M125 165 L176 271 L74 271 Z"/>
+                    <path class="edge-flow" d="M125 165 L176 271 L74 271 Z"/>
+
+                    <g class="ping">
+                        <circle cx="125" cy="165" r="6" fill="none" stroke="#22e07a" stroke-width="2"/>
+                    </g>
+
+                    <g class="particles" filter="url(#glow)">
+                        <circle r="3.5" fill="#eafff3">
+                            <animateMotion dur="3.6s" repeatCount="indefinite" begin="0s" path="M125 165 L176 271 L74 271 Z"/>
+                        </circle>
+                        <circle r="3.5" fill="#eafff3">
+                            <animateMotion dur="3.6s" repeatCount="indefinite" begin="-1.2s" path="M125 165 L176 271 L74 271 Z"/>
+                        </circle>
+                        <circle r="3.5" fill="#eafff3">
+                            <animateMotion dur="3.6s" repeatCount="indefinite" begin="-2.4s" path="M125 165 L176 271 L74 271 Z"/>
+                        </circle>
+                    </g>
+                </svg>
+
+                <!-- Bolhas flutuantes -->
+                <div class="choose" id="choose">
+                    <div class="bubble-wrap">
+                        <a class="bubble firebase" href="https://backlogproeqtl.web.app/" target="_blank" rel="noopener noreferrer"
+                           title="Abrir no Firebase" aria-label="Abrir no Firebase">
+                            <svg viewBox="0 0 24 24" aria-hidden="true">
+                                <path fill="#FFCA28" d="M4.6 18.4 7.4 3.3c.1-.4.5-.5.8-.3.1.1.2.2.2.3l2.4 4.3z"/>
+                                <path fill="#FFA000" d="M4.6 18.4 10.6 7.6l2.7 5z"/>
+                                <path fill="#FFCA28" d="M13.3 12.6 15.1 5.6c.1-.4.6-.5.8-.2.1.1.1.2.2.3l3.3 12.7L12 22.5z"/>
+                                <path fill="#DD2C00" d="M12 22.5 4.6 18.4l8.7-5.8 6.1 5.8z"/>
+                            </svg>
+                        </a>
+                        <span class="bubble-label">Firebase</span>
+                    </div>
+
+                    <div class="bubble-wrap">
+                        <a class="bubble github" href="https://sidneysdev.github.io/noc-backlog/" target="_blank" rel="noopener noreferrer"
+                           title="Abrir no GitHub Pages" aria-label="Abrir no GitHub Pages">
+                            <svg viewBox="0 0 16 16" fill="currentColor" aria-hidden="true">
+                                <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"/>
+                            </svg>
+                        </a>
+                        <span class="bubble-label">GitHub</span>
+                    </div>
+
+                    <div class="ha-link" aria-hidden="true"><span>HA</span></div>
+                </div>
             </div>
         </div>
         
@@ -874,6 +1188,45 @@
             }
         }
 
+        // ==================================================
+        // CARD 3 - LUIG PRO (Firebase / GitHub Pages)
+        // ==================================================
+        const card3 = document.getElementById('card3');
+
+        function setCard3Open(open) {
+            card3.classList.toggle('open', open);
+            card3.setAttribute('aria-expanded', open);
+            card3.querySelectorAll('.bubble').forEach(b => b.tabIndex = open ? 0 : -1);
+        }
+
+        function setupCard3() {
+            setCard3Open(false);
+
+            // Clique no card (exceto nas bolhas) abre/fecha
+            card3.addEventListener('click', (e) => {
+                if (e.target.closest('.bubble')) return;
+                setCard3Open(!card3.classList.contains('open'));
+            });
+
+            // Teclado: Enter/Espaço no card
+            card3.addEventListener('keydown', (e) => {
+                if ((e.key === 'Enter' || e.key === ' ') && e.target === card3) {
+                    e.preventDefault();
+                    setCard3Open(!card3.classList.contains('open'));
+                }
+            });
+
+            // Clique fora fecha
+            document.addEventListener('click', (e) => {
+                if (!card3.contains(e.target)) setCard3Open(false);
+            });
+
+            // Fecha depois de escolher um destino
+            card3.querySelectorAll('.bubble').forEach(b => {
+                b.addEventListener('click', () => setTimeout(() => setCard3Open(false), 200));
+            });
+        }
+
         // Fechar modal
         closeModalBtn.addEventListener('click', () => {
             profilesModal.classList.remove('active');
@@ -892,6 +1245,7 @@
         document.addEventListener('DOMContentLoaded', () => {
             createProfileCards();
             setupDownloadButtons();
+            setupCard3();
             
             // Adicionar aviso se não for Firefox
             if (!isFirefox()) {
@@ -906,12 +1260,14 @@
             }
         });
 
-        // Fechar modal com ESC
+        // Fechar modal (perfis) e card 3 com ESC
         document.addEventListener('keydown', (e) => {
-            if (e.key === 'Escape' && profilesModal.classList.contains('active')) {
+            if (e.key !== 'Escape') return;
+            if (profilesModal.classList.contains('active')) {
                 profilesModal.classList.remove('active');
                 document.body.style.overflow = 'auto';
             }
+            setCard3Open(false);
         });
     </script>
 </body>
